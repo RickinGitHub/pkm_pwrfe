@@ -1,0 +1,61 @@
+flowchart TD
+    START["新机型立项启动"]
+
+    subgraph S1["1. 前置准备"]
+        S1A["获取 FDS 产品配置信息<br/>（机型/尺寸/区域/光感/EMMC/功放）<br/>责任人：开发代表"]
+        S1B["获取 SID 配置 XML<br/>责任人：预研SE"]
+        S1C["确认频点库文件<br/>（AtvData/DtvData/satellite .db）<br/>责任人：各模块Owner"]
+        S1D["获取参考机芯配置<br/>（同SoC历史 preburn_config.json）<br/>责任人：产品SE"]
+    end
+
+    subgraph S2["2. 配置策略选择"]
+        S2A{"有同系机型已量产？"}
+        S2B["策略一：基础配置参考<br/>参考同SoC厂商其他项目<br/>以预研情况配置最基础配置"]
+        S2C["策略二：量产PID复制<br/>复制量产PID配置<br/>创建预抄写PID配置"]
+    end
+
+    subgraph S3["3. 配置创建/修改"]
+        S3A["创建 config.json 骨架<br/>（EU/CA/LA/HK 四区域）"]
+        S3B["分配预抄写 PID 和 hidSid<br/>（预研测试PID → 正式分配）"]
+        S3C["配置频点库映射<br/>（区域area → 频点库文件）"]
+        S3D["配置内置视频路径<br/>（videoFtp，RU用NO_Olympic覆盖）"]
+        S3E["填充机型列表<br/>（FDS机型 → groups.models）"]
+    end
+
+    subgraph S4["4. 重点考虑因素（最少最全原则）"]
+        S4A["制式：决定频点库<br/>ATSC/DVB/ISDB/DTMB"]
+        S4B["品牌：决定视频路径<br/>TCL/iFFALCON/ROWA"]
+        S4C["EMMC：决定userdata大小<br/>32G/64G（MT9655自适应可统一）"]
+        S4D["内置视频：RU必须NO_Olympic"]
+        S4E["LDM：LD/NOLD需分组<br/>（同机型不同尺寸可能不同）"]
+        S4F["光感：关闭lightsensor=0<br/>（新项目不再因光感差异分组）"]
+        S4G["功放：匹配功放驱动"]
+    end
+
+    subgraph S5["5. 配置校验"]
+        S5A["PID编码与hidSid一致性校验"]
+        S5B["EMMC与机型尺寸匹配校验<br/>（50寸→32G, ≥98寸→64G）"]
+        S5C["全机型覆盖检查<br/>（无遗漏机型）"]
+    end
+
+    subgraph S6["6. 迭代验证与版本管理"]
+        S6A["DFM提测：暴露配置问题"]
+        S6B["试产：进一步验证优化"]
+        S6C["量产：配置稳定<br/>纳入 preburn_config.json Git版本管理"]
+    end
+
+    START --> S1A & S1B & S1C & S1D
+    S1A --> S2A
+    S2A -->|否| S2B
+    S2A -->|是| S2C
+    S2B --> S3A
+    S2C --> S3A
+    S3A --> S3B --> S3C --> S3D --> S3E
+    S3E --> S4A & S4B & S4C & S4D & S4E & S4F & S4G
+    S4A & S4B & S4C & S4D & S4E & S4F & S4G --> S5A
+    S5A --> S5B --> S5C
+    S5C -->|校验通过| S6A
+    S5C -->|校验失败| S3B
+    S6A --> S6B --> S6C
+    S6A -.->|暴露问题| S3B
+    S6B -.->|需优化| S3B

@@ -1,0 +1,6 @@
+﻿# 🏗️ Sovereignty OS · 个人主权操作系统 · 全量架构
+
+> **最后更新**：2026-06-25  
+> **当前活跃版本**：V5.2（红尘兼容闭环态）→ V5.6（固件暴力上线补丁）  
+> **原始来源**：[V5.0 对话 (2026-05-15)](https://gemini.google.com/app/1a90c8167487d0a4) · [策略演进·能量与秩序](%5B%E7%AD%96%E7%95%A5%E6%BC%94%E8%BF%9B%5D%E8%83%BD%E9%87%8F%E3%80%81%E7%A7%A9%E5%BA%8F%E4%B8%8E%E4%BA%BA%E7%B1%BB%E8%BF%9B%E5%8C%96%E7%BB%88%E6%9E%81%E8%BF%BD%E6%B1%82.md) · [阅读数据解读](%E9%98%85%E8%AF%BB%E6%95%B0%E6%8D%AE%E8%A7%A3%E8%AF%BB%E4%B8%8E%E6%8F%90%E5%8D%87%E5%BB%BA%E8%AE%AE.md) · [V5.2 重构](https://gemini.google.com/app/981c27a9512911db)  
+> **关联索引**：← [L3-2.1-SovereigntyOS](%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1/L3-2.1-SovereigntyOS.md) · [L4-2.1.1-SovereigntyOS](%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1/L4-2.1.1-SovereigntyOS.md)

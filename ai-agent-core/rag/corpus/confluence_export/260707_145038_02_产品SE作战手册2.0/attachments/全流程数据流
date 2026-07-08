@@ -1,0 +1,32 @@
+graph TD
+    FDS["FDS（功能定义）"]
+
+
+    FDS -->|"二资源切换评估"| EVAL["二资源切换评估"]
+    EVAL -->|"输出"| CONCL["方案评审结论 / 产品配置差异表"]
+    CONCL -.->|"反向更新FDS<br/>（若功能定义变化）"| FDS
+
+
+    CONCL --> SID["SID配置变更<br/>（tclconfig + tvcust）"]
+    SID -->|"编译入版本"| BUILD["编译入版本"]
+
+
+    SID -->|"hidSid编码变化"| PREBURN["preburn_config.json<br/>（新增/拆分配置组）"]
+    PREBURN -->|"buildEmmc.sh编译"| EMMC["eMMC镜像"]
+    EMMC -->|"工厂抄写"| COPY["工厂抄写"]
+    COPY -->|"生产测试"| PROD["生产测试"]
+
+
+    FDS -->|"DFM测试"| DFM["DFM测试"]
+    DFM -.->|"问题评审/闭环"| REVIEW["问题评审/闭环"]
+    PROD -.-> REVIEW
+
+
+    REVIEW -->|"严重问题"| ROLLBACK["回滚至主资源方案"]
+
+
+    style FDS fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    style EVAL fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    style CONCL fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    style ROLLBACK fill:#ffebee,stroke:#b71c1c,stroke-width:2px
+    style REVIEW fill:#fce4ec,stroke:#880e4f,stroke-width:2px

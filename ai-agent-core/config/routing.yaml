@@ -1,0 +1,92 @@
+# Intent -> tool mapping. Intents are regex patterns matched against
+# the normalized user query (lowercased, whitespace-collapsed).
+entries:
+  - intent: "^(calc|compute|what is).*\\d"
+    tool_type: "skill"
+    tool_name: "math_logic"
+    fallback: "llm"
+
+  - intent: "^stats.*"
+    tool_type: "skill"
+    tool_name: "math_logic"
+    fallback: "llm"
+
+  - intent: "^(context|brief|resume|status|whoami).*"
+    tool_type: "skill"
+    tool_name: "context"
+    fallback: null
+
+  - intent: "^(read|load|show|clean|sanitize).*file"
+    tool_type: "skill"
+    tool_name: "file_ops"
+    fallback: "llm"
+
+  - intent: "^(clean|sanitize).*"
+    tool_type: "skill"
+    tool_name: "file_ops"
+    fallback: null
+
+  - intent: "^find_grep\\b"
+    tool_type: "skill"
+    tool_name: "pipeline_ops"
+    fallback: "llm"
+
+  - intent: "^(build|rebuild|update)_similarity.*(edge|graph)?\\b"
+    tool_type: "skill"
+    tool_name: "pipeline_ops"
+    fallback: "llm"
+
+  - intent: "^find\\s"
+    tool_type: "skill"
+    tool_name: "find_ops"
+    fallback: "llm"
+
+  - intent: "^grep\\b"
+    tool_type: "skill"
+    tool_name: "grep_ops"
+    fallback: "llm"
+
+  - intent: "^(tree|目录树|目录结构)\\b"
+    tool_type: "skill"
+    tool_name: "tree_ops"
+    fallback: "llm"
+
+  - intent: "^(ls|dir|glob|file.search|find.files|find files|find file).*"
+    tool_type: "mcp"
+    tool_name: "file_search"
+    fallback: "llm"
+
+  - intent: "^(hybrid|rag|deep.search|semantic).*"
+    tool_type: "mcp"
+    tool_name: "hybrid_knowledge"
+    fallback: "llm"
+
+  - intent: "^(lookup|search|find|filter|list|tags|chunks|chunks_by_cat|查询|搜索|查找|寻找|找|帮我|什么是|怎么|标签|列出|所有).*"
+    tool_type: "mcp"
+    tool_name: "knowledge"
+    fallback: "llm"
+
+  - intent: "^reflect\\s+"
+    tool_type: "skill"
+    tool_name: "reflect"
+    fallback: "llm"
+
+  - intent: "^react\\s+"
+    tool_type: "skill"
+    tool_name: "react"
+    fallback: "llm"
+
+  - intent: "^(review|evolve)\\b"
+    tool_type: "skill"
+    tool_name: "review"
+    fallback: "llm"
+
+  - intent: "^(fetch|抓取|下载|crawl).*http"
+    tool_type: "skill"
+    tool_name: "fetch_web"
+    fallback: "llm"
+
+  - intent: ".*"
+    tool_type: "llm"
+    tool_name: "claude"
+    fallback: null

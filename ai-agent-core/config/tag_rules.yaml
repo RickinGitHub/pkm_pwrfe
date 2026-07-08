@@ -1,0 +1,70 @@
+# Auto-tagging rules for pipeline_worker.classify()
+# Each rule: first keyword hit (in title + first 5000 chars of content, lowercased)
+# assigns (l1, l2, l3). Rules are evaluated top-to-bottom; first match wins.
+# Defaults apply when no rule matches.
+
+defaults:
+  l1: 未分类
+  l2: Misc
+  l3: General
+
+rules:
+  - l1: 科技
+    l2: AI
+    l3: 模型
+    keywords: [ai, llm, gpt, claude, transformer, 大模型, 深度学习, 神经网络, embedding, rag]
+
+  - l1: 科技
+    l2: AI
+    l3: 研发体系
+    keywords: [coding, 研发, devops, ci/cd, agent, 编码, 工程化, 代码, ide]
+
+  - l1: 科技
+    l2: 终端
+    l3: 形态
+    keywords: [眼镜, 穿戴, 端侧, 设备, 终端, 硬件]
+
+  - l1: 职场
+    l2: 成长
+    l3: 策略
+    keywords: [职业, 简历, 晋升, 跳槽, 备胎, b计划, 护城河, 生存突围]
+
+  - l1: 职场
+    l2: IP
+    l3: 思考
+    keywords: [ip, 个人品牌, 自媒体, 觉醒, 跨界]
+
+  - l1: 认知
+    l2: 方法论
+    l3: 建模
+    keywords: [建模, 画图, 推理, 决策, 框架, 模型, 思维, 系统, scrm]
+
+  - l1: 认知
+    l2: 哲学
+    l3: 秩序
+    keywords: [秩序, 存在, 哲学, 熵, 鲁棒性, 反脆弱, 进化]
+
+  - l1: 历史
+    l2: 中国
+    l3: 朝代
+    keywords: [历史, 朝代, 大明, 司马迁, 货殖列传, 民族融合]
+
+  - l1: 关系
+    l2: 沟通
+    l3: 情绪
+    keywords: [沟通, 情绪, 冲突, 亲密关系, 伴侣, 聊得来]
+
+  - l1: 杂想
+    l2: 人物
+    l3: 访谈
+    keywords: [访谈, 汪滔, 大疆, 人物, 传记]
+
+  - l1: 科技
+    l2: PAN
+    l3: 架构
+    keywords: [pan, 个人主权,主权协议, 隐私, 本土化]
+
+  - l1: 阅读
+    l2: 书籍
+    l3: 笔记
+    keywords: [反脆弱, 阅读, 章节, 概念]

@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "defaultMode": "bypassPermissions",
+    "allow": [
+      "Bash(/home/zhanjiang.dai/.claude/plugins/cache/superpowers-marketplace/superpowers/6.1.0/skills/subagent-driven-development/scripts/review-package 9131e31 HEAD)",
+      "Bash(/home/zhanjiang.dai/.claude/plugins/cache/superpowers-marketplace/superpowers/6.1.0/skills/subagent-driven-development/scripts/task-brief docs/superpowers/plans/2026-07-07-ai-agent-core.md 2)",
+      "Bash(python -c \"import config; print\\(config.__file__\\)\")",
+      "Bash(python3 -c \"import config; print\\(config.__file__\\)\")",
+      "Bash(pytest --version)",
+      "Bash(pip show *)",
+      "Bash(python3 -c \"import sys; print\\(sys.path\\)\")",
+      "Bash(/home/zhanjiang.dai/.claude/plugins/cache/superpowers-marketplace/superpowers/6.1.0/skills/subagent-driven-development/scripts/task-brief /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/docs/superpowers/plans/2026-07-07-ai-agent-core.md 11)",
+      "Bash(python3 -m pytest tests/test_mcp_client.py -v)",
+      "Bash(/home/zhanjiang.dai/.claude/plugins/cache/superpowers-marketplace/superpowers/6.1.0/skills/subagent-driven-development/scripts/review-package db2aed7 *)",
+      "Bash(python3 -m pytest tests/test_phase4_graph_edges.py -v)",
+      "Bash(python3 -m pytest tests/test_phase4_graph_edges.py)",
+      "Bash(python3 -c ' *)",
+      "Bash(ps -p 3937 -o pid,cmd)",
+      "Bash(python3 ai-agent-core/skills/tree_ops.py -L 2 .)",
+      "Bash(pytest tests/test_*.py *)",
+      "Bash(pytest tests/test_*.py)",
+      "Bash(/home/zhanjiang.dai/.claude/plugins/cache/superpowers-marketplace/superpowers/6.1.0/skills/subagent-driven-development/scripts/task-brief *)",
+      "Bash(/home/zhanjiang.dai/.claude/plugins/cache/superpowers-marketplace/superpowers/6.1.0/skills/subagent-driven-development/scripts/review-package *)"
+    ],
+    "additionalDirectories": [
+      "/home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/.superpowers/sdd"
+    ]
+  }
+}

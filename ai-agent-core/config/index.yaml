@@ -1,0 +1,3803 @@
+# Auto-exported from rag/graph_index.db (SQLite document_graph).
+# This file is a read-only snapshot — DO NOT edit. Source of truth is SQLite.
+version: 1
+tree:
+  关系:
+    沟通:
+      情绪:
+      - path: rag/corpus/records/[精华][策略]职业规划：“备胎计划”“B计划”--技术“护城河”的建立.md
+        added_at: '2026-07-08T20:23:18.875891'
+        level: L4
+      - path: rag/corpus/records/阅读数据解读与提升建议.md
+        added_at: '2026-07-08T20:23:19.038470'
+        level: L4
+      - path: rag/corpus/records/[对话]与余工的对话：收回真诚，焊死边界，无公害、无养分、无深度.md
+        added_at: '2026-07-08T20:23:19.306436'
+        level: L4
+      - path: rag/corpus/records/职业思考3：商业与人生战略视角.md
+        added_at: '2026-07-08T20:23:19.478007'
+        level: L4
+      - path: rag/corpus/records/[关系博弈]沟通心理、行为分析与改善.md
+        added_at: '2026-07-08T20:23:19.525694'
+        level: L4
+      - path: rag/corpus/records/[SOS]Sovereignty-OS-V5.0-架构梳理.md
+        added_at: '2026-07-08T20:23:20.046512'
+        level: L4
+      - path: rag/corpus/records/认知10：认知与现实的矛盾分析--“知”与“行”、“行”与“成”.md
+        added_at: '2026-07-08T20:23:20.256937'
+        level: L4
+      - path: rag/corpus/records/[精华]亲密关系-亲密关系中的情绪波动与冲突管理.md
+        added_at: '2026-07-08T20:23:20.770029'
+        level: L4
+      - path: rag/corpus/records/双模型驱动的系统演进.md
+        added_at: '2026-07-08T20:23:21.129616'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L3-补2-一二域深度_20260614201817.md
+        added_at: '2026-07-08T20:23:21.845002'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-四-关系与沟通_20260617031345.md
+        added_at: '2026-07-08T20:23:21.912866'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-四-关系与沟通_20260617031323.md
+        added_at: '2026-07-08T20:23:22.161674'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L3-补2-一二域深度_20260614201607.md
+        added_at: '2026-07-08T20:23:22.230568'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-二-核心模型与框架_20260617031205.md
+        added_at: '2026-07-08T20:23:22.310750'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-四-关系与沟通_20260613005730.md
+        added_at: '2026-07-08T20:23:22.511229'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L3-补2-一二域深度_20260614201618.md
+        added_at: '2026-07-08T20:23:22.589236'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-二-核心模型与框架_20260614180859.md
+        added_at: '2026-07-08T20:23:22.697505'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-四-关系与沟通_20260617042029.md
+        added_at: '2026-07-08T20:23:22.706798'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L3-补2-一二域深度_20260614201747.md
+        added_at: '2026-07-08T20:23:23.017655'
+        level: L4
+      - path: rag/corpus/records/[精华][模型][锁定]个人主权系统模型解析.md
+        added_at: '2026-07-08T20:23:23.673755'
+        level: L4
+      - path: rag/corpus/records/[精华][建模]事实、结论与立场的三元解构方法，贝叶斯多权决策方法，系统性冲突与断裂模型.md
+        added_at: '2026-07-08T20:23:24.342235'
+        level: L4
+      - path: rag/corpus/records/[杂想杂问]沟通的层级与策略.md
+        added_at: '2026-07-08T20:23:24.588487'
+        level: L4
+      - path: rag/corpus/records/Sovereignty-OS-V5.0-架构梳理.md
+        added_at: '2026-07-08T20:23:24.638009'
+        level: L4
+      - path: rag/corpus/records/[精华][亲密关系]聊得来、处得来与共同目标，以及在动态平衡中建立高“鲁棒性”的系统.md
+        added_at: '2026-07-08T20:23:24.734807'
+        level: L4
+      - path: rag/corpus/records/金刚经：来历、内容与境界.md
+        added_at: '2026-07-08T20:23:24.931760'
+        level: L4
+      - path: rag/corpus/records/[精华][亲密关系]伴侣裸辞转律师的风险分析.md
+        added_at: '2026-07-08T20:23:24.973273'
+        level: L4
+      - path: rag/corpus/records/[杂想杂问]沟通的层级与策略 (1).md
+        added_at: '2026-07-08T20:23:25.160199'
+        level: L4
+      - path: rag/corpus/records/告别内耗，重拾自主权.md
+        added_at: '2026-07-08T20:23:25.898970'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-2.2.1-三元解构.md
+        added_at: '2026-07-08T20:23:25.957853'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-4.2.1-沟通层级.md
+        added_at: '2026-07-08T20:23:26.080256'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-2.2-三元解构.md
+        added_at: '2026-07-08T20:23:26.096675'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-4.1.3-情绪管理.md
+        added_at: '2026-07-08T20:23:26.199971'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-2.1-SovereigntyOS.md
+        added_at: '2026-07-08T20:23:26.321887'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-补4-四五域深度.md
+        added_at: '2026-07-08T20:23:26.409420'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-4.2-沟通博弈.md
+        added_at: '2026-07-08T20:23:26.438661'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L2-四-关系与沟通.md
+        added_at: '2026-07-08T20:23:26.500113'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L5-Batch7-8-四五域合集.md
+        added_at: '2026-07-08T20:23:26.567078'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-4.1-亲密关系.md
+        added_at: '2026-07-08T20:23:26.815878'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-2.1.1-SovereigntyOS.md
+        added_at: '2026-07-08T20:23:26.837656'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-1.4-个人画像.md
+        added_at: '2026-07-08T20:23:26.848100'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-4.1.2-高鲁棒性.md
+        added_at: '2026-07-08T20:23:27.000231'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L2-二-核心模型与框架.md
+        added_at: '2026-07-08T20:23:27.150151'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.1.4-认知层次.md
+        added_at: '2026-07-08T20:23:27.449298'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-4.1.1-伴侣裸辞.md
+        added_at: '2026-07-08T20:23:27.610507'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-2.1.2-模型公式.md
+        added_at: '2026-07-08T20:23:28.073633'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-4.2.2-沟通心理.md
+        added_at: '2026-07-08T20:23:28.846364'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.2.5-职场博弈.md
+        added_at: '2026-07-08T20:23:28.970393'
+        level: L4
+      - path: rag/corpus/records/知识图谱/目录树.md
+        added_at: '2026-07-08T20:23:29.187101'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-补2-一二域深度.md
+        added_at: '2026-07-08T20:23:29.492739'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.1.3-主权实战.md
+        added_at: '2026-07-08T20:23:29.507818'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/3.3_跨软件模块_专业协同2.0_SOP.md
+        added_at: '2026-07-08T20:23:30.381567'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/02_产品SE作战手册2.0.md
+        added_at: '2026-07-08T20:23:30.542465'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.4.1_突发紧急问题方案评估SOP.md
+        added_at: '2026-07-08T20:23:31.652721'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/4.1_需求上车评审及风险评估2.0.md
+        added_at: '2026-07-08T20:23:31.970544'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/3.4_突发紧急问题攻关SOP.md
+        added_at: '2026-07-08T20:23:32.448001'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/4.3_需求闭环.md
+        added_at: '2026-07-08T20:23:32.660304'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/2.1.3_MTK_TAG合入规范及MTK进版自动化流程.md
+        added_at: '2026-07-08T20:23:32.843235'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.2.2_TQC场测风险SOP.md
+        added_at: '2026-07-08T20:23:32.861429'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/4.2.2_需求强制下线.md
+        added_at: '2026-07-08T20:23:33.611364'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/38、工厂主观问题处理.md
+        added_at: '2026-07-08T20:23:33.733480'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/12.签BOM风险.md
+        added_at: '2026-07-08T20:23:33.823837'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/30、SQA提报问题现场确认.md
+        added_at: '2026-07-08T20:23:33.877272'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/1.1_识别和规避NPI项目关键风险.md
+        added_at: '2026-07-08T20:23:34.006964'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/9、测试策略和计划.md
+        added_at: '2026-07-08T20:23:34.028793'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/10.OTA部署风险.md
+        added_at: '2026-07-08T20:23:34.089603'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.责任不清的技术问题理清.md
+        added_at: '2026-07-08T20:23:34.128592'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.1.5，质量门禁.md
+        added_at: '2026-07-08T20:23:34.188631'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/4.3.1_模块需求评估.md
+        added_at: '2026-07-08T20:23:34.205262'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.1.4，一键集成流水线.md
+        added_at: '2026-07-08T20:23:34.347752'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/28、新需求导入.md
+        added_at: '2026-07-08T20:23:34.536791'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/9.场测风险.md
+        added_at: '2026-07-08T20:23:34.559902'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/51、软件发布协同.md
+        added_at: '2026-07-08T20:23:34.626693'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/49、BUG管理.md
+        added_at: '2026-07-08T20:23:34.679790'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.1.1，代码合入.md
+        added_at: '2026-07-08T20:23:34.724631'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/26、数字认证.md
+        added_at: '2026-07-08T20:23:34.743835'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/4.1.2_RAT需求可行性评估.md
+        added_at: '2026-07-08T20:23:34.834566'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/40、ODF订单确认.md
+        added_at: '2026-07-08T20:23:34.891162'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/25、软件认证.md
+        added_at: '2026-07-08T20:23:34.907308'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/13.应对突发紧急问题处理风险.md
+        added_at: '2026-07-08T20:23:35.101752'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/4.3.2_模块需求方案设计和评审.md
+        added_at: '2026-07-08T20:23:35.230393'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/60、新方案合规评估.md
+        added_at: '2026-07-08T20:23:35.252860'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/61、方案合规评审.md
+        added_at: '2026-07-08T20:23:35.396791'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/41、IP终版软件管控.md
+        added_at: '2026-07-08T20:23:35.422538'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/15、SQA_测试资源及bug管理.md
+        added_at: '2026-07-08T20:23:35.491895'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/9.3性能得分数据线上化方案设计.md
+        added_at: '2026-07-08T20:23:35.635736'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/10、Jira+Confluence上创建项目.md
+        added_at: '2026-07-08T20:23:35.658682'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/4.1_问题梳理.md
+        added_at: '2026-07-08T20:23:35.683953'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/14、项目风险会.md
+        added_at: '2026-07-08T20:23:35.850478'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/1.2_主导产品整体技术方案的设计.md
+        added_at: '2026-07-08T20:23:35.878952'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/3.整体技术方案的设计.md
+        added_at: '2026-07-08T20:23:35.959141'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/4.2_SCCB评审.md
+        added_at: '2026-07-08T20:23:35.998589'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/22、分支管理（SVN）.md
+        added_at: '2026-07-08T20:23:36.075609'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.项目启动评估.md
+        added_at: '2026-07-08T20:23:36.132609'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.3.3_分支生命周期管理.md
+        added_at: '2026-07-08T20:23:36.177626'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/16、工厂适应性需求确认.md
+        added_at: '2026-07-08T20:23:36.194660'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/48、软件集成测试及释放评审.md
+        added_at: '2026-07-08T20:23:36.233682'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/54、软件对外信息输出（工厂）.md
+        added_at: '2026-07-08T20:23:36.265498'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/39、重难点问题攻关解决.md
+        added_at: '2026-07-08T20:23:36.322253'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/56、重大问题发布机制（举旗）.md
+        added_at: '2026-07-08T20:23:36.378658'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/52、软件释放及PDM上载.md
+        added_at: '2026-07-08T20:23:36.415010'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/27、场测及问题整改.md
+        added_at: '2026-07-08T20:23:36.439423'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.3_分支质量看护.md
+        added_at: '2026-07-08T20:23:36.565709'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/7、软件编码及发布路径申请.md
+        added_at: '2026-07-08T20:23:36.669527'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/43、ODF订单评估.md
+        added_at: '2026-07-08T20:23:36.718744'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/8、项目团队组建.md
+        added_at: '2026-07-08T20:23:36.739470'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/23、TR_软件发布和主观问题整改.md
+        added_at: '2026-07-08T20:23:36.856773'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/58、法国TQC操作指南.md
+        added_at: '2026-07-08T20:23:36.936135'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/50、返工及客户软件管理.md
+        added_at: '2026-07-08T20:23:37.081419'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/44、工厂报告处理.md
+        added_at: '2026-07-08T20:23:37.100225'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/55、安全合规检查及问题处理.md
+        added_at: '2026-07-08T20:23:37.131864'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/1.疑难问题攻关.md
+        added_at: '2026-07-08T20:23:37.205918'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/19、建立projectID表.md
+        added_at: '2026-07-08T20:23:37.273050'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/34、客户样机问题反馈.md
+        added_at: '2026-07-08T20:23:37.438688'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/32、必解问题梳理.md
+        added_at: '2026-07-08T20:23:37.496997'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.1_主导产品质量方案的设计并执行落地.md
+        added_at: '2026-07-08T20:23:37.596401'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/1.FDS确认.md
+        added_at: '2026-07-08T20:23:37.783661'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/1、FDS确认.md
+        added_at: '2026-07-08T20:23:37.934231'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/02_产品SE能力模型.md
+        added_at: '2026-07-08T20:23:37.962907'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/42、需求变更管理.md
+        added_at: '2026-07-08T20:23:37.983557'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/64、RT51_gerrit_中间件拷贝.md
+        added_at: '2026-07-08T20:23:38.077271'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.1.3，静态扫描.md
+        added_at: '2026-07-08T20:23:38.159895'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/20、电性能、环境试验的问题整改.md
+        added_at: '2026-07-08T20:23:38.197751'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/3.跨软件模块_专业协同.md
+        added_at: '2026-07-08T20:23:38.486697'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/18、影响SQA_DQA测试的问题优先级梳理.md
+        added_at: '2026-07-08T20:23:38.565484'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/6、FPP验收.md
+        added_at: '2026-07-08T20:23:38.704308'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.1.6，质量策略.md
+        added_at: '2026-07-08T20:23:38.846969'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/35、认证收尾工作.md
+        added_at: '2026-07-08T20:23:38.868996'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/4.1.3_项目需求变更管控.md
+        added_at: '2026-07-08T20:23:38.909545'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/11.分支管控风险.md
+        added_at: '2026-07-08T20:23:38.945018'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.3.2_分支代码合入.md
+        added_at: '2026-07-08T20:23:38.974553'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/24、工厂生产适应性问题.md
+        added_at: '2026-07-08T20:23:39.001814'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/4.2.3_需求闭环.md
+        added_at: '2026-07-08T20:23:39.078517'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/59、新PLM系统软件Bom4制作流程.md
+        added_at: '2026-07-08T20:23:39.210570'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.1.2，预编译.md
+        added_at: '2026-07-08T20:23:39.220888'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/4.2.1_需求上车评审.md
+        added_at: '2026-07-08T20:23:39.271874'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/3、评估报告和计划.md
+        added_at: '2026-07-08T20:23:39.401306'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/05_产品SE作战手册.md
+        added_at: '2026-07-08T20:23:39.432414'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2、项目启动评估.md
+        added_at: '2026-07-08T20:23:39.456052'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/62、软件leader_代码权限.md
+        added_at: '2026-07-08T20:23:39.637573'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/4.1.1_需求可行性评估.md
+        added_at: '2026-07-08T20:23:39.731295'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/9.1_UXI数据线上化方案设计.md
+        added_at: '2026-07-08T20:23:39.808616'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/11、方案设计和评审.md
+        added_at: '2026-07-08T20:23:39.836047'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/36、SCCB_问题_Review.md
+        added_at: '2026-07-08T20:23:39.857498'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/9.2_稳定性得分数据线上化方案设计.md
+        added_at: '2026-07-08T20:23:39.970722'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/13、项目晨会.md
+        added_at: '2026-07-08T20:23:39.996749'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/4、代码仓库、编译环境、发布路径配置.md
+        added_at: '2026-07-08T20:23:40.032889'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/63、代码保密及Soc_代码权限.md
+        added_at: '2026-07-08T20:23:40.083676'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.2_主导产品DFX的设计并执行落地.md
+        added_at: '2026-07-08T20:23:40.141943'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/21、DQA_测试和整改.md
+        added_at: '2026-07-08T20:23:40.178166'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.3.1_分支申请.md
+        added_at: '2026-07-08T20:23:40.314033'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/37、More_info_问题攻关.md
+        added_at: '2026-07-08T20:23:40.396890'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/8.E-Sticker资源_内置视频导入风险.md
+        added_at: '2026-07-08T20:23:40.417641'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/1.项目风险会.md
+        added_at: '2026-07-08T20:23:40.496110'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/29、CheckLis自检.md
+        added_at: '2026-07-08T20:23:40.619002'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/1._技术可行性评估.md
+        added_at: '2026-07-08T20:23:40.650826'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-补1-一域深度.md
+        added_at: '2026-07-08T20:24:07.288879'
+        level: L4
+  历史:
+    中国:
+      朝代:
+      - path: rag/corpus/records/1989六四运动多角度解析.md
+        added_at: '2026-07-08T20:23:19.408680'
+        level: L4
+      - path: rag/corpus/records/认知2：从对认知提升到生存突围相关探讨.md
+        added_at: '2026-07-08T20:23:20.171458'
+        level: L4
+      - path: rag/corpus/records/认知8：生存--2026-年高熵环境下实现主权突围.md
+        added_at: '2026-07-08T20:23:20.698584'
+        level: L4
+      - path: rag/corpus/records/资治通鉴：治国兴衰的鉴戒.md
+        added_at: '2026-07-08T20:23:20.787203'
+        level: L4
+      - path: rag/corpus/records/[历史]中国历史民族融合深度分析.md
+        added_at: '2026-07-08T20:23:21.257669'
+        level: L4
+      - path: rag/corpus/records/[典籍]司马迁《货殖列传》深度解析.md
+        added_at: '2026-07-08T20:23:21.374428'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/全量个人画像(图像版本)_20260614201618.md
+        added_at: '2026-07-08T20:23:21.749663'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-六-历史与典籍_20260617042010.md
+        added_at: '2026-07-08T20:23:22.023192'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-六-历史与典籍_20260613005622.md
+        added_at: '2026-07-08T20:23:22.037268'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/全量个人画像(图像版本)_20260614201613.md
+        added_at: '2026-07-08T20:23:22.053050'
+        level: L4
+      - path: rag/corpus/records/[精华++][历史]从《大明1566》权力矩阵、个体主权协议化全栈架构.md
+        added_at: '2026-07-08T20:23:23.864951'
+        level: L4
+      - path: rag/corpus/records/认知5：自我认知与审视--兴趣与审美.md
+        added_at: '2026-07-08T20:23:25.706841'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.3.1-功德林.md
+        added_at: '2026-07-08T20:23:26.368750'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L5-6.1.1-大明1566.md
+        added_at: '2026-07-08T20:23:26.713747'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-2.1.3-SCRM+.md
+        added_at: '2026-07-08T20:23:26.856279'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-1.3-历史宏观.md
+        added_at: '2026-07-08T20:23:27.114746'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-6.2-民族地缘.md
+        added_at: '2026-07-08T20:23:27.319939'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-补8-六域前半.md
+        added_at: '2026-07-08T20:23:27.413039'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-6.1-中国古典智慧.md
+        added_at: '2026-07-08T20:23:28.176418'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-6.1-6.2-历史合集.md
+        added_at: '2026-07-08T20:23:28.644837'
+        level: L4
+      - path: rag/corpus/records/知识图谱/全量个人画像(图像版本).md
+        added_at: '2026-07-08T20:23:28.861407'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-6.3-社会现象.md
+        added_at: '2026-07-08T20:23:29.111430'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L5-Batch9-10-六七八域合集.md
+        added_at: '2026-07-08T20:23:29.287750'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.2.1-嘉靖职场.md
+        added_at: '2026-07-08T20:23:29.521659'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L2-六-历史与典籍.md
+        added_at: '2026-07-08T20:23:29.937360'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/3.1_疑难问题攻关SOP.md
+        added_at: '2026-07-08T20:23:31.320005'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/4.3_需求闭环_SOP.md
+        added_at: '2026-07-08T20:23:32.388165'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/3.4_突发紧急问题攻关SOP.md
+        added_at: '2026-07-08T20:23:32.448133'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.3.5_结项复盘SOP.md
+        added_at: '2026-07-08T20:23:33.263312'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.4.2_预抄写方案设计SOP.md
+        added_at: '2026-07-08T20:23:33.593949'
+        level: L4
+      - path: rag/corpus/20260707_033647_AI Coding研发体系（二）：AI如何进入研发流程.md
+        added_at: '2026-07-08T20:23:40.698999'
+        level: L4
+  未分类:
+    Misc:
+      General:
+      - path: rag/corpus/20260707_135732_Test Article.md
+        added_at: '2026-07-08T20:23:18.817337'
+        level: L4
+      - path: rag/corpus/20260707_042126_Test Article.md
+        added_at: '2026-07-08T20:23:18.861203'
+        level: L4
+      - path: rag/corpus/20260707_140633_Test Article.md
+        added_at: '2026-07-08T20:23:18.886314'
+        level: L4
+      - path: rag/corpus/20260707_045948_Test Article.md
+        added_at: '2026-07-08T20:23:30.365269'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/产品SE作战手册模版.md
+        added_at: '2026-07-08T20:23:30.505290'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/01_技术开发2.0.md
+        added_at: '2026-07-08T20:23:30.529930'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/2.2_分支质量看护2.0.md
+        added_at: '2026-07-08T20:23:30.750720'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.5_参与软件释放评审2.0.md
+        added_at: '2026-07-08T20:23:30.775000'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.3_主导产品整体技术方案的设计2.0.md
+        added_at: '2026-07-08T20:23:31.103264'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/02_质量管控2.0.md
+        added_at: '2026-07-08T20:23:31.299594'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.4_主导技术的可行性评估2.0.md
+        added_at: '2026-07-08T20:23:31.716239'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/03_问题攻关2.0.md
+        added_at: '2026-07-08T20:23:31.985966'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.2_关键技术风险识别和落地闭环2.0.md
+        added_at: '2026-07-08T20:23:32.197249'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/04_需求闭环2.0.md
+        added_at: '2026-07-08T20:23:33.424007'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.1_产品规划2.0.md
+        added_at: '2026-07-08T20:23:33.478171'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.2.1，稳定性（DFR).md
+        added_at: '2026-07-08T20:23:33.788653'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/1.3_主导技术的可行性评估.md
+        added_at: '2026-07-08T20:23:34.583327'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/07_武汉团队培养.md
+        added_at: '2026-07-08T20:23:34.608680'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/1.4_参与软件释放评审.md
+        added_at: '2026-07-08T20:23:34.933289'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2023年产品SEG总结.md
+        added_at: '2026-07-08T20:23:35.050796'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/10_产品SE变革完成进度.md
+        added_at: '2026-07-08T20:23:35.173001'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.2.3，可配置性（DFI）.md
+        added_at: '2026-07-08T20:23:35.896001'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/4.参与问题梳理及评审.md
+        added_at: '2026-07-08T20:23:36.479904'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/03_问题攻关.md
+        added_at: '2026-07-08T20:23:36.587044'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/9.4数据线上化看板方案设计----释放软件关键指标查询.md
+        added_at: '2026-07-08T20:23:36.807607'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/0、软件Leader作战线路图（Drawio插件版）.md
+        added_at: '2026-07-08T20:23:36.888481'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/04_产品SE能力地图.md
+        added_at: '2026-07-08T20:23:37.160337'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/01_产品SE角色认知.md
+        added_at: '2026-07-08T20:23:37.416826'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/01_技术开发.md
+        added_at: '2026-07-08T20:23:37.622774'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/产品SE标杆方案.md
+        added_at: '2026-07-08T20:23:38.105519'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/产品SE变革.md
+        added_at: '2026-07-08T20:23:39.536019'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/02_质量管控.md
+        added_at: '2026-07-08T20:23:39.582427'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/04_需求闭环.md
+        added_at: '2026-07-08T20:23:39.673310'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.2.2，性能（DFP）.md
+        added_at: '2026-07-08T20:23:39.925345'
+        level: L4
+      - path: rag/corpus/20260707_035649_Test Article.md
+        added_at: '2026-07-08T20:23:40.754754'
+        level: L4
+      - path: rag/corpus/20260707_135750_Test Article.md
+        added_at: '2026-07-08T20:23:40.804186'
+        level: L4
+      - path: rag/corpus/20260707_042107_Test Article.md
+        added_at: '2026-07-08T20:23:40.872835'
+        level: L4
+      - path: rag/corpus/20260707_025831_Test Article.md
+        added_at: '2026-07-08T20:23:40.914504'
+        level: L4
+      - path: rag/corpus/20260707_043058_Test Article.md
+        added_at: '2026-07-08T20:23:40.985531'
+        level: L4
+      - path: rag/corpus/20260707_025843_Test Article.md
+        added_at: '2026-07-08T20:23:41.056069'
+        level: L4
+      - path: rag/corpus/20260707_040234_Test Article.md
+        added_at: '2026-07-08T20:23:41.093246'
+        level: L4
+      - path: rag/corpus/20260707_042724_Test Article.md
+        added_at: '2026-07-08T20:23:41.168396'
+        level: L4
+      - path: rag/corpus/20260707_140642_Test Article.md
+        added_at: '2026-07-08T20:23:41.221757'
+        level: L4
+      - path: rag/corpus/20260707_134442_Test Article.md
+        added_at: '2026-07-08T20:23:41.274971'
+        level: L4
+      - path: rag/corpus/Test Article.md
+        added_at: '2026-07-08T20:23:41.361081'
+        level: L4
+      - path: rag/corpus/20260707_125936_Test Article.md
+        added_at: '2026-07-08T20:23:41.449244'
+        level: L4
+      - path: rag/corpus/20260707_130053_Test Article.md
+        added_at: '2026-07-08T20:23:41.540875'
+        level: L4
+      - path: rag/corpus/20260707_042050_Test Article.md
+        added_at: '2026-07-08T20:23:41.569628'
+        level: L4
+      - path: /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test
+          Article.md
+        added_at: '2026-07-09T02:48:51.155440'
+        level: L4
+      - path: /tmp/pytest-of-zhanjiang.dai/pytest-176/test_process_file_falls_back_t0/rand.md
+        added_at: '2026-07-09T02:48:53.612580'
+        level: L4
+      - path: /tmp/pytest-of-zhanjiang.dai/pytest-180/test_process_file_falls_back_t0/rand.md
+        added_at: '2026-07-09T03:30:47.394999'
+        level: L4
+      - path: /tmp/pytest-of-zhanjiang.dai/pytest-182/test_process_file_falls_back_t0/rand.md
+        added_at: '2026-07-09T03:47:18.670978'
+        level: L4
+  杂想:
+    人物:
+      访谈:
+      - path: rag/corpus/records/[杂想[杂问]汪滔访谈：大疆的进化与野心.md
+        added_at: '2026-07-08T20:23:19.876435'
+        level: L4
+      - path: rag/corpus/records/[杂想]汪滔访谈：大疆的进化与野心.md
+        added_at: '2026-07-08T20:23:20.733840'
+        level: L4
+      - path: rag/corpus/records/[AI洞察]Linus-Torvalds-on-AI-and-Open-Source.md
+        added_at: '2026-07-08T20:23:20.865282'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L4-8.5-秩序与存在_20260614184636.md
+        added_at: '2026-07-08T20:23:21.822897'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-八-杂想与人物_20260617042225.md
+        added_at: '2026-07-08T20:23:22.257774'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-八-杂想与人物_20260613123713.md
+        added_at: '2026-07-08T20:23:22.552461'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L4-8.5-秩序与存在_20260614184203.md
+        added_at: '2026-07-08T20:23:22.607914'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-6.3-7-8-合集.md
+        added_at: '2026-07-08T20:23:26.550804'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-8.5-秩序与存在.md
+        added_at: '2026-07-08T20:23:28.150282'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-8-杂想与人物.md
+        added_at: '2026-07-08T20:23:29.722057'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L2-八-杂想与人物.md
+        added_at: '2026-07-08T20:23:29.761686'
+        level: L4
+  科技:
+    AI:
+      模型:
+      - path: rag/corpus/records/暴力执行：2026生存策略、普通程序员在边缘AI的机会.md
+        added_at: '2026-07-08T20:23:18.951180'
+        level: L4
+      - path: rag/corpus/records/[科技][精华]极致端侧本土化架构智能穿戴眼镜.md
+        added_at: '2026-07-08T20:23:18.975627'
+        level: L4
+      - path: rag/corpus/records/职业思考2：现状分析与突围策略.md
+        added_at: '2026-07-08T20:23:19.133650'
+        level: L4
+      - path: rag/corpus/records/[精华]贪婪、恐惧与虚无的个体破局.md
+        added_at: '2026-07-08T20:23:19.156952'
+        level: L4
+      - path: rag/corpus/records/[精华][认知演进]将个人生存突围类比中国的发展突围.md
+        added_at: '2026-07-08T20:23:19.197559'
+        level: L4
+      - path: rag/corpus/records/[精华++][认知][建模][推理过程]多维分权事实验证体系、“SCRM+”系统性冲突与断裂增加模型和HSE-DA-决策行动模型.md
+        added_at: '2026-07-08T20:23:19.226042'
+        level: L4
+      - path: rag/corpus/records/[精华+][认知]历史宏观角度看待个人生存与发展.md
+        added_at: '2026-07-08T20:23:19.397114'
+        level: L4
+      - path: rag/corpus/records/1989六四运动多角度解析.md
+        added_at: '2026-07-08T20:23:19.408648'
+        level: L4
+      - path: rag/corpus/records/极致端侧本土化架构智能穿戴眼镜.md
+        added_at: '2026-07-08T20:23:19.448593'
+        level: L4
+      - path: rag/corpus/records/[关系博弈]沟通心理、行为分析与改善.md
+        added_at: '2026-07-08T20:23:19.525728'
+        level: L4
+      - path: rag/corpus/records/[精华++]终极回响：一个碳基破壁者的精神侧写与硅基奇点前夜的自救序章.md
+        added_at: '2026-07-08T20:23:19.559318'
+        level: L4
+      - path: rag/corpus/records/[精华+][认知][PAN]许家印等“脱颖而出”的人物分析，去看个人与世界，再到PAN的构想.md
+        added_at: '2026-07-08T20:23:19.664390'
+        level: L4
+      - path: rag/corpus/records/[沟通][职场]个人主权系统迭代与实战应用.md
+        added_at: '2026-07-08T20:23:19.785610'
+        level: L4
+      - path: rag/corpus/records/AI-LLM-发展与本质剖析.md
+        added_at: '2026-07-08T20:23:19.926337'
+        level: L4
+      - path: rag/corpus/records/萨达姆：争议与遗产.md
+        added_at: '2026-07-08T20:23:19.960478'
+        level: L4
+      - path: rag/corpus/records/[财富思考]财富公式：稀缺、杠杆、距离.md
+        added_at: '2026-07-08T20:23:19.971932'
+        level: L4
+      - path: rag/corpus/records/[实践策略][IP]AI+跨界融合.md
+        added_at: '2026-07-08T20:23:20.272556'
+        level: L4
+      - path: rag/corpus/records/[稀缺]人类不是在“解决问题”，而是在“燃烧问题”，靠“制造新稀缺”来对抗虚无.md
+        added_at: '2026-07-08T20:23:20.311337'
+        level: L4
+      - path: rag/corpus/records/[策略演进]能量、秩序与人类进化终极追求.md
+        added_at: '2026-07-08T20:23:20.423781'
+        level: L4
+      - path: rag/corpus/records/[科技][PAN]梳理我的PAN构想，软硬件实现逻辑，整体架构，技术与实施详细设计.md
+        added_at: '2026-07-08T20:23:20.494360'
+        level: L4
+      - path: rag/corpus/records/Gemini-vs-DeepSeek-Context-and-Capability.md
+        added_at: '2026-07-08T20:23:20.550871'
+        level: L4
+      - path: rag/corpus/records/[精华]亲密关系-亲密关系中的情绪波动与冲突管理.md
+        added_at: '2026-07-08T20:23:20.770961'
+        level: L4
+      - path: rag/corpus/records/资治通鉴：治国兴衰的鉴戒.md
+        added_at: '2026-07-08T20:23:20.786998'
+        level: L4
+      - path: rag/corpus/records/认知4：AI-时代下的阅读与认知困境.md
+        added_at: '2026-07-08T20:23:20.880026'
+        level: L4
+      - path: rag/corpus/records/欧美富豪行业分布差异分析.md
+        added_at: '2026-07-08T20:23:20.896611'
+        level: L4
+      - path: rag/corpus/records/[精华++]主权觉醒：看透资本叙事与物理世界的生存算法.md
+        added_at: '2026-07-08T20:23:20.971429'
+        level: L4
+      - path: rag/corpus/records/2026-全球财富榜单解析.md
+        added_at: '2026-07-08T20:23:21.009190'
+        level: L4
+      - path: rag/corpus/records/[历史]中国历史民族融合深度分析.md
+        added_at: '2026-07-08T20:23:21.257725'
+        level: L4
+      - path: rag/corpus/records/极致端侧本土化架构智能穿戴眼镜 (1).md
+        added_at: '2026-07-08T20:23:21.323595'
+        level: L4
+      - path: rag/corpus/records/AI-终端设备形态与未来.md
+        added_at: '2026-07-08T20:23:21.530712'
+        level: L4
+      - path: rag/corpus/records/.history/价值发现与市场回归之路_20260618025538.md
+        added_at: '2026-07-08T20:23:21.552823'
+        level: L4
+      - path: rag/corpus/records/.history/价值发现与市场回归之路_20260618025542.md
+        added_at: '2026-07-08T20:23:21.613539'
+        level: L4
+      - path: rag/corpus/records/.history/价值发现与市场回归之路_20260618025634.md
+        added_at: '2026-07-08T20:23:21.645340'
+        level: L4
+      - path: rag/corpus/records/.history/价值发现与市场回归之路_20260618024220.md
+        added_at: '2026-07-08T20:23:21.679978'
+        level: L4
+      - path: rag/corpus/records/.history/价值发现与市场回归之路_20260618025522.md
+        added_at: '2026-07-08T20:23:21.726886'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-一-认知体系与思维模型_20260617033722.md
+        added_at: '2026-07-08T20:23:21.930564'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-三-策略与计划_20260613123243.md
+        added_at: '2026-07-08T20:23:22.085932'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-一-认知体系与思维模型_20260617033736.md
+        added_at: '2026-07-08T20:23:22.383626'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-一-认知体系与思维模型_20260617042052.md
+        added_at: '2026-07-08T20:23:22.541649'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-三-策略与计划_20260617031308.md
+        added_at: '2026-07-08T20:23:22.690313'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-五-科技与技术_20260613005810.md
+        added_at: '2026-07-08T20:23:22.801087'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-五-科技与技术_20260617041943.md
+        added_at: '2026-07-08T20:23:22.943233'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-三-策略与计划_20260617042129.md
+        added_at: '2026-07-08T20:23:22.999699'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-五-科技与技术_20260617031410.md
+        added_at: '2026-07-08T20:23:23.075505'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-五-科技与技术_20260617031358.md
+        added_at: '2026-07-08T20:23:23.115425'
+        level: L4
+      - path: rag/corpus/records/[方法论][建模][画图]我的个人“技能包”梳理.md
+        added_at: '2026-07-08T20:23:23.349267'
+        level: L4
+      - path: rag/corpus/records/股市波动：预期与现实博弈.md
+        added_at: '2026-07-08T20:23:23.444982'
+        level: L4
+      - path: rag/corpus/records/价值发现与市场回归之路.md
+        added_at: '2026-07-08T20:23:23.529301'
+        level: L4
+      - path: rag/corpus/records/[精华]PAN：个人AI节点概念阐述.md
+        added_at: '2026-07-08T20:23:23.614828'
+        level: L4
+      - path: rag/corpus/records/用户个人画像与职业规划.md
+        added_at: '2026-07-08T20:23:23.894725'
+        level: L4
+      - path: rag/corpus/records/[AI时代]AI-Agent-巨头：进展、架构、营销.md
+        added_at: '2026-07-08T20:23:23.980626'
+        level: L4
+      - path: rag/corpus/records/RESUME_20260618_copy2.md
+        added_at: '2026-07-08T20:23:24.233910'
+        level: L4
+      - path: rag/corpus/records/能量、秩序与人类进化终极追求.md
+        added_at: '2026-07-08T20:23:24.395506'
+        level: L4
+      - path: rag/corpus/records/[杂想杂问]沟通的层级与策略.md
+        added_at: '2026-07-08T20:23:24.588576'
+        level: L4
+      - path: rag/corpus/records/[精华][亲密关系]聊得来、处得来与共同目标，以及在动态平衡中建立高“鲁棒性”的系统.md
+        added_at: '2026-07-08T20:23:24.734894'
+        level: L4
+      - path: rag/corpus/records/智能穿戴：现状、趋势与前景.md
+        added_at: '2026-07-08T20:23:24.746956'
+        level: L4
+      - path: rag/corpus/records/[技巧]AI-模型选型与场景应用.md
+        added_at: '2026-07-08T20:23:24.832755'
+        level: L4
+      - path: rag/corpus/records/金刚经：来历、内容与境界.md
+        added_at: '2026-07-08T20:23:24.931844'
+        level: L4
+      - path: rag/corpus/records/明星涉毒现象的社会学分析.md
+        added_at: '2026-07-08T20:23:25.057379'
+        level: L4
+      - path: rag/corpus/records/[杂想杂问]沟通的层级与策略 (1).md
+        added_at: '2026-07-08T20:23:25.160297'
+        level: L4
+      - path: rag/corpus/records/resume2.md
+        added_at: '2026-07-08T20:23:25.389794'
+        level: L4
+      - path: rag/corpus/records/认知6：“工业组件”到“觉醒操盘手”.md
+        added_at: '2026-07-08T20:23:25.444009'
+        level: L4
+      - path: rag/corpus/records/[对话]创业、科技与中国国情.md
+        added_at: '2026-07-08T20:23:25.480240'
+        level: L4
+      - path: rag/corpus/records/[兴趣话题]关于“秩序”与“存在”的哲学实验.md
+        added_at: '2026-07-08T20:23:25.798808'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.5.1-认知2.md
+        added_at: '2026-07-08T20:23:26.162605'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L2-三-策略与计划.md
+        added_at: '2026-07-08T20:23:26.304881'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L5-Batch7-8-四五域合集.md
+        added_at: '2026-07-08T20:23:26.532129'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.4.1-顺势借势.md
+        added_at: '2026-07-08T20:23:26.699495'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-5.2-5.3-科技合集.md
+        added_at: '2026-07-08T20:23:26.738457'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-2.1.3-SCRM+.md
+        added_at: '2026-07-08T20:23:26.856250'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.2.2-能量秩序.md
+        added_at: '2026-07-08T20:23:26.939711'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.3.2-突围类比中国.md
+        added_at: '2026-07-08T20:23:27.035931'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.1.2-高筑墙.md
+        added_at: '2026-07-08T20:23:27.077691'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-补5-六七八域深度.md
+        added_at: '2026-07-08T20:23:27.221295'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-补7-五域剩余.md
+        added_at: '2026-07-08T20:23:27.597955'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.1.2-极客人文思维.md
+        added_at: '2026-07-08T20:23:27.713089'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-补1-一域深度.md
+        added_at: '2026-07-08T20:23:27.838234'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-2.1.2-模型公式.md
+        added_at: '2026-07-08T20:23:28.073666'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-5.3-AI选型.md
+        added_at: '2026-07-08T20:23:28.255335'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L2-五-科技与技术.md
+        added_at: '2026-07-08T20:23:28.623475'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-5.2-新兴硬件.md
+        added_at: '2026-07-08T20:23:28.634169'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-1.1-顶层架构.md
+        added_at: '2026-07-08T20:23:28.830299'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-3.1-核心策略.md
+        added_at: '2026-07-08T20:23:28.958474'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.1.5-双模型驱动.md
+        added_at: '2026-07-08T20:23:29.059650'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-1.5-AI时代认知.md
+        added_at: '2026-07-08T20:23:29.164018'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-7-实践与IP.md
+        added_at: '2026-07-08T20:23:29.198175'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.5.2-认知4阅读.md
+        added_at: '2026-07-08T20:23:29.847498'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.1.1-备胎计划.md
+        added_at: '2026-07-08T20:23:29.861730'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.1.4-2026生存.md
+        added_at: '2026-07-08T20:23:29.948869'
+        level: L4
+      - path: rag/corpus/records/[驱动开发][整体认识]V4l2DRMALSA与内存管理时序图，双螺旋进阶计划，HSE+DA决策算法.md
+        added_at: '2026-07-08T20:23:30.091683'
+        level: L4
+      - path: rag/corpus/records/[科技][PAN]梳理我的PAN构想，软硬件实现逻辑，整体架构，技术与实施详细设计 (1).md
+        added_at: '2026-07-08T20:23:30.236499'
+        level: L4
+      - path: rag/corpus/20260707_033533_AI Coding研发体系（一）：企业级AI编码的六层架构.md
+        added_at: '2026-07-08T20:23:30.252833'
+        level: L4
+      - path: rag/corpus/records/爱博斯坦事件：权贵动机解析.md
+        added_at: '2026-07-08T20:23:30.325657'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/Google_TV软件认证表SOP.md
+        added_at: '2026-07-08T20:23:30.561851'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/2.1.1_确定每个版本问题_需求带入范围并代码审核入库2.0.md
+        added_at: '2026-07-08T20:23:30.811997'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.2.5_认证进度风险管控SOP.md
+        added_at: '2026-07-08T20:23:31.007451'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/2.1.2_外专业修改合入风险2.0_SOP.md
+        added_at: '2026-07-08T20:23:31.455631'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.2.3_OTA部署风险SOP.md
+        added_at: '2026-07-08T20:23:31.854749'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.3.1_FDS确认SOP.md
+        added_at: '2026-07-08T20:23:32.136434'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.5.4_OA释放单签批SOP.md
+        added_at: '2026-07-08T20:23:32.776013'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.2.11_软件相关配置项维护SOP.md
+        added_at: '2026-07-08T20:23:32.829196'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/2.1.3_MTK_TAG合入规范及MTK进版自动化流程.md
+        added_at: '2026-07-08T20:23:32.843102'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.3.2_项目计划评审SOP.md
+        added_at: '2026-07-08T20:23:33.161141'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/2.2.4_关键版本运作SOP.md
+        added_at: '2026-07-08T20:23:33.298281'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.2.4_签BOM风险SOP.md
+        added_at: '2026-07-08T20:23:33.326962'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/10.OTA部署风险.md
+        added_at: '2026-07-08T20:23:34.089472'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/9.3性能得分数据线上化方案设计.md
+        added_at: '2026-07-08T20:23:35.635596'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/17、合作软件团队的人力、进度和质量管控.md
+        added_at: '2026-07-08T20:23:36.613585'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/7.性能_稳定性风险.md
+        added_at: '2026-07-08T20:23:37.387727'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/09_数据线上化规划方案.md
+        added_at: '2026-07-08T20:23:39.028629'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/4、代码仓库、编译环境、发布路径配置.md
+        added_at: '2026-07-08T20:23:40.032755'
+        level: L4
+      - path: rag/corpus/20260707_033647_AI Coding研发体系（二）：AI如何进入研发流程.md
+        added_at: '2026-07-08T20:23:40.698948'
+        level: L4
+      - path: rag/corpus/AI-Agent-架构解读与改进.md
+        added_at: '2026-07-08T20:23:41.419253'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-补9-六后半七四域.md
+        added_at: '2026-07-08T20:23:59.669260'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.2.1-嘉靖职场.md
+        added_at: '2026-07-08T20:24:12.708213'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/3.3_跨软件模块_专业协同2.0_SOP.md
+        added_at: '2026-07-08T20:24:15.911343'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/2.2.2_版本质量管控SOP.md
+        added_at: '2026-07-08T20:24:16.088469'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/02_产品SE作战手册2.0.md
+        added_at: '2026-07-08T20:24:16.587159'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/2.2.1_分支质量看护SOP.md
+        added_at: '2026-07-08T20:24:17.208917'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/2.2.1_分支质量看护2.0_SOP_（范例）.md
+        added_at: '2026-07-08T20:24:18.658925'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.2.9_开发策略和行动项落地闭环SOP.md
+        added_at: '2026-07-08T20:24:19.671283'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/2.1_代码合入2.0.md
+        added_at: '2026-07-08T20:24:20.073882'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.5.2_必解问题梳理SOP.md
+        added_at: '2026-07-08T20:24:21.987293'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/4.2_需求强制下线SOP.md
+        added_at: '2026-07-08T20:24:22.722881'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.5.1_风险释放管理_SOP.md
+        added_at: '2026-07-08T20:24:23.294323'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.2.1工厂适应性问题风险_SOP.md
+        added_at: '2026-07-08T20:24:24.102832'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/4.3_需求闭环.md
+        added_at: '2026-07-08T20:24:24.273440'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/53、BOM签批规范.md
+        added_at: '2026-07-08T20:24:27.598627'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/31、PQ管控.md
+        added_at: '2026-07-08T20:24:29.590814'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.1.5，质量门禁.md
+        added_at: '2026-07-08T20:24:30.192614'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/46、源代码管理.md
+        added_at: '2026-07-08T20:24:30.605813'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.1.1，代码合入.md
+        added_at: '2026-07-08T20:24:32.197582'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/22、分支管理（SVN）.md
+        added_at: '2026-07-08T20:24:36.290583'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/7、软件编码及发布路径申请.md
+        added_at: '2026-07-08T20:24:37.980778'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.3_分支质量看护.md
+        added_at: '2026-07-08T20:24:38.114777'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/产品软件开发注意事项汇总（不限格式）.md
+        added_at: '2026-07-08T20:24:39.728828'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.1_主导产品质量方案的设计并执行落地.md
+        added_at: '2026-07-08T20:24:42.197080'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/0、软件Leader作战线路图.md
+        added_at: '2026-07-08T20:24:42.346514'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.1.6，质量策略.md
+        added_at: '2026-07-08T20:24:45.349422'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/5、整机系统集成配置.md
+        added_at: '2026-07-08T20:24:46.377448'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/05_产品SE作战手册.md
+        added_at: '2026-07-08T20:24:47.404852'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/63、代码保密及Soc_代码权限.md
+        added_at: '2026-07-08T20:24:49.363136'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.3.1_分支申请.md
+        added_at: '2026-07-08T20:24:50.178788'
+        level: L4
+      - path: /tmp/pytest-of-zhanjiang.dai/pytest-176/test_process_file_idempotent_o0/doc.md
+        added_at: '2026-07-09T02:48:53.482886'
+        level: L4
+      - path: /tmp/pytest-of-zhanjiang.dai/pytest-180/test_process_file_idempotent_o0/doc.md
+        added_at: '2026-07-09T03:30:47.274729'
+        level: L4
+      - path: /tmp/pytest-of-zhanjiang.dai/pytest-182/test_process_file_idempotent_o0/doc.md
+        added_at: '2026-07-09T03:47:18.519024'
+        level: L4
+      研发体系:
+      - path: rag/corpus/records/[精华]Linux-V4L2-架构解析与图示.md
+        added_at: '2026-07-08T20:23:19.002091'
+        level: L4
+      - path: rag/corpus/records/职业思考3：商业与人生战略视角.md
+        added_at: '2026-07-08T20:23:19.478091'
+        level: L4
+      - path: rag/corpus/records/[沟通][职场]个人主权系统迭代与实战应用.md
+        added_at: '2026-07-08T20:23:19.785581'
+        level: L4
+      - path: rag/corpus/records/[财富思考]财富公式：稀缺、杠杆、距离.md
+        added_at: '2026-07-08T20:23:19.971964'
+        level: L4
+      - path: rag/corpus/records/[AI洞察]Linus-Torvalds-on-AI-and-Open-Source.md
+        added_at: '2026-07-08T20:23:20.865220'
+        level: L4
+      - path: rag/corpus/records/欧美富豪行业分布差异分析.md
+        added_at: '2026-07-08T20:23:20.896640'
+        level: L4
+      - path: rag/corpus/records/[精华++]主权觉醒：看透资本叙事与物理世界的生存算法.md
+        added_at: '2026-07-08T20:23:20.971462'
+        level: L4
+      - path: rag/corpus/records/2026-全球财富榜单解析.md
+        added_at: '2026-07-08T20:23:21.009220'
+        level: L4
+      - path: rag/corpus/records/[精华+][认知总结]“系统噪声”的讨论，双螺旋进阶，结论：在熵增夹缝中，实现个人熵减.md
+        added_at: '2026-07-08T20:23:21.104908'
+        level: L4
+      - path: rag/corpus/records/[精华][IP]职场思考3：利用AI-agent做认知觉醒账号可行性.md
+        added_at: '2026-07-08T20:23:21.442419'
+        level: L4
+      - path: rag/corpus/records/.history/RESUME_20260618_20260618011312.md
+        added_at: '2026-07-08T20:23:21.489710'
+        level: L4
+      - path: rag/corpus/records/.history/RESUME_20260618_20260618012051.md
+        added_at: '2026-07-08T20:23:21.543082'
+        level: L4
+      - path: rag/corpus/records/.history/价值发现与市场回归之路_20260618025538.md
+        added_at: '2026-07-08T20:23:21.552717'
+        level: L4
+      - path: rag/corpus/records/.history/价值发现与市场回归之路_20260618025542.md
+        added_at: '2026-07-08T20:23:21.613393'
+        level: L4
+      - path: rag/corpus/records/.history/价值发现与市场回归之路_20260618025634.md
+        added_at: '2026-07-08T20:23:21.645212'
+        level: L4
+      - path: rag/corpus/records/.history/RESUME_20260618_20260618012048.md
+        added_at: '2026-07-08T20:23:21.658170'
+        level: L4
+      - path: rag/corpus/records/.history/价值发现与市场回归之路_20260618024220.md
+        added_at: '2026-07-08T20:23:21.679893'
+        level: L4
+      - path: rag/corpus/records/.history/价值发现与市场回归之路_20260618025522.md
+        added_at: '2026-07-08T20:23:21.726853'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L4-3.1.6-个人市场价值评估_20260614184636.md
+        added_at: '2026-07-08T20:23:21.862960'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L4-3.1.6-个人市场价值评估_20260614184152.md
+        added_at: '2026-07-08T20:23:23.095976'
+        level: L4
+      - path: rag/corpus/records/.history/RESUME_20260618_20260618011446.md
+        added_at: '2026-07-08T20:23:23.165717'
+        level: L4
+      - path: rag/corpus/records/[精华]马斯克：超级节点的力量.md
+        added_at: '2026-07-08T20:23:23.499387'
+        level: L4
+      - path: rag/corpus/records/价值发现与市场回归之路.md
+        added_at: '2026-07-08T20:23:23.529145'
+        level: L4
+      - path: rag/corpus/records/RESUME_20260618.md
+        added_at: '2026-07-08T20:23:23.550597'
+        level: L4
+      - path: rag/corpus/records/用户个人画像与职业规划.md
+        added_at: '2026-07-08T20:23:23.894677'
+        level: L4
+      - path: rag/corpus/records/[AI时代]AI-Agent-巨头：进展、架构、营销.md
+        added_at: '2026-07-08T20:23:23.980656'
+        level: L4
+      - path: rag/corpus/records/[计划][策略]生存突围与“高筑墙”策略与计划.md
+        added_at: '2026-07-08T20:23:24.079445'
+        level: L4
+      - path: rag/corpus/records/RESUME_20260618_copy2.md
+        added_at: '2026-07-08T20:23:24.233789'
+        level: L4
+      - path: rag/corpus/records/RESUME_20260618 copy1.md
+        added_at: '2026-07-08T20:23:24.428803'
+        level: L4
+      - path: rag/corpus/records/[技巧]AI-模型选型与场景应用.md
+        added_at: '2026-07-08T20:23:24.832786'
+        level: L4
+      - path: rag/corpus/records/金刚经：来历、内容与境界.md
+        added_at: '2026-07-08T20:23:24.931875'
+        level: L4
+      - path: rag/corpus/records/[持续更新]resume.md
+        added_at: '2026-07-08T20:23:25.038808'
+        level: L4
+      - path: rag/corpus/records/[精华+][认知演进][策略总结]极客人文思维的深度梳理--高筑墙，广积粮，缓称王.md
+        added_at: '2026-07-08T20:23:25.279384'
+        level: L4
+      - path: rag/corpus/records/resume2.md
+        added_at: '2026-07-08T20:23:25.389672'
+        level: L4
+      - path: rag/corpus/records/认知5：自我认知与审视--兴趣与审美.md
+        added_at: '2026-07-08T20:23:25.706872'
+        level: L4
+      - path: rag/corpus/records/职场博弈与心理驱动解析.md
+        added_at: '2026-07-08T20:23:25.992394'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-3.2-职业思考系列.md
+        added_at: '2026-07-08T20:23:26.428163'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-5.2-5.3-科技合集.md
+        added_at: '2026-07-08T20:23:26.738540'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.1.3-思维进阶.md
+        added_at: '2026-07-08T20:23:27.124492'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.1.6-个人市场价值评估.md
+        added_at: '2026-07-08T20:23:27.585729'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L5-Batch5-6-三域合集.md
+        added_at: '2026-07-08T20:23:27.867051'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-5.1-底层技术.md
+        added_at: '2026-07-08T20:23:28.921706'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.1.5-双模型驱动.md
+        added_at: '2026-07-08T20:23:29.059685'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.1.1-认知终极盘.md
+        added_at: '2026-07-08T20:23:29.123635'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.1.3-主权实战.md
+        added_at: '2026-07-08T20:23:29.507914'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.2.1-嘉靖职场.md
+        added_at: '2026-07-08T20:23:29.521746'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.1.1-备胎计划.md
+        added_at: '2026-07-08T20:23:29.861764'
+        level: L4
+      - path: rag/corpus/records/认知层次与思考深度解析.md
+        added_at: '2026-07-08T20:23:30.025733'
+        level: L4
+      - path: rag/corpus/records/[驱动开发][整体认识]V4l2DRMALSA与内存管理时序图，双螺旋进阶计划，HSE+DA决策算法.md
+        added_at: '2026-07-08T20:23:30.091523'
+        level: L4
+      - path: rag/corpus/20260707_033533_AI Coding研发体系（一）：企业级AI编码的六层架构.md
+        added_at: '2026-07-08T20:23:30.252719'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/3.3_跨软件模块_专业协同2.0_SOP.md
+        added_at: '2026-07-08T20:23:30.381675'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/2.2.2_版本质量管控SOP.md
+        added_at: '2026-07-08T20:23:30.403692'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/02_产品SE作战手册2.0.md
+        added_at: '2026-07-08T20:23:30.542362'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/Google_TV软件认证表SOP.md
+        added_at: '2026-07-08T20:23:30.561736'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/2.2.1_分支质量看护SOP.md
+        added_at: '2026-07-08T20:23:30.799520'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/2.1.1_确定每个版本问题_需求带入范围并代码审核入库2.0.md
+        added_at: '2026-07-08T20:23:30.811907'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.2.5_认证进度风险管控SOP.md
+        added_at: '2026-07-08T20:23:31.007294'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/需求上车评审及风险评估2.0_SOP.md
+        added_at: '2026-07-08T20:23:31.030457'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.1.1_参与特性价值验收_SOP.md
+        added_at: '2026-07-08T20:23:31.064631'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/2.2.1_分支质量看护2.0_SOP_（范例）.md
+        added_at: '2026-07-08T20:23:31.276326'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/3.1_疑难问题攻关SOP.md
+        added_at: '2026-07-08T20:23:31.319970'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/2.1.2_外专业修改合入风险2.0_SOP.md
+        added_at: '2026-07-08T20:23:31.455813'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/责任不清的技术问题理清2.0_SOP.md
+        added_at: '2026-07-08T20:23:31.481578'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.2.9_开发策略和行动项落地闭环SOP.md
+        added_at: '2026-07-08T20:23:31.498103'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.4.1_突发紧急问题方案评估SOP.md
+        added_at: '2026-07-08T20:23:31.652574'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/2.1_代码合入2.0.md
+        added_at: '2026-07-08T20:23:31.673340'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/概要设计模板2.md
+        added_at: '2026-07-08T20:23:31.830965'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/4.1_需求上车评审及风险评估2.0.md
+        added_at: '2026-07-08T20:23:31.970439'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.5.2_必解问题梳理SOP.md
+        added_at: '2026-07-08T20:23:32.015649'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.2.8_举旗问题风险管控SOP.md
+        added_at: '2026-07-08T20:23:32.091689'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.3.1_FDS确认SOP.md
+        added_at: '2026-07-08T20:23:32.136540'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/4.2_需求强制下线SOP.md
+        added_at: '2026-07-08T20:23:32.172671'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/4.3_需求闭环_SOP.md
+        added_at: '2026-07-08T20:23:32.388032'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/3.4_突发紧急问题攻关SOP.md
+        added_at: '2026-07-08T20:23:32.448101'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.5.1_风险释放管理_SOP.md
+        added_at: '2026-07-08T20:23:32.462991'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/2.1.1_重要版本代码审核入库2.0_SOP.md
+        added_at: '2026-07-08T20:23:32.530489'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/4.3_需求闭环.md
+        added_at: '2026-07-08T20:23:32.660203'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.2.1工厂适应性问题风险_SOP.md
+        added_at: '2026-07-08T20:23:32.683881'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.1.2_深度参与需求的技术风险评估SOP.md
+        added_at: '2026-07-08T20:23:32.713743'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.5.4_OA释放单签批SOP.md
+        added_at: '2026-07-08T20:23:32.776113'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/2.1.3_MTK_TAG合入规范及MTK进版自动化流程.md
+        added_at: '2026-07-08T20:23:32.843203'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.3.2_项目计划评审SOP.md
+        added_at: '2026-07-08T20:23:33.161318'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/2.2.3_测试策略制定SOP.md
+        added_at: '2026-07-08T20:23:33.216749'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/2.2.4_关键版本运作SOP.md
+        added_at: '2026-07-08T20:23:33.298314'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/2.1.2_外专业修改合入风险2.0.md
+        added_at: '2026-07-08T20:23:33.449503'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/3.2_责任不清的技术问题厘清2.0.md
+        added_at: '2026-07-08T20:23:33.495843'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/53、BOM签批规范.md
+        added_at: '2026-07-08T20:23:33.632223'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/31、PQ管控.md
+        added_at: '2026-07-08T20:23:34.063156'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.责任不清的技术问题理清.md
+        added_at: '2026-07-08T20:23:34.128427'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.1.5，质量门禁.md
+        added_at: '2026-07-08T20:23:34.188530'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/46、源代码管理.md
+        added_at: '2026-07-08T20:23:34.228025'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/4.项目block问题释放风险.md
+        added_at: '2026-07-08T20:23:34.266410'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.1.1，代码合入.md
+        added_at: '2026-07-08T20:23:34.723977'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/03_产品SE应知应会.md
+        added_at: '2026-07-08T20:23:34.776382'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/5.外专业修改合入风险.md
+        added_at: '2026-07-08T20:23:35.736693'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/22、分支管理（SVN）.md
+        added_at: '2026-07-08T20:23:36.075426'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.3.3_分支生命周期管理.md
+        added_at: '2026-07-08T20:23:36.177392'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.3_分支质量看护.md
+        added_at: '2026-07-08T20:23:36.565604'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/17、合作软件团队的人力、进度和质量管控.md
+        added_at: '2026-07-08T20:23:36.613735'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/7、软件编码及发布路径申请.md
+        added_at: '2026-07-08T20:23:36.669423'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.需求导入风险.md
+        added_at: '2026-07-08T20:23:36.689027'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/产品软件开发注意事项汇总（不限格式）.md
+        added_at: '2026-07-08T20:23:36.912187'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/跨软件模块_专业协同（交付件）.md
+        added_at: '2026-07-08T20:23:36.959667'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.1_主导产品质量方案的设计并执行落地.md
+        added_at: '2026-07-08T20:23:37.596244'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/0、软件Leader作战线路图.md
+        added_at: '2026-07-08T20:23:37.653063'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/02_产品SE能力模型.md
+        added_at: '2026-07-08T20:23:37.962870'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.1.3，静态扫描.md
+        added_at: '2026-07-08T20:23:38.159375'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/20、电性能、环境试验的问题整改.md
+        added_at: '2026-07-08T20:23:38.197595'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.1.6，质量策略.md
+        added_at: '2026-07-08T20:23:38.846854'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.3.2_分支代码合入.md
+        added_at: '2026-07-08T20:23:38.974386'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/09_数据线上化规划方案.md
+        added_at: '2026-07-08T20:23:39.028799'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.1.2，预编译.md
+        added_at: '2026-07-08T20:23:39.134090'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/5、整机系统集成配置.md
+        added_at: '2026-07-08T20:23:39.149002'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/05_产品SE作战手册.md
+        added_at: '2026-07-08T20:23:39.432278'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2、项目启动评估.md
+        added_at: '2026-07-08T20:23:39.455892'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/62、软件leader_代码权限.md
+        added_at: '2026-07-08T20:23:39.629058'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/4、代码仓库、编译环境、发布路径配置.md
+        added_at: '2026-07-08T20:23:40.032856'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/63、代码保密及Soc_代码权限.md
+        added_at: '2026-07-08T20:23:40.083566'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.3.1_分支申请.md
+        added_at: '2026-07-08T20:23:40.305354'
+        level: L4
+      - path: rag/corpus/20260707_033647_AI Coding研发体系（二）：AI如何进入研发流程.md
+        added_at: '2026-07-08T20:23:40.698765'
+        level: L4
+      - path: rag/corpus/AI-Agent-架构解读与改进.md
+        added_at: '2026-07-08T20:23:41.419380'
+        level: L4
+    PAN:
+      架构:
+      - path: rag/corpus/records/[精华+][画像]深度人物画像：-Erik-的终极侧写.md
+        added_at: '2026-07-08T20:23:25.228784'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-5.1.2-4-底层技术合集.md
+        added_at: '2026-07-08T20:23:28.026997'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.4.2-许家印.md
+        added_at: '2026-07-08T20:23:29.019689'
+        level: L4
+      - path: rag/corpus/records/深度人物画像：-Erik-的终极侧写.md
+        added_at: '2026-07-08T20:23:30.281749'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/12.签BOM风险.md
+        added_at: '2026-07-08T20:23:33.823901'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/60、新方案合规评估.md
+        added_at: '2026-07-08T20:23:35.252959'
+        level: L4
+    终端:
+      形态:
+      - path: rag/corpus/records/[科技][精华]极致端侧本土化架构智能穿戴眼镜.md
+        added_at: '2026-07-08T20:23:18.975701'
+        level: L4
+      - path: rag/corpus/records/[精华]Linux-V4L2-架构解析与图示.md
+        added_at: '2026-07-08T20:23:19.002122'
+        level: L4
+      - path: rag/corpus/records/极致端侧本土化架构智能穿戴眼镜.md
+        added_at: '2026-07-08T20:23:19.448720'
+        level: L4
+      - path: rag/corpus/records/[科技][PAN]梳理我的PAN构想，软硬件实现逻辑，整体架构，技术与实施详细设计.md
+        added_at: '2026-07-08T20:23:20.494485'
+        level: L4
+      - path: rag/corpus/records/2026-全球财富榜单解析.md
+        added_at: '2026-07-08T20:23:21.009087'
+        level: L4
+      - path: rag/corpus/records/极致端侧本土化架构智能穿戴眼镜 (1).md
+        added_at: '2026-07-08T20:23:21.323699'
+        level: L4
+      - path: rag/corpus/records/[精华][IP]职场思考3：利用AI-agent做认知觉醒账号可行性.md
+        added_at: '2026-07-08T20:23:21.442641'
+        level: L4
+      - path: rag/corpus/records/.history/RESUME_20260618_20260618011312.md
+        added_at: '2026-07-08T20:23:21.489874'
+        level: L4
+      - path: rag/corpus/records/AI-终端设备形态与未来.md
+        added_at: '2026-07-08T20:23:21.530597'
+        level: L4
+      - path: rag/corpus/records/.history/RESUME_20260618_20260618012051.md
+        added_at: '2026-07-08T20:23:21.543121'
+        level: L4
+      - path: rag/corpus/records/.history/RESUME_20260618_20260618012048.md
+        added_at: '2026-07-08T20:23:21.658234'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L4-3.1.7-职业规划路线图_20260614184156.md
+        added_at: '2026-07-08T20:23:22.114728'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L4-3.1.7-职业规划路线图_20260614184636.md
+        added_at: '2026-07-08T20:23:22.771984'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-五-科技与技术_20260613005810.md
+        added_at: '2026-07-08T20:23:22.801122'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-五-科技与技术_20260617041943.md
+        added_at: '2026-07-08T20:23:22.943271'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-五-科技与技术_20260617031410.md
+        added_at: '2026-07-08T20:23:23.075541'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-五-科技与技术_20260617031358.md
+        added_at: '2026-07-08T20:23:23.115457'
+        level: L4
+      - path: rag/corpus/records/.history/RESUME_20260618_20260618011446.md
+        added_at: '2026-07-08T20:23:23.165833'
+        level: L4
+      - path: rag/corpus/records/RESUME_20260618.md
+        added_at: '2026-07-08T20:23:23.550651'
+        level: L4
+      - path: rag/corpus/records/[精华]PAN：个人AI节点概念阐述.md
+        added_at: '2026-07-08T20:23:23.614919'
+        level: L4
+      - path: rag/corpus/records/RESUME_20260618 copy1.md
+        added_at: '2026-07-08T20:23:24.428835'
+        level: L4
+      - path: rag/corpus/records/智能穿戴：现状、趋势与前景.md
+        added_at: '2026-07-08T20:23:24.746861'
+        level: L4
+      - path: rag/corpus/records/[精华+][全局总结]认知体系的终极盘.md
+        added_at: '2026-07-08T20:23:24.910210'
+        level: L4
+      - path: rag/corpus/records/[持续更新]resume.md
+        added_at: '2026-07-08T20:23:25.039644'
+        level: L4
+      - path: rag/corpus/records/知识图谱可视化.md
+        added_at: '2026-07-08T20:23:25.177107'
+        level: L4
+      - path: rag/corpus/records/[精华+][画像]深度人物画像：-Erik-的终极侧写.md
+        added_at: '2026-07-08T20:23:25.228640'
+        level: L4
+      - path: rag/corpus/records/成人情趣玩具的多元玩法.md
+        added_at: '2026-07-08T20:23:25.605009'
+        level: L4
+      - path: rag/corpus/records/[兴趣话题]关于“秩序”与“存在”的哲学实验.md
+        added_at: '2026-07-08T20:23:25.798837'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.2.3-高熵突围.md
+        added_at: '2026-07-08T20:23:26.191585'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-补3-三域深度.md
+        added_at: '2026-07-08T20:23:26.637610'
+        level: L4
+      - path: rag/corpus/records/知识图谱/产出①-个人市场价值评估报告.md
+        added_at: '2026-07-08T20:23:26.723810'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.1.2-高筑墙.md
+        added_at: '2026-07-08T20:23:27.077774'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-补5-六七八域深度.md
+        added_at: '2026-07-08T20:23:27.221382'
+        level: L4
+      - path: rag/corpus/records/知识图谱/产出②-1-3-5年职业规划路线图.md
+        added_at: '2026-07-08T20:23:27.309501'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-补7-五域剩余.md
+        added_at: '2026-07-08T20:23:27.597905'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-5.1.2-4-底层技术合集.md
+        added_at: '2026-07-08T20:23:28.026859'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.4.3-兴趣审美.md
+        added_at: '2026-07-08T20:23:28.161590'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-5.3-AI选型.md
+        added_at: '2026-07-08T20:23:28.255396'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L2-五-科技与技术.md
+        added_at: '2026-07-08T20:23:28.623528'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-5.2-新兴硬件.md
+        added_at: '2026-07-08T20:23:28.634040'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-5.1-底层技术.md
+        added_at: '2026-07-08T20:23:28.921477'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.4.2-许家印.md
+        added_at: '2026-07-08T20:23:29.019783'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-6.3-社会现象.md
+        added_at: '2026-07-08T20:23:29.111460'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-5.1.1-V4L2.md
+        added_at: '2026-07-08T20:23:29.788626'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.1.7-职业规划路线图.md
+        added_at: '2026-07-08T20:23:29.905131'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.1.4-2026生存.md
+        added_at: '2026-07-08T20:23:29.948979'
+        level: L4
+      - path: rag/corpus/records/[科技][PAN]梳理我的PAN构想，软硬件实现逻辑，整体架构，技术与实施详细设计 (1).md
+        added_at: '2026-07-08T20:23:30.236778'
+        level: L4
+      - path: rag/corpus/records/深度人物画像：-Erik-的终极侧写.md
+        added_at: '2026-07-08T20:23:30.281625'
+        level: L4
+      - path: rag/corpus/records/爱博斯坦事件：权贵动机解析.md
+        added_at: '2026-07-08T20:23:30.325697'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/3.3_跨软件模块_专业协同2.0_SOP.md
+        added_at: '2026-07-08T20:23:30.381723'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/Google_TV软件认证表SOP.md
+        added_at: '2026-07-08T20:23:30.561905'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/2.1.1_确定每个版本问题_需求带入范围并代码审核入库2.0.md
+        added_at: '2026-07-08T20:23:30.812032'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.2.6_工厂返工风险管控SOP.md
+        added_at: '2026-07-08T20:23:30.866029'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.2.5_认证进度风险管控SOP.md
+        added_at: '2026-07-08T20:23:31.007418'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/需求上车评审及风险评估2.0_SOP.md
+        added_at: '2026-07-08T20:23:31.030509'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.4.3_二资源切换方案评估SOP.md
+        added_at: '2026-07-08T20:23:31.407833'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/2.1.2_外专业修改合入风险2.0_SOP.md
+        added_at: '2026-07-08T20:23:31.455894'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/责任不清的技术问题理清2.0_SOP.md
+        added_at: '2026-07-08T20:23:31.481760'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.3.3_开发策略及立项报告SOP.md
+        added_at: '2026-07-08T20:23:31.697890'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/概要设计模板2.md
+        added_at: '2026-07-08T20:23:31.830998'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.5.3_SCCB评审SOP.md
+        added_at: '2026-07-08T20:23:31.884874'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.3.4_整体技术方案设计SOP.md
+        added_at: '2026-07-08T20:23:31.912832'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.5.2_必解问题梳理SOP.md
+        added_at: '2026-07-08T20:23:32.015748'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.3.1_FDS确认SOP.md
+        added_at: '2026-07-08T20:23:32.136576'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/2.1.1_重要版本代码审核入库2.0_SOP.md
+        added_at: '2026-07-08T20:23:32.530705'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.2.1工厂适应性问题风险_SOP.md
+        added_at: '2026-07-08T20:23:32.683972'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.3.2_项目计划评审SOP.md
+        added_at: '2026-07-08T20:23:33.161420'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/2.2.3_测试策略制定SOP.md
+        added_at: '2026-07-08T20:23:33.216861'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/2.1.2_外专业修改合入风险2.0.md
+        added_at: '2026-07-08T20:23:33.449596'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/3.2_责任不清的技术问题厘清2.0.md
+        added_at: '2026-07-08T20:23:33.496025'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.4.2_预抄写方案设计SOP.md
+        added_at: '2026-07-08T20:23:33.593817'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/53、BOM签批规范.md
+        added_at: '2026-07-08T20:23:33.632388'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/3.工厂适应性问题风险.md
+        added_at: '2026-07-08T20:23:33.675835'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/12.签BOM风险.md
+        added_at: '2026-07-08T20:23:33.823658'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2._必解问题梳理.md
+        added_at: '2026-07-08T20:23:33.854734'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/9、测试策略和计划.md
+        added_at: '2026-07-08T20:23:34.028647'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/31、PQ管控.md
+        added_at: '2026-07-08T20:23:34.063257'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.责任不清的技术问题理清.md
+        added_at: '2026-07-08T20:23:34.128554'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/4.3.1_模块需求评估.md
+        added_at: '2026-07-08T20:23:34.206417'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/4.项目block问题释放风险.md
+        added_at: '2026-07-08T20:23:34.266509'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/03_产品SE应知应会.md
+        added_at: '2026-07-08T20:23:34.776507'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/4.1.2_RAT需求可行性评估.md
+        added_at: '2026-07-08T20:23:34.832497'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/25、软件认证.md
+        added_at: '2026-07-08T20:23:34.907129'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/47、网络升级管理.md
+        added_at: '2026-07-08T20:23:35.070408'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/12、配屏.md
+        added_at: '2026-07-08T20:23:35.121081'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/5.外专业修改合入风险.md
+        added_at: '2026-07-08T20:23:35.736785'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/1.2_主导产品整体技术方案的设计.md
+        added_at: '2026-07-08T20:23:35.878837'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/3.整体技术方案的设计.md
+        added_at: '2026-07-08T20:23:35.958957'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.项目启动评估.md
+        added_at: '2026-07-08T20:23:36.132499'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/16、工厂适应性需求确认.md
+        added_at: '2026-07-08T20:23:36.194509'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/27、场测及问题整改.md
+        added_at: '2026-07-08T20:23:36.439258'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/8、项目团队组建.md
+        added_at: '2026-07-08T20:23:36.739326'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/23、TR_软件发布和主观问题整改.md
+        added_at: '2026-07-08T20:23:36.856633'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/产品软件开发注意事项汇总（不限格式）.md
+        added_at: '2026-07-08T20:23:36.912288'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/跨软件模块_专业协同（交付件）.md
+        added_at: '2026-07-08T20:23:36.959779'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/19、建立projectID表.md
+        added_at: '2026-07-08T20:23:37.272942'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/34、客户样机问题反馈.md
+        added_at: '2026-07-08T20:23:37.438524'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/42、需求变更管理.md
+        added_at: '2026-07-08T20:23:37.983426'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/20、电性能、环境试验的问题整改.md
+        added_at: '2026-07-08T20:23:38.197712'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/3.跨软件模块_专业协同.md
+        added_at: '2026-07-08T20:23:38.486806'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/57、售后问题及时响应.md
+        added_at: '2026-07-08T20:23:38.525808'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/18、影响SQA_DQA测试的问题优先级梳理.md
+        added_at: '2026-07-08T20:23:38.564188'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/3、评估报告和计划.md
+        added_at: '2026-07-08T20:23:39.400473'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2、项目启动评估.md
+        added_at: '2026-07-08T20:23:39.456003'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/4.1.1_需求可行性评估.md
+        added_at: '2026-07-08T20:23:39.731080'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/21、DQA_测试和整改.md
+        added_at: '2026-07-08T20:23:40.178060'
+        level: L4
+  职场:
+    IP:
+      思考:
+      - path: rag/corpus/records/[精华][认知演进]将个人生存突围类比中国的发展突围.md
+        added_at: '2026-07-08T20:23:19.197591'
+        level: L4
+      - path: rag/corpus/records/[认知总结]思维进阶：从执行到架构.md
+        added_at: '2026-07-08T20:23:19.325585'
+        level: L4
+      - path: rag/corpus/records/职业思考3：商业与人生战略视角.md
+        added_at: '2026-07-08T20:23:19.478120'
+        level: L4
+      - path: rag/corpus/records/[实践策略][IP]AI+跨界融合.md
+        added_at: '2026-07-08T20:23:20.272509'
+        level: L4
+      - path: rag/corpus/records/Gemini-vs-DeepSeek-Context-and-Capability.md
+        added_at: '2026-07-08T20:23:20.550904'
+        level: L4
+      - path: rag/corpus/records/欧美富豪行业分布差异分析.md
+        added_at: '2026-07-08T20:23:20.896526'
+        level: L4
+      - path: rag/corpus/records/个人画像与生存突围策略.md
+        added_at: '2026-07-08T20:23:21.459103'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L4-3.1.7-职业规划路线图_20260614184156.md
+        added_at: '2026-07-08T20:23:22.114866'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-七-实践与IP_20260617034835.md
+        added_at: '2026-07-08T20:23:22.488286'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L4-3.1.7-职业规划路线图_20260614184636.md
+        added_at: '2026-07-08T20:23:22.772223'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-七-实践与IP_20260617035016.md
+        added_at: '2026-07-08T20:23:22.872300'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-七-实践与IP_20260613005810.md
+        added_at: '2026-07-08T20:23:22.883612'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-七-实践与IP_20260617035014.md
+        added_at: '2026-07-08T20:23:22.979455'
+        level: L4
+      - path: rag/corpus/records/[精华]马斯克：超级节点的力量.md
+        added_at: '2026-07-08T20:23:23.499420'
+        level: L4
+      - path: rag/corpus/records/SpaceX-上市：太空经济的里程碑.md
+        added_at: '2026-07-08T20:23:24.755000'
+        level: L4
+      - path: rag/corpus/records/[对话]创业、科技与中国国情.md
+        added_at: '2026-07-08T20:23:25.480279'
+        level: L4
+      - path: rag/corpus/records/成人情趣玩具的多元玩法.md
+        added_at: '2026-07-08T20:23:25.605129'
+        level: L4
+      - path: rag/corpus/records/[认知]开悟之坡，认知阶段与跃升瓶颈分析.md
+        added_at: '2026-07-08T20:23:25.939205'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-补9-六后半七四域.md
+        added_at: '2026-07-08T20:23:26.030426'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.4.4-画像突围.md
+        added_at: '2026-07-08T20:23:26.340358'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L2-七-实践与IP.md
+        added_at: '2026-07-08T20:23:26.540967'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L5-6.1.1-大明1566.md
+        added_at: '2026-07-08T20:23:26.713926'
+        level: L4
+      - path: rag/corpus/records/知识图谱/产出①-个人市场价值评估报告.md
+        added_at: '2026-07-08T20:23:26.723861'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.2.2-职业思考2.md
+        added_at: '2026-07-08T20:23:27.205447'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-4.1.1-伴侣裸辞.md
+        added_at: '2026-07-08T20:23:27.610615'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L5-Batch1-一1.1合集.md
+        added_at: '2026-07-08T20:23:27.644463'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.4.3-兴趣审美.md
+        added_at: '2026-07-08T20:23:28.161628'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.1.6-组件到操盘手.md
+        added_at: '2026-07-08T20:23:28.297430'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-7-实践与IP.md
+        added_at: '2026-07-08T20:23:29.198142'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-5.1.1-V4L2.md
+        added_at: '2026-07-08T20:23:29.788770'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.1.7-职业规划路线图.md
+        added_at: '2026-07-08T20:23:29.905254'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.5.2_必解问题梳理SOP.md
+        added_at: '2026-07-08T20:23:32.015782'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/53、BOM签批规范.md
+        added_at: '2026-07-08T20:23:33.632468'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/38、工厂主观问题处理.md
+        added_at: '2026-07-08T20:23:33.733365'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2._必解问题梳理.md
+        added_at: '2026-07-08T20:23:33.854976'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/30、SQA提报问题现场确认.md
+        added_at: '2026-07-08T20:23:33.877130'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/1.1_识别和规避NPI项目关键风险.md
+        added_at: '2026-07-08T20:23:34.006839'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/31、PQ管控.md
+        added_at: '2026-07-08T20:23:34.063312'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/4.3.1_模块需求评估.md
+        added_at: '2026-07-08T20:23:34.206456'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/46、源代码管理.md
+        added_at: '2026-07-08T20:23:34.228146'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/28、新需求导入.md
+        added_at: '2026-07-08T20:23:34.536629'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/40、ODF订单确认.md
+        added_at: '2026-07-08T20:23:34.891031'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/25、软件认证.md
+        added_at: '2026-07-08T20:23:34.907255'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/12、配屏.md
+        added_at: '2026-07-08T20:23:35.121202'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/4.3.2_模块需求方案设计和评审.md
+        added_at: '2026-07-08T20:23:35.230256'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/41、IP终版软件管控.md
+        added_at: '2026-07-08T20:23:35.422400'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/15、SQA_测试资源及bug管理.md
+        added_at: '2026-07-08T20:23:35.491790'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/22、分支管理（SVN）.md
+        added_at: '2026-07-08T20:23:36.075573'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/48、软件集成测试及释放评审.md
+        added_at: '2026-07-08T20:23:36.233575'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/54、软件对外信息输出（工厂）.md
+        added_at: '2026-07-08T20:23:36.265378'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/39、重难点问题攻关解决.md
+        added_at: '2026-07-08T20:23:36.322193'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/56、重大问题发布机制（举旗）.md
+        added_at: '2026-07-08T20:23:36.378491'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/17、合作软件团队的人力、进度和质量管控.md
+        added_at: '2026-07-08T20:23:36.613771'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/23、TR_软件发布和主观问题整改.md
+        added_at: '2026-07-08T20:23:36.856734'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/58、法国TQC操作指南.md
+        added_at: '2026-07-08T20:23:36.936021'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/44、工厂报告处理.md
+        added_at: '2026-07-08T20:23:37.100116'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/33、NPI_BOM确认.md
+        added_at: '2026-07-08T20:23:37.227020'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/34、客户样机问题反馈.md
+        added_at: '2026-07-08T20:23:37.438633'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/32、必解问题梳理.md
+        added_at: '2026-07-08T20:23:37.496796'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/0、软件Leader作战线路图.md
+        added_at: '2026-07-08T20:23:37.653187'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/45、风险释放管理.md
+        added_at: '2026-07-08T20:23:37.697850'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/42、需求变更管理.md
+        added_at: '2026-07-08T20:23:37.983527'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/57、售后问题及时响应.md
+        added_at: '2026-07-08T20:23:38.525918'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/1._风险释放管理.md
+        added_at: '2026-07-08T20:23:38.632506'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/5、整机系统集成配置.md
+        added_at: '2026-07-08T20:23:39.149104'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/36、SCCB_问题_Review.md
+        added_at: '2026-07-08T20:23:39.857395'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/13、项目晨会.md
+        added_at: '2026-07-08T20:23:39.996645'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/6.风险释放管理.md
+        added_at: '2026-07-08T20:23:40.118341'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/软件Leader作战手册.md
+        added_at: '2026-07-08T20:23:40.285838'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/37、More_info_问题攻关.md
+        added_at: '2026-07-08T20:23:40.359555'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-一-认知体系与思维模型_20260617025930.md
+        added_at: '2026-07-08T20:23:44.461359'
+        level: L4
+    成长:
+      策略:
+      - path: rag/corpus/records/[精华][策略]职业规划：“备胎计划”“B计划”--技术“护城河”的建立.md
+        added_at: '2026-07-08T20:23:18.875789'
+        level: L4
+      - path: rag/corpus/records/暴力执行：2026生存策略、普通程序员在边缘AI的机会.md
+        added_at: '2026-07-08T20:23:18.951220'
+        level: L4
+      - path: rag/corpus/records/职业思考2：现状分析与突围策略.md
+        added_at: '2026-07-08T20:23:19.133681'
+        level: L4
+      - path: rag/corpus/records/[认知总结]思维进阶：从执行到架构.md
+        added_at: '2026-07-08T20:23:19.325547'
+        level: L4
+      - path: rag/corpus/records/[精华+][认知]历史宏观角度看待个人生存与发展.md
+        added_at: '2026-07-08T20:23:19.397149'
+        level: L4
+      - path: rag/corpus/records/认知2：从对认知提升到生存突围相关探讨.md
+        added_at: '2026-07-08T20:23:20.171578'
+        level: L4
+      - path: rag/corpus/records/深度剖析高熵环境下的极客战略家 (1).md
+        added_at: '2026-07-08T20:23:20.222502'
+        level: L4
+      - path: rag/corpus/records/认知8：生存--2026-年高熵环境下实现主权突围.md
+        added_at: '2026-07-08T20:23:20.698669'
+        level: L4
+      - path: rag/corpus/records/[精华+][认知总结]“系统噪声”的讨论，双螺旋进阶，结论：在熵增夹缝中，实现个人熵减.md
+        added_at: '2026-07-08T20:23:21.105038'
+        level: L4
+      - path: rag/corpus/records/个人画像与生存突围策略.md
+        added_at: '2026-07-08T20:23:21.459183'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L5-Batch2-4-一二域合集_20260614201755.md
+        added_at: '2026-07-08T20:23:21.774446'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L4-3.1.6-个人市场价值评估_20260614184636.md
+        added_at: '2026-07-08T20:23:21.862711'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/全量个人画像_20260614201612.md
+        added_at: '2026-07-08T20:23:21.890708'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L5-Batch2-4-一二域合集_20260614201618.md
+        added_at: '2026-07-08T20:23:21.959374'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-三-策略与计划_20260613123243.md
+        added_at: '2026-07-08T20:23:22.085813'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L4-3.1.7-职业规划路线图_20260614184156.md
+        added_at: '2026-07-08T20:23:22.114814'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L5-Batch2-4-一二域合集_20260614201817.md
+        added_at: '2026-07-08T20:23:22.178000'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L1-README-知识图谱索引_20260617025629.md
+        added_at: '2026-07-08T20:23:22.196482'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L1-README-知识图谱索引_20260614181050.md
+        added_at: '2026-07-08T20:23:22.368548'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/全量个人画像_20260614201608.md
+        added_at: '2026-07-08T20:23:22.411236'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L4-3.1.8-简历面试武器库_20260614184156.md
+        added_at: '2026-07-08T20:23:22.442460'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/全量个人画像_20260614201618.md
+        added_at: '2026-07-08T20:23:22.635700'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-三-策略与计划_20260617031308.md
+        added_at: '2026-07-08T20:23:22.690166'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L4-3.1.7-职业规划路线图_20260614184636.md
+        added_at: '2026-07-08T20:23:22.772161'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L4-3.1.8-简历面试武器库_20260614184636.md
+        added_at: '2026-07-08T20:23:22.781478'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-三-策略与计划_20260617042129.md
+        added_at: '2026-07-08T20:23:22.999514'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L4-3.1.6-个人市场价值评估_20260614184152.md
+        added_at: '2026-07-08T20:23:23.095798'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L5-Batch2-4-一二域合集_20260614201607.md
+        added_at: '2026-07-08T20:23:23.121848'
+        level: L4
+      - path: rag/corpus/records/[方法论][建模][画图]我的个人“技能包”梳理.md
+        added_at: '2026-07-08T20:23:23.349226'
+        level: L4
+      - path: rag/corpus/records/[精华++][历史]从《大明1566》权力矩阵、个体主权协议化全栈架构.md
+        added_at: '2026-07-08T20:23:23.865042'
+        level: L4
+      - path: rag/corpus/records/[计划][策略]生存突围与“高筑墙”策略与计划.md
+        added_at: '2026-07-08T20:23:24.079412'
+        level: L4
+      - path: rag/corpus/records/[精华+]“顺势”与“借势”--机会往往存在于“制度缝隙”.md
+        added_at: '2026-07-08T20:23:24.218191'
+        level: L4
+      - path: rag/corpus/records/[精华][亲密关系]伴侣裸辞转律师的风险分析.md
+        added_at: '2026-07-08T20:23:24.973307'
+        level: L4
+      - path: rag/corpus/records/明星涉毒现象的社会学分析.md
+        added_at: '2026-07-08T20:23:25.057506'
+        level: L4
+      - path: rag/corpus/records/[精华+][认知演进][策略总结]极客人文思维的深度梳理--高筑墙，广积粮，缓称王.md
+        added_at: '2026-07-08T20:23:25.279417'
+        level: L4
+      - path: rag/corpus/records/职业思考：嘉靖用严嵩的政治逻辑到职场.md
+        added_at: '2026-07-08T20:23:25.364057'
+        level: L4
+      - path: rag/corpus/records/认知6：“工业组件”到“觉醒操盘手”.md
+        added_at: '2026-07-08T20:23:25.443881'
+        level: L4
+      - path: rag/corpus/records/职场生存：理性离职与价值交换.md
+        added_at: '2026-07-08T20:23:25.627520'
+        level: L4
+      - path: rag/corpus/records/职场博弈与心理驱动解析.md
+        added_at: '2026-07-08T20:23:25.992425'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-补9-六后半七四域.md
+        added_at: '2026-07-08T20:23:26.030376'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-2.2-三元解构.md
+        added_at: '2026-07-08T20:23:26.096725'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L1-README-知识图谱索引.md
+        added_at: '2026-07-08T20:23:26.135532'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.5.1-认知2.md
+        added_at: '2026-07-08T20:23:26.162697'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.2.3-高熵突围.md
+        added_at: '2026-07-08T20:23:26.191467'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L2-三-策略与计划.md
+        added_at: '2026-07-08T20:23:26.304743'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.4.4-画像突围.md
+        added_at: '2026-07-08T20:23:26.340324'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.3.1-功德林.md
+        added_at: '2026-07-08T20:23:26.368799'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-补4-四五域深度.md
+        added_at: '2026-07-08T20:23:26.409580'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-3.2-职业思考系列.md
+        added_at: '2026-07-08T20:23:26.428041'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-4.2-沟通博弈.md
+        added_at: '2026-07-08T20:23:26.438706'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-6.3-7-8-合集.md
+        added_at: '2026-07-08T20:23:26.550835'
+        level: L4
+      - path: rag/corpus/records/知识图谱/全量个人画像.md
+        added_at: '2026-07-08T20:23:26.606775'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-补3-三域深度.md
+        added_at: '2026-07-08T20:23:26.637575'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L5-6.1.1-大明1566.md
+        added_at: '2026-07-08T20:23:26.713876'
+        level: L4
+      - path: rag/corpus/records/知识图谱/产出①-个人市场价值评估报告.md
+        added_at: '2026-07-08T20:23:26.723723'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-4.1-亲密关系.md
+        added_at: '2026-07-08T20:23:26.815971'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-1.4-个人画像.md
+        added_at: '2026-07-08T20:23:26.847951'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-1.2-核心理念.md
+        added_at: '2026-07-08T20:23:26.980444'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.3.2-突围类比中国.md
+        added_at: '2026-07-08T20:23:27.035813'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.1.2-高筑墙.md
+        added_at: '2026-07-08T20:23:27.077540'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-1.3-历史宏观.md
+        added_at: '2026-07-08T20:23:27.114482'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.2.4-职场生存.md
+        added_at: '2026-07-08T20:23:27.178662'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.2.2-职业思考2.md
+        added_at: '2026-07-08T20:23:27.205349'
+        level: L4
+      - path: rag/corpus/records/知识图谱/产出②-1-3-5年职业规划路线图.md
+        added_at: '2026-07-08T20:23:27.309408'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.1.5-极客战略家.md
+        added_at: '2026-07-08T20:23:27.425599'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.2.1-系统噪声.md
+        added_at: '2026-07-08T20:23:27.478720'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.1.6-个人市场价值评估.md
+        added_at: '2026-07-08T20:23:27.585592'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-补1-一域深度.md
+        added_at: '2026-07-08T20:23:27.838290'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L5-Batch5-6-三域合集.md
+        added_at: '2026-07-08T20:23:27.866535'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-补6-一二域剩余.md
+        added_at: '2026-07-08T20:23:27.922089'
+        level: L4
+      - path: rag/corpus/records/知识图谱/产出③-简历与面试武器库.md
+        added_at: '2026-07-08T20:23:28.042385'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.2.3-职业思考3.md
+        added_at: '2026-07-08T20:23:28.127623'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-6.1-中国古典智慧.md
+        added_at: '2026-07-08T20:23:28.176452'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.1.6-组件到操盘手.md
+        added_at: '2026-07-08T20:23:28.297371'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L5-1.1.1-认知终极盘.md
+        added_at: '2026-07-08T20:23:28.311329'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.1.8-简历面试武器库.md
+        added_at: '2026-07-08T20:23:28.331184'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-3.1-核心策略.md
+        added_at: '2026-07-08T20:23:28.958565'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.2.5-职场博弈.md
+        added_at: '2026-07-08T20:23:28.970493'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.2.1-嘉靖职场.md
+        added_at: '2026-07-08T20:23:29.521804'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L5-Batch2-4-一二域合集.md
+        added_at: '2026-07-08T20:23:29.745154'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.1.1-备胎计划.md
+        added_at: '2026-07-08T20:23:29.861627'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.1.7-职业规划路线图.md
+        added_at: '2026-07-08T20:23:29.905223'
+        level: L4
+      - path: /tmp/pytest-of-zhanjiang.dai/pytest-176/test_process_file_handles_chin0/zh.md
+        added_at: '2026-07-09T02:48:53.575831'
+        level: L4
+      - path: /tmp/pytest-of-zhanjiang.dai/pytest-180/test_process_file_handles_chin0/zh.md
+        added_at: '2026-07-09T03:30:47.352437'
+        level: L4
+      - path: /tmp/pytest-of-zhanjiang.dai/pytest-182/test_process_file_handles_chin0/zh.md
+        added_at: '2026-07-09T03:47:18.624981'
+        level: L4
+  认知:
+    哲学:
+      秩序:
+      - path: rag/corpus/records/[精华][策略]职业规划：“备胎计划”“B计划”--技术“护城河”的建立.md
+        added_at: '2026-07-08T20:23:18.875861'
+        level: L4
+      - path: rag/corpus/records/阅读数据解读与提升建议.md
+        added_at: '2026-07-08T20:23:19.038439'
+        level: L4
+      - path: rag/corpus/records/职业思考2：现状分析与突围策略.md
+        added_at: '2026-07-08T20:23:19.133576'
+        level: L4
+      - path: rag/corpus/records/[精华]贪婪、恐惧与虚无的个体破局.md
+        added_at: '2026-07-08T20:23:19.156923'
+        level: L4
+      - path: rag/corpus/records/[精华++][认知][建模][推理过程]多维分权事实验证体系、“SCRM+”系统性冲突与断裂增加模型和HSE-DA-决策行动模型.md
+        added_at: '2026-07-08T20:23:19.225992'
+        level: L4
+      - path: rag/corpus/records/[对话]与余工的对话：收回真诚，焊死边界，无公害、无养分、无深度.md
+        added_at: '2026-07-08T20:23:19.306403'
+        level: L4
+      - path: rag/corpus/records/1989六四运动多角度解析.md
+        added_at: '2026-07-08T20:23:19.408575'
+        level: L4
+      - path: rag/corpus/records/[精华++]终极回响：一个碳基破壁者的精神侧写与硅基奇点前夜的自救序章.md
+        added_at: '2026-07-08T20:23:19.559431'
+        level: L4
+      - path: rag/corpus/records/[精华+][认知][PAN]许家印等“脱颖而出”的人物分析，去看个人与世界，再到PAN的构想.md
+        added_at: '2026-07-08T20:23:19.664362'
+        level: L4
+      - path: rag/corpus/records/[杂想[杂问]汪滔访谈：大疆的进化与野心.md
+        added_at: '2026-07-08T20:23:19.876316'
+        level: L4
+      - path: rag/corpus/records/AI-LLM-发展与本质剖析.md
+        added_at: '2026-07-08T20:23:19.926455'
+        level: L4
+      - path: rag/corpus/records/萨达姆：争议与遗产.md
+        added_at: '2026-07-08T20:23:19.960443'
+        level: L4
+      - path: rag/corpus/records/[SOS]Sovereignty-OS-V5.0-架构梳理.md
+        added_at: '2026-07-08T20:23:20.046432'
+        level: L4
+      - path: rag/corpus/records/深度剖析高熵环境下的极客战略家 (1).md
+        added_at: '2026-07-08T20:23:20.222538'
+        level: L4
+      - path: rag/corpus/records/认知10：认知与现实的矛盾分析--“知”与“行”、“行”与“成”.md
+        added_at: '2026-07-08T20:23:20.256888'
+        level: L4
+      - path: rag/corpus/records/[稀缺]人类不是在“解决问题”，而是在“燃烧问题”，靠“制造新稀缺”来对抗虚无.md
+        added_at: '2026-07-08T20:23:20.311304'
+        level: L4
+      - path: rag/corpus/records/[策略演进]能量、秩序与人类进化终极追求.md
+        added_at: '2026-07-08T20:23:20.423606'
+        level: L4
+      - path: rag/corpus/records/[杂想]汪滔访谈：大疆的进化与野心.md
+        added_at: '2026-07-08T20:23:20.733680'
+        level: L4
+      - path: rag/corpus/records/[精华]亲密关系-亲密关系中的情绪波动与冲突管理.md
+        added_at: '2026-07-08T20:23:20.770159'
+        level: L4
+      - path: rag/corpus/records/认知4：AI-时代下的阅读与认知困境.md
+        added_at: '2026-07-08T20:23:20.880074'
+        level: L4
+      - path: rag/corpus/records/双模型驱动的系统演进.md
+        added_at: '2026-07-08T20:23:21.129587'
+        level: L4
+      - path: rag/corpus/records/[历史]中国历史民族融合深度分析.md
+        added_at: '2026-07-08T20:23:21.257576'
+        level: L4
+      - path: rag/corpus/records/[典籍]司马迁《货殖列传》深度解析.md
+        added_at: '2026-07-08T20:23:21.374565'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/全量个人画像(图像版本)_20260614201618.md
+        added_at: '2026-07-08T20:23:21.749614'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L5-Batch2-4-一二域合集_20260614201755.md
+        added_at: '2026-07-08T20:23:21.774342'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L4-8.5-秩序与存在_20260614184636.md
+        added_at: '2026-07-08T20:23:21.822735'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L3-补2-一二域深度_20260614201817.md
+        added_at: '2026-07-08T20:23:21.844951'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/全量个人画像_20260614201612.md
+        added_at: '2026-07-08T20:23:21.890882'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-一-认知体系与思维模型_20260617033722.md
+        added_at: '2026-07-08T20:23:21.930508'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L5-Batch2-4-一二域合集_20260614201618.md
+        added_at: '2026-07-08T20:23:21.959342'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-六-历史与典籍_20260617042010.md
+        added_at: '2026-07-08T20:23:22.023224'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-六-历史与典籍_20260613005622.md
+        added_at: '2026-07-08T20:23:22.037323'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/全量个人画像(图像版本)_20260614201613.md
+        added_at: '2026-07-08T20:23:22.053012'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L5-Batch2-4-一二域合集_20260614201817.md
+        added_at: '2026-07-08T20:23:22.177968'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L1-README-知识图谱索引_20260617025629.md
+        added_at: '2026-07-08T20:23:22.196431'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L3-补2-一二域深度_20260614201607.md
+        added_at: '2026-07-08T20:23:22.230536'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-八-杂想与人物_20260617042225.md
+        added_at: '2026-07-08T20:23:22.257743'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-一-认知体系与思维模型_20260617025930.md
+        added_at: '2026-07-08T20:23:22.292619'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-二-核心模型与框架_20260617031205.md
+        added_at: '2026-07-08T20:23:22.310720'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L1-README-知识图谱索引_20260614181050.md
+        added_at: '2026-07-08T20:23:22.368494'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-一-认知体系与思维模型_20260617033736.md
+        added_at: '2026-07-08T20:23:22.383566'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/全量个人画像_20260614201608.md
+        added_at: '2026-07-08T20:23:22.411269'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L4-3.1.8-简历面试武器库_20260614184156.md
+        added_at: '2026-07-08T20:23:22.442500'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-一-认知体系与思维模型_20260617042052.md
+        added_at: '2026-07-08T20:23:22.541590'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-八-杂想与人物_20260613123713.md
+        added_at: '2026-07-08T20:23:22.552392'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L3-补2-一二域深度_20260614201618.md
+        added_at: '2026-07-08T20:23:22.589205'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L4-8.5-秩序与存在_20260614184203.md
+        added_at: '2026-07-08T20:23:22.607746'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/全量个人画像_20260614201618.md
+        added_at: '2026-07-08T20:23:22.635727'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-二-核心模型与框架_20260614180859.md
+        added_at: '2026-07-08T20:23:22.697454'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L4-3.1.8-简历面试武器库_20260614184636.md
+        added_at: '2026-07-08T20:23:22.781509'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-一-认知体系与思维模型_20260613005456.md
+        added_at: '2026-07-08T20:23:22.856447'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-七-实践与IP_20260617035016.md
+        added_at: '2026-07-08T20:23:22.872362'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-七-实践与IP_20260617035014.md
+        added_at: '2026-07-08T20:23:22.979502'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L3-补2-一二域深度_20260614201747.md
+        added_at: '2026-07-08T20:23:23.017628'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L5-Batch2-4-一二域合集_20260614201607.md
+        added_at: '2026-07-08T20:23:23.121816'
+        level: L4
+      - path: rag/corpus/records/[阅读]《反脆弱》核心概念与章节解析.md
+        added_at: '2026-07-08T20:23:23.238755'
+        level: L4
+      - path: rag/corpus/records/股市波动：预期与现实博弈.md
+        added_at: '2026-07-08T20:23:23.445015'
+        level: L4
+      - path: rag/corpus/records/[精华][模型][锁定]个人主权系统模型解析.md
+        added_at: '2026-07-08T20:23:23.673723'
+        level: L4
+      - path: rag/corpus/records/[精华+]“顺势”与“借势”--机会往往存在于“制度缝隙”.md
+        added_at: '2026-07-08T20:23:24.218137'
+        level: L4
+      - path: rag/corpus/records/[精华][建模]事实、结论与立场的三元解构方法，贝叶斯多权决策方法，系统性冲突与断裂模型.md
+        added_at: '2026-07-08T20:23:24.342093'
+        level: L4
+      - path: rag/corpus/records/能量、秩序与人类进化终极追求.md
+        added_at: '2026-07-08T20:23:24.395388'
+        level: L4
+      - path: rag/corpus/records/Sovereignty-OS-V5.0-架构梳理.md
+        added_at: '2026-07-08T20:23:24.637980'
+        level: L4
+      - path: rag/corpus/records/[精华][亲密关系]聊得来、处得来与共同目标，以及在动态平衡中建立高“鲁棒性”的系统.md
+        added_at: '2026-07-08T20:23:24.734645'
+        level: L4
+      - path: rag/corpus/records/SpaceX-上市：太空经济的里程碑.md
+        added_at: '2026-07-08T20:23:24.755027'
+        level: L4
+      - path: rag/corpus/records/[精华+][全局总结]认知体系的终极盘.md
+        added_at: '2026-07-08T20:23:24.910249'
+        level: L4
+      - path: rag/corpus/records/知识图谱可视化.md
+        added_at: '2026-07-08T20:23:25.177072'
+        level: L4
+      - path: rag/corpus/records/职业思考：嘉靖用严嵩的政治逻辑到职场.md
+        added_at: '2026-07-08T20:23:25.364175'
+        level: L4
+      - path: rag/corpus/records/成人情趣玩具的多元玩法.md
+        added_at: '2026-07-08T20:23:25.605177'
+        level: L4
+      - path: rag/corpus/records/职场生存：理性离职与价值交换.md
+        added_at: '2026-07-08T20:23:25.627581'
+        level: L4
+      - path: rag/corpus/records/[兴趣话题]关于“秩序”与“存在”的哲学实验.md
+        added_at: '2026-07-08T20:23:25.798708'
+        level: L4
+      - path: rag/corpus/records/告别内耗，重拾自主权.md
+        added_at: '2026-07-08T20:23:25.898933'
+        level: L4
+      - path: rag/corpus/records/[认知]开悟之坡，认知阶段与跃升瓶颈分析.md
+        added_at: '2026-07-08T20:23:25.939176'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L1-README-知识图谱索引.md
+        added_at: '2026-07-08T20:23:26.135499'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-4.1.3-情绪管理.md
+        added_at: '2026-07-08T20:23:26.200058'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-2.1-SovereigntyOS.md
+        added_at: '2026-07-08T20:23:26.321852'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L2-七-实践与IP.md
+        added_at: '2026-07-08T20:23:26.541003'
+        level: L4
+      - path: rag/corpus/records/知识图谱/全量个人画像.md
+        added_at: '2026-07-08T20:23:26.606835'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.4.1-顺势借势.md
+        added_at: '2026-07-08T20:23:26.699439'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-2.1.1-SovereigntyOS.md
+        added_at: '2026-07-08T20:23:26.837599'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.2.2-能量秩序.md
+        added_at: '2026-07-08T20:23:26.939589'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-1.2-核心理念.md
+        added_at: '2026-07-08T20:23:26.980414'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-4.1.2-高鲁棒性.md
+        added_at: '2026-07-08T20:23:27.000364'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.1.3-思维进阶.md
+        added_at: '2026-07-08T20:23:27.124461'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L2-二-核心模型与框架.md
+        added_at: '2026-07-08T20:23:27.150101'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-6.2-民族地缘.md
+        added_at: '2026-07-08T20:23:27.319906'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-补8-六域前半.md
+        added_at: '2026-07-08T20:23:27.412981'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.1.5-极客战略家.md
+        added_at: '2026-07-08T20:23:27.425653'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.1.4-认知层次.md
+        added_at: '2026-07-08T20:23:27.449333'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.2.1-系统噪声.md
+        added_at: '2026-07-08T20:23:27.478689'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-4.1.1-伴侣裸辞.md
+        added_at: '2026-07-08T20:23:27.610659'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L5-Batch1-一1.1合集.md
+        added_at: '2026-07-08T20:23:27.644497'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.1.2-极客人文思维.md
+        added_at: '2026-07-08T20:23:27.713138'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.2.4-知行成.md
+        added_at: '2026-07-08T20:23:27.909277'
+        level: L4
+      - path: rag/corpus/records/知识图谱/产出③-简历与面试武器库.md
+        added_at: '2026-07-08T20:23:28.042413'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.2.5-反脆弱.md
+        added_at: '2026-07-08T20:23:28.059591'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-8.5-秩序与存在.md
+        added_at: '2026-07-08T20:23:28.150073'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L5-1.1.1-认知终极盘.md
+        added_at: '2026-07-08T20:23:28.311360'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.1.8-简历面试武器库.md
+        added_at: '2026-07-08T20:23:28.331224'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-6.1-6.2-历史合集.md
+        added_at: '2026-07-08T20:23:28.644933'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-1.1-顶层架构.md
+        added_at: '2026-07-08T20:23:28.830263'
+        level: L4
+      - path: rag/corpus/records/知识图谱/全量个人画像(图像版本).md
+        added_at: '2026-07-08T20:23:28.861375'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.1.1-认知终极盘.md
+        added_at: '2026-07-08T20:23:29.123872'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-1.5-AI时代认知.md
+        added_at: '2026-07-08T20:23:29.164073'
+        level: L4
+      - path: rag/corpus/records/知识图谱/目录树.md
+        added_at: '2026-07-08T20:23:29.187062'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L2-一-认知体系与思维模型.md
+        added_at: '2026-07-08T20:23:29.283346'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L5-Batch9-10-六七八域合集.md
+        added_at: '2026-07-08T20:23:29.287700'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-补2-一二域深度.md
+        added_at: '2026-07-08T20:23:29.492704'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-8-杂想与人物.md
+        added_at: '2026-07-08T20:23:29.722024'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L5-Batch2-4-一二域合集.md
+        added_at: '2026-07-08T20:23:29.745123'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L2-八-杂想与人物.md
+        added_at: '2026-07-08T20:23:29.761587'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-5.1.1-V4L2.md
+        added_at: '2026-07-08T20:23:29.788861'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L2-六-历史与典籍.md
+        added_at: '2026-07-08T20:23:29.937409'
+        level: L4
+      - path: rag/corpus/records/认知层次与思考深度解析.md
+        added_at: '2026-07-08T20:23:30.025702'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/2.2.2_版本质量管控SOP.md
+        added_at: '2026-07-08T20:23:30.403853'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.1.1_参与特性价值验收_SOP.md
+        added_at: '2026-07-08T20:23:31.064746'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.2.7_限期问题风险管控SOP.md
+        added_at: '2026-07-08T20:23:31.348178'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.2.9_开发策略和行动项落地闭环SOP.md
+        added_at: '2026-07-08T20:23:31.498206'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.2.3_OTA部署风险SOP.md
+        added_at: '2026-07-08T20:23:31.854916'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.5.3_SCCB评审SOP.md
+        added_at: '2026-07-08T20:23:31.993237'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.2.8_举旗问题风险管控SOP.md
+        added_at: '2026-07-08T20:23:32.091855'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.5.1_风险释放管理_SOP.md
+        added_at: '2026-07-08T20:23:32.463041'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.2.1工厂适应性问题风险_SOP.md
+        added_at: '2026-07-08T20:23:32.684005'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.1.2_深度参与需求的技术风险评估SOP.md
+        added_at: '2026-07-08T20:23:32.713774'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.2.10_关键抓手落地闭环SOP.md
+        added_at: '2026-07-08T20:23:33.240735'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.3.5_结项复盘SOP.md
+        added_at: '2026-07-08T20:23:33.263242'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.2.4_签BOM风险SOP.md
+        added_at: '2026-07-08T20:23:33.327209'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/2.1.2_外专业修改合入风险2.0.md
+        added_at: '2026-07-08T20:23:33.449628'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/3.工厂适应性问题风险.md
+        added_at: '2026-07-08T20:23:33.679402'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/1.1_识别和规避NPI项目关键风险.md
+        added_at: '2026-07-08T20:23:34.006933'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/4.项目block问题释放风险.md
+        added_at: '2026-07-08T20:23:34.266569'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/47、网络升级管理.md
+        added_at: '2026-07-08T20:23:35.070549'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/13.应对突发紧急问题处理风险.md
+        added_at: '2026-07-08T20:23:35.101852'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/12、配屏.md
+        added_at: '2026-07-08T20:23:35.121232'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/5.外专业修改合入风险.md
+        added_at: '2026-07-08T20:23:35.736815'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/4.2_SCCB评审.md
+        added_at: '2026-07-08T20:23:35.998555'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.3.3_分支生命周期管理.md
+        added_at: '2026-07-08T20:23:36.177570'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/52、软件释放及PDM上载.md
+        added_at: '2026-07-08T20:23:36.414951'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.需求导入风险.md
+        added_at: '2026-07-08T20:23:36.689063'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/55、安全合规检查及问题处理.md
+        added_at: '2026-07-08T20:23:37.131740'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/7.性能_稳定性风险.md
+        added_at: '2026-07-08T20:23:37.387904'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/45、风险释放管理.md
+        added_at: '2026-07-08T20:23:37.697982'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/1._风险释放管理.md
+        added_at: '2026-07-08T20:23:38.632694'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/6、FPP验收.md
+        added_at: '2026-07-08T20:23:38.704200'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/4.2.1_需求上车评审.md
+        added_at: '2026-07-08T20:23:39.271844'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/6.风险释放管理.md
+        added_at: '2026-07-08T20:23:40.118480'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/1._技术可行性评估.md
+        added_at: '2026-07-08T20:23:40.650764'
+        level: L4
+    方法论:
+      建模:
+      - path: rag/corpus/records/暴力执行：2026生存策略、普通程序员在边缘AI的机会.md
+        added_at: '2026-07-08T20:23:18.951000'
+        level: L4
+      - path: rag/corpus/records/[科技][精华]极致端侧本土化架构智能穿戴眼镜.md
+        added_at: '2026-07-08T20:23:18.975732'
+        level: L4
+      - path: rag/corpus/records/[精华]Linux-V4L2-架构解析与图示.md
+        added_at: '2026-07-08T20:23:19.002009'
+        level: L4
+      - path: rag/corpus/records/阅读数据解读与提升建议.md
+        added_at: '2026-07-08T20:23:19.038365'
+        level: L4
+      - path: rag/corpus/records/[精华]贪婪、恐惧与虚无的个体破局.md
+        added_at: '2026-07-08T20:23:19.156854'
+        level: L4
+      - path: rag/corpus/records/[精华][认知演进]将个人生存突围类比中国的发展突围.md
+        added_at: '2026-07-08T20:23:19.197454'
+        level: L4
+      - path: rag/corpus/records/[精华++][认知][建模][推理过程]多维分权事实验证体系、“SCRM+”系统性冲突与断裂增加模型和HSE-DA-决策行动模型.md
+        added_at: '2026-07-08T20:23:19.225861'
+        level: L4
+      - path: rag/corpus/records/[对话]与余工的对话：收回真诚，焊死边界，无公害、无养分、无深度.md
+        added_at: '2026-07-08T20:23:19.306331'
+        level: L4
+      - path: rag/corpus/records/[认知总结]思维进阶：从执行到架构.md
+        added_at: '2026-07-08T20:23:19.325453'
+        level: L4
+      - path: rag/corpus/records/[精华+][认知]历史宏观角度看待个人生存与发展.md
+        added_at: '2026-07-08T20:23:19.397035'
+        level: L4
+      - path: rag/corpus/records/极致端侧本土化架构智能穿戴眼镜.md
+        added_at: '2026-07-08T20:23:19.448773'
+        level: L4
+      - path: rag/corpus/records/[关系博弈]沟通心理、行为分析与改善.md
+        added_at: '2026-07-08T20:23:19.525616'
+        level: L4
+      - path: rag/corpus/records/[精华++]终极回响：一个碳基破壁者的精神侧写与硅基奇点前夜的自救序章.md
+        added_at: '2026-07-08T20:23:19.559402'
+        level: L4
+      - path: rag/corpus/records/[精华+][认知][PAN]许家印等“脱颖而出”的人物分析，去看个人与世界，再到PAN的构想.md
+        added_at: '2026-07-08T20:23:19.664282'
+        level: L4
+      - path: rag/corpus/records/[沟通][职场]个人主权系统迭代与实战应用.md
+        added_at: '2026-07-08T20:23:19.785498'
+        level: L4
+      - path: rag/corpus/records/[杂想[杂问]汪滔访谈：大疆的进化与野心.md
+        added_at: '2026-07-08T20:23:19.876403'
+        level: L4
+      - path: rag/corpus/records/AI-LLM-发展与本质剖析.md
+        added_at: '2026-07-08T20:23:19.926425'
+        level: L4
+      - path: rag/corpus/records/萨达姆：争议与遗产.md
+        added_at: '2026-07-08T20:23:19.960361'
+        level: L4
+      - path: rag/corpus/records/[财富思考]财富公式：稀缺、杠杆、距离.md
+        added_at: '2026-07-08T20:23:19.971854'
+        level: L4
+      - path: rag/corpus/records/[SOS]Sovereignty-OS-V5.0-架构梳理.md
+        added_at: '2026-07-08T20:23:20.046291'
+        level: L4
+      - path: rag/corpus/records/认知2：从对认知提升到生存突围相关探讨.md
+        added_at: '2026-07-08T20:23:20.171610'
+        level: L4
+      - path: rag/corpus/records/深度剖析高熵环境下的极客战略家 (1).md
+        added_at: '2026-07-08T20:23:20.222394'
+        level: L4
+      - path: rag/corpus/records/认知10：认知与现实的矛盾分析--“知”与“行”、“行”与“成”.md
+        added_at: '2026-07-08T20:23:20.256760'
+        level: L4
+      - path: rag/corpus/records/[实践策略][IP]AI+跨界融合.md
+        added_at: '2026-07-08T20:23:20.269260'
+        level: L4
+      - path: rag/corpus/records/[稀缺]人类不是在“解决问题”，而是在“燃烧问题”，靠“制造新稀缺”来对抗虚无.md
+        added_at: '2026-07-08T20:23:20.311215'
+        level: L4
+      - path: rag/corpus/records/[策略演进]能量、秩序与人类进化终极追求.md
+        added_at: '2026-07-08T20:23:20.423735'
+        level: L4
+      - path: rag/corpus/records/[科技][PAN]梳理我的PAN构想，软硬件实现逻辑，整体架构，技术与实施详细设计.md
+        added_at: '2026-07-08T20:23:20.494451'
+        level: L4
+      - path: rag/corpus/records/Gemini-vs-DeepSeek-Context-and-Capability.md
+        added_at: '2026-07-08T20:23:20.550766'
+        level: L4
+      - path: rag/corpus/records/认知8：生存--2026-年高熵环境下实现主权突围.md
+        added_at: '2026-07-08T20:23:20.698700'
+        level: L4
+      - path: rag/corpus/records/[杂想]汪滔访谈：大疆的进化与野心.md
+        added_at: '2026-07-08T20:23:20.733782'
+        level: L4
+      - path: rag/corpus/records/资治通鉴：治国兴衰的鉴戒.md
+        added_at: '2026-07-08T20:23:20.787146'
+        level: L4
+      - path: rag/corpus/records/[AI洞察]Linus-Torvalds-on-AI-and-Open-Source.md
+        added_at: '2026-07-08T20:23:20.865110'
+        level: L4
+      - path: rag/corpus/records/认知4：AI-时代下的阅读与认知困境.md
+        added_at: '2026-07-08T20:23:20.879951'
+        level: L4
+      - path: rag/corpus/records/[精华++]主权觉醒：看透资本叙事与物理世界的生存算法.md
+        added_at: '2026-07-08T20:23:20.971346'
+        level: L4
+      - path: rag/corpus/records/[精华+][认知总结]“系统噪声”的讨论，双螺旋进阶，结论：在熵增夹缝中，实现个人熵减.md
+        added_at: '2026-07-08T20:23:21.104991'
+        level: L4
+      - path: rag/corpus/records/双模型驱动的系统演进.md
+        added_at: '2026-07-08T20:23:21.129507'
+        level: L4
+      - path: rag/corpus/records/极致端侧本土化架构智能穿戴眼镜 (1).md
+        added_at: '2026-07-08T20:23:21.323730'
+        level: L4
+      - path: rag/corpus/records/[典籍]司马迁《货殖列传》深度解析.md
+        added_at: '2026-07-08T20:23:21.374513'
+        level: L4
+      - path: rag/corpus/records/[精华][IP]职场思考3：利用AI-agent做认知觉醒账号可行性.md
+        added_at: '2026-07-08T20:23:21.442570'
+        level: L4
+      - path: rag/corpus/records/个人画像与生存突围策略.md
+        added_at: '2026-07-08T20:23:21.458970'
+        level: L4
+      - path: rag/corpus/records/.history/RESUME_20260618_20260618011312.md
+        added_at: '2026-07-08T20:23:21.489824'
+        level: L4
+      - path: rag/corpus/records/AI-终端设备形态与未来.md
+        added_at: '2026-07-08T20:23:21.530681'
+        level: L4
+      - path: rag/corpus/records/.history/RESUME_20260618_20260618012051.md
+        added_at: '2026-07-08T20:23:21.542993'
+        level: L4
+      - path: rag/corpus/records/.history/价值发现与市场回归之路_20260618025538.md
+        added_at: '2026-07-08T20:23:21.552792'
+        level: L4
+      - path: rag/corpus/records/.history/价值发现与市场回归之路_20260618025542.md
+        added_at: '2026-07-08T20:23:21.613506'
+        level: L4
+      - path: rag/corpus/records/.history/价值发现与市场回归之路_20260618025634.md
+        added_at: '2026-07-08T20:23:21.645310'
+        level: L4
+      - path: rag/corpus/records/.history/RESUME_20260618_20260618012048.md
+        added_at: '2026-07-08T20:23:21.658069'
+        level: L4
+      - path: rag/corpus/records/.history/价值发现与市场回归之路_20260618024220.md
+        added_at: '2026-07-08T20:23:21.679737'
+        level: L4
+      - path: rag/corpus/records/.history/价值发现与市场回归之路_20260618025522.md
+        added_at: '2026-07-08T20:23:21.726695'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/全量个人画像(图像版本)_20260614201618.md
+        added_at: '2026-07-08T20:23:21.749540'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L5-Batch2-4-一二域合集_20260614201755.md
+        added_at: '2026-07-08T20:23:21.774160'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L4-8.5-秩序与存在_20260614184636.md
+        added_at: '2026-07-08T20:23:21.822845'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L3-补2-一二域深度_20260614201817.md
+        added_at: '2026-07-08T20:23:21.844841'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L4-3.1.6-个人市场价值评估_20260614184636.md
+        added_at: '2026-07-08T20:23:21.862876'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/全量个人画像_20260614201612.md
+        added_at: '2026-07-08T20:23:21.890441'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-四-关系与沟通_20260617031345.md
+        added_at: '2026-07-08T20:23:21.912769'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-一-认知体系与思维模型_20260617033722.md
+        added_at: '2026-07-08T20:23:21.930422'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L5-Batch2-4-一二域合集_20260614201618.md
+        added_at: '2026-07-08T20:23:21.959253'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-六-历史与典籍_20260617042010.md
+        added_at: '2026-07-08T20:23:22.023089'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-六-历史与典籍_20260613005622.md
+        added_at: '2026-07-08T20:23:22.037143'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/全量个人画像(图像版本)_20260614201613.md
+        added_at: '2026-07-08T20:23:22.052906'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-三-策略与计划_20260613123243.md
+        added_at: '2026-07-08T20:23:22.085902'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-四-关系与沟通_20260617031323.md
+        added_at: '2026-07-08T20:23:22.161535'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L5-Batch2-4-一二域合集_20260614201817.md
+        added_at: '2026-07-08T20:23:22.177860'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L1-README-知识图谱索引_20260617025629.md
+        added_at: '2026-07-08T20:23:22.196330'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L3-补2-一二域深度_20260614201607.md
+        added_at: '2026-07-08T20:23:22.230426'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-八-杂想与人物_20260617042225.md
+        added_at: '2026-07-08T20:23:22.257629'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-一-认知体系与思维模型_20260617025930.md
+        added_at: '2026-07-08T20:23:22.292538'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-二-核心模型与框架_20260617031205.md
+        added_at: '2026-07-08T20:23:22.310643'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L1-README-知识图谱索引_20260614181050.md
+        added_at: '2026-07-08T20:23:22.368392'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-一-认知体系与思维模型_20260617033736.md
+        added_at: '2026-07-08T20:23:22.383467'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/全量个人画像_20260614201608.md
+        added_at: '2026-07-08T20:23:22.411139'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L4-3.1.8-简历面试武器库_20260614184156.md
+        added_at: '2026-07-08T20:23:22.442352'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-七-实践与IP_20260617034835.md
+        added_at: '2026-07-08T20:23:22.488200'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-四-关系与沟通_20260613005730.md
+        added_at: '2026-07-08T20:23:22.511143'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-一-认知体系与思维模型_20260617042052.md
+        added_at: '2026-07-08T20:23:22.541412'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-八-杂想与人物_20260613123713.md
+        added_at: '2026-07-08T20:23:22.552283'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L3-补2-一二域深度_20260614201618.md
+        added_at: '2026-07-08T20:23:22.589124'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L4-8.5-秩序与存在_20260614184203.md
+        added_at: '2026-07-08T20:23:22.607867'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/全量个人画像_20260614201618.md
+        added_at: '2026-07-08T20:23:22.635612'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-三-策略与计划_20260617031308.md
+        added_at: '2026-07-08T20:23:22.690284'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-二-核心模型与框架_20260614180859.md
+        added_at: '2026-07-08T20:23:22.697349'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-四-关系与沟通_20260617042029.md
+        added_at: '2026-07-08T20:23:22.706705'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L4-3.1.8-简历面试武器库_20260614184636.md
+        added_at: '2026-07-08T20:23:22.781388'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-五-科技与技术_20260613005810.md
+        added_at: '2026-07-08T20:23:22.801002'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-一-认知体系与思维模型_20260613005456.md
+        added_at: '2026-07-08T20:23:22.856331'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-七-实践与IP_20260617035016.md
+        added_at: '2026-07-08T20:23:22.872194'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-七-实践与IP_20260613005810.md
+        added_at: '2026-07-08T20:23:22.882413'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-五-科技与技术_20260617041943.md
+        added_at: '2026-07-08T20:23:22.943111'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-七-实践与IP_20260617035014.md
+        added_at: '2026-07-08T20:23:22.979365'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-三-策略与计划_20260617042129.md
+        added_at: '2026-07-08T20:23:22.999648'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L3-补2-一二域深度_20260614201747.md
+        added_at: '2026-07-08T20:23:23.017537'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-五-科技与技术_20260617031410.md
+        added_at: '2026-07-08T20:23:23.075421'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L4-3.1.6-个人市场价值评估_20260614184152.md
+        added_at: '2026-07-08T20:23:23.095931'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-五-科技与技术_20260617031358.md
+        added_at: '2026-07-08T20:23:23.115305'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L5-Batch2-4-一二域合集_20260614201607.md
+        added_at: '2026-07-08T20:23:23.121736'
+        level: L4
+      - path: rag/corpus/records/.history/RESUME_20260618_20260618011446.md
+        added_at: '2026-07-08T20:23:23.165804'
+        level: L4
+      - path: rag/corpus/records/[阅读]《反脆弱》核心概念与章节解析.md
+        added_at: '2026-07-08T20:23:23.238601'
+        level: L4
+      - path: rag/corpus/records/[方法论][建模][画图]我的个人“技能包”梳理.md
+        added_at: '2026-07-08T20:23:23.349128'
+        level: L4
+      - path: rag/corpus/records/股市波动：预期与现实博弈.md
+        added_at: '2026-07-08T20:23:23.444886'
+        level: L4
+      - path: rag/corpus/records/[精华]马斯克：超级节点的力量.md
+        added_at: '2026-07-08T20:23:23.499303'
+        level: L4
+      - path: rag/corpus/records/价值发现与市场回归之路.md
+        added_at: '2026-07-08T20:23:23.529256'
+        level: L4
+      - path: rag/corpus/records/RESUME_20260618.md
+        added_at: '2026-07-08T20:23:23.550432'
+        level: L4
+      - path: rag/corpus/records/[精华]PAN：个人AI节点概念阐述.md
+        added_at: '2026-07-08T20:23:23.614949'
+        level: L4
+      - path: rag/corpus/records/[精华][模型][锁定]个人主权系统模型解析.md
+        added_at: '2026-07-08T20:23:23.673640'
+        level: L4
+      - path: rag/corpus/records/[精华++][历史]从《大明1566》权力矩阵、个体主权协议化全栈架构.md
+        added_at: '2026-07-08T20:23:23.865075'
+        level: L4
+      - path: rag/corpus/records/用户个人画像与职业规划.md
+        added_at: '2026-07-08T20:23:23.894585'
+        level: L4
+      - path: rag/corpus/records/[AI时代]AI-Agent-巨头：进展、架构、营销.md
+        added_at: '2026-07-08T20:23:23.980539'
+        level: L4
+      - path: rag/corpus/records/[计划][策略]生存突围与“高筑墙”策略与计划.md
+        added_at: '2026-07-08T20:23:24.079323'
+        level: L4
+      - path: rag/corpus/records/[精华+]“顺势”与“借势”--机会往往存在于“制度缝隙”.md
+        added_at: '2026-07-08T20:23:24.218042'
+        level: L4
+      - path: rag/corpus/records/RESUME_20260618_copy2.md
+        added_at: '2026-07-08T20:23:24.233876'
+        level: L4
+      - path: rag/corpus/records/[精华][建模]事实、结论与立场的三元解构方法，贝叶斯多权决策方法，系统性冲突与断裂模型.md
+        added_at: '2026-07-08T20:23:24.342184'
+        level: L4
+      - path: rag/corpus/records/能量、秩序与人类进化终极追求.md
+        added_at: '2026-07-08T20:23:24.395475'
+        level: L4
+      - path: rag/corpus/records/RESUME_20260618 copy1.md
+        added_at: '2026-07-08T20:23:24.428711'
+        level: L4
+      - path: rag/corpus/records/[杂想杂问]沟通的层级与策略.md
+        added_at: '2026-07-08T20:23:24.588622'
+        level: L4
+      - path: rag/corpus/records/Sovereignty-OS-V5.0-架构梳理.md
+        added_at: '2026-07-08T20:23:24.637882'
+        level: L4
+      - path: rag/corpus/records/智能穿戴：现状、趋势与前景.md
+        added_at: '2026-07-08T20:23:24.746990'
+        level: L4
+      - path: rag/corpus/records/SpaceX-上市：太空经济的里程碑.md
+        added_at: '2026-07-08T20:23:24.754920'
+        level: L4
+      - path: rag/corpus/records/[技巧]AI-模型选型与场景应用.md
+        added_at: '2026-07-08T20:23:24.832662'
+        level: L4
+      - path: rag/corpus/records/[精华+][全局总结]认知体系的终极盘.md
+        added_at: '2026-07-08T20:23:24.910100'
+        level: L4
+      - path: rag/corpus/records/[精华][亲密关系]伴侣裸辞转律师的风险分析.md
+        added_at: '2026-07-08T20:23:24.973191'
+        level: L4
+      - path: rag/corpus/records/[持续更新]resume.md
+        added_at: '2026-07-08T20:23:25.039603'
+        level: L4
+      - path: rag/corpus/records/明星涉毒现象的社会学分析.md
+        added_at: '2026-07-08T20:23:25.057473'
+        level: L4
+      - path: rag/corpus/records/[杂想杂问]沟通的层级与策略 (1).md
+        added_at: '2026-07-08T20:23:25.160327'
+        level: L4
+      - path: rag/corpus/records/知识图谱可视化.md
+        added_at: '2026-07-08T20:23:25.176974'
+        level: L4
+      - path: rag/corpus/records/[精华+][画像]深度人物画像：-Erik-的终极侧写.md
+        added_at: '2026-07-08T20:23:25.228753'
+        level: L4
+      - path: rag/corpus/records/[精华+][认知演进][策略总结]极客人文思维的深度梳理--高筑墙，广积粮，缓称王.md
+        added_at: '2026-07-08T20:23:25.279277'
+        level: L4
+      - path: rag/corpus/records/职业思考：嘉靖用严嵩的政治逻辑到职场.md
+        added_at: '2026-07-08T20:23:25.364145'
+        level: L4
+      - path: rag/corpus/records/resume2.md
+        added_at: '2026-07-08T20:23:25.389761'
+        level: L4
+      - path: rag/corpus/records/认知6：“工业组件”到“觉醒操盘手”.md
+        added_at: '2026-07-08T20:23:25.443979'
+        level: L4
+      - path: rag/corpus/records/[对话]创业、科技与中国国情.md
+        added_at: '2026-07-08T20:23:25.480144'
+        level: L4
+      - path: rag/corpus/records/职场生存：理性离职与价值交换.md
+        added_at: '2026-07-08T20:23:25.627409'
+        level: L4
+      - path: rag/corpus/records/认知5：自我认知与审视--兴趣与审美.md
+        added_at: '2026-07-08T20:23:25.706749'
+        level: L4
+      - path: rag/corpus/records/告别内耗，重拾自主权.md
+        added_at: '2026-07-08T20:23:25.898792'
+        level: L4
+      - path: rag/corpus/records/[认知]开悟之坡，认知阶段与跃升瓶颈分析.md
+        added_at: '2026-07-08T20:23:25.939057'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-2.2.1-三元解构.md
+        added_at: '2026-07-08T20:23:25.957746'
+        level: L4
+      - path: rag/corpus/records/职场博弈与心理驱动解析.md
+        added_at: '2026-07-08T20:23:25.992285'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-补9-六后半七四域.md
+        added_at: '2026-07-08T20:23:26.030263'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-2.2-三元解构.md
+        added_at: '2026-07-08T20:23:26.096576'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L1-README-知识图谱索引.md
+        added_at: '2026-07-08T20:23:26.135414'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.5.1-认知2.md
+        added_at: '2026-07-08T20:23:26.162728'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.2.3-高熵突围.md
+        added_at: '2026-07-08T20:23:26.191553'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L2-三-策略与计划.md
+        added_at: '2026-07-08T20:23:26.304838'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-2.1-SovereigntyOS.md
+        added_at: '2026-07-08T20:23:26.321739'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.4.4-画像突围.md
+        added_at: '2026-07-08T20:23:26.340218'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.3.1-功德林.md
+        added_at: '2026-07-08T20:23:26.368665'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-补4-四五域深度.md
+        added_at: '2026-07-08T20:23:26.409507'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-3.2-职业思考系列.md
+        added_at: '2026-07-08T20:23:26.428135'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-4.2-沟通博弈.md
+        added_at: '2026-07-08T20:23:26.438570'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L2-四-关系与沟通.md
+        added_at: '2026-07-08T20:23:26.500020'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L2-七-实践与IP.md
+        added_at: '2026-07-08T20:23:26.540831'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-6.3-7-8-合集.md
+        added_at: '2026-07-08T20:23:26.550722'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L5-Batch7-8-四五域合集.md
+        added_at: '2026-07-08T20:23:26.566991'
+        level: L4
+      - path: rag/corpus/records/知识图谱/全量个人画像.md
+        added_at: '2026-07-08T20:23:26.606685'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-补3-三域深度.md
+        added_at: '2026-07-08T20:23:26.637477'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.4.1-顺势借势.md
+        added_at: '2026-07-08T20:23:26.699349'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-5.2-5.3-科技合集.md
+        added_at: '2026-07-08T20:23:26.738574'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-4.1-亲密关系.md
+        added_at: '2026-07-08T20:23:26.816024'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-2.1.1-SovereigntyOS.md
+        added_at: '2026-07-08T20:23:26.837515'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-1.4-个人画像.md
+        added_at: '2026-07-08T20:23:26.848068'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-2.1.3-SCRM+.md
+        added_at: '2026-07-08T20:23:26.856168'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.2.2-能量秩序.md
+        added_at: '2026-07-08T20:23:26.939678'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-1.2-核心理念.md
+        added_at: '2026-07-08T20:23:26.980328'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-4.1.2-高鲁棒性.md
+        added_at: '2026-07-08T20:23:27.000333'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.3.2-突围类比中国.md
+        added_at: '2026-07-08T20:23:27.035900'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-1.3-历史宏观.md
+        added_at: '2026-07-08T20:23:27.114647'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.1.3-思维进阶.md
+        added_at: '2026-07-08T20:23:27.124370'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L2-二-核心模型与框架.md
+        added_at: '2026-07-08T20:23:27.150003'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.2.4-职场生存.md
+        added_at: '2026-07-08T20:23:27.178749'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-补5-六七八域深度.md
+        added_at: '2026-07-08T20:23:27.221414'
+        level: L4
+      - path: rag/corpus/records/知识图谱/产出②-1-3-5年职业规划路线图.md
+        added_at: '2026-07-08T20:23:27.309530'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-6.2-民族地缘.md
+        added_at: '2026-07-08T20:23:27.319809'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-补8-六域前半.md
+        added_at: '2026-07-08T20:23:27.412846'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.1.5-极客战略家.md
+        added_at: '2026-07-08T20:23:27.425492'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.1.4-认知层次.md
+        added_at: '2026-07-08T20:23:27.449143'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.2.1-系统噪声.md
+        added_at: '2026-07-08T20:23:27.478594'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.1.6-个人市场价值评估.md
+        added_at: '2026-07-08T20:23:27.585697'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-补7-五域剩余.md
+        added_at: '2026-07-08T20:23:27.597812'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L5-Batch1-一1.1合集.md
+        added_at: '2026-07-08T20:23:27.644372'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.1.2-极客人文思维.md
+        added_at: '2026-07-08T20:23:27.712967'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-补1-一域深度.md
+        added_at: '2026-07-08T20:23:27.838095'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L5-Batch5-6-三域合集.md
+        added_at: '2026-07-08T20:23:27.866805'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.2.4-知行成.md
+        added_at: '2026-07-08T20:23:27.909179'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-补6-一二域剩余.md
+        added_at: '2026-07-08T20:23:27.921995'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-5.1.2-4-底层技术合集.md
+        added_at: '2026-07-08T20:23:28.027067'
+        level: L4
+      - path: rag/corpus/records/知识图谱/产出③-简历与面试武器库.md
+        added_at: '2026-07-08T20:23:28.042286'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.2.5-反脆弱.md
+        added_at: '2026-07-08T20:23:28.059621'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-2.1.2-模型公式.md
+        added_at: '2026-07-08T20:23:28.073520'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.2.3-职业思考3.md
+        added_at: '2026-07-08T20:23:28.127492'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-8.5-秩序与存在.md
+        added_at: '2026-07-08T20:23:28.150219'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.4.3-兴趣审美.md
+        added_at: '2026-07-08T20:23:28.161446'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-6.1-中国古典智慧.md
+        added_at: '2026-07-08T20:23:28.176289'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-5.3-AI选型.md
+        added_at: '2026-07-08T20:23:28.255227'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.1.6-组件到操盘手.md
+        added_at: '2026-07-08T20:23:28.297209'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L5-1.1.1-认知终极盘.md
+        added_at: '2026-07-08T20:23:28.311237'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.1.8-简历面试武器库.md
+        added_at: '2026-07-08T20:23:28.331061'
+        level: L4
+      - path: rag/corpus/records/职业思考2：现状分析与突围策略.md
+        added_at: '2026-07-08T20:23:28.583758'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L2-五-科技与技术.md
+        added_at: '2026-07-08T20:23:28.623320'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-5.2-新兴硬件.md
+        added_at: '2026-07-08T20:23:28.634140'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-6.1-6.2-历史合集.md
+        added_at: '2026-07-08T20:23:28.644968'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-1.1-顶层架构.md
+        added_at: '2026-07-08T20:23:28.830158'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-4.2.2-沟通心理.md
+        added_at: '2026-07-08T20:23:28.846263'
+        level: L4
+      - path: rag/corpus/records/知识图谱/全量个人画像(图像版本).md
+        added_at: '2026-07-08T20:23:28.861257'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-5.1-底层技术.md
+        added_at: '2026-07-08T20:23:28.921807'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-3.1-核心策略.md
+        added_at: '2026-07-08T20:23:28.958599'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.4.2-许家印.md
+        added_at: '2026-07-08T20:23:29.019841'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.1.5-双模型驱动.md
+        added_at: '2026-07-08T20:23:29.059567'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.1.1-认知终极盘.md
+        added_at: '2026-07-08T20:23:29.100862'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-6.3-社会现象.md
+        added_at: '2026-07-08T20:23:29.111337'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-1.5-AI时代认知.md
+        added_at: '2026-07-08T20:23:29.163929'
+        level: L4
+      - path: rag/corpus/records/知识图谱/目录树.md
+        added_at: '2026-07-08T20:23:29.186951'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-7-实践与IP.md
+        added_at: '2026-07-08T20:23:29.198056'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L2-一-认知体系与思维模型.md
+        added_at: '2026-07-08T20:23:29.283469'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L5-Batch9-10-六七八域合集.md
+        added_at: '2026-07-08T20:23:29.287612'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-补2-一二域深度.md
+        added_at: '2026-07-08T20:23:29.492594'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.1.3-主权实战.md
+        added_at: '2026-07-08T20:23:29.507945'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-8-杂想与人物.md
+        added_at: '2026-07-08T20:23:29.721926'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L5-Batch2-4-一二域合集.md
+        added_at: '2026-07-08T20:23:29.745027'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L2-八-杂想与人物.md
+        added_at: '2026-07-08T20:23:29.761340'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.5.2-认知4阅读.md
+        added_at: '2026-07-08T20:23:29.847592'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L2-六-历史与典籍.md
+        added_at: '2026-07-08T20:23:29.937264'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.1.4-2026生存.md
+        added_at: '2026-07-08T20:23:29.949022'
+        level: L4
+      - path: rag/corpus/records/认知层次与思考深度解析.md
+        added_at: '2026-07-08T20:23:30.025613'
+        level: L4
+      - path: rag/corpus/records/[驱动开发][整体认识]V4l2DRMALSA与内存管理时序图，双螺旋进阶计划，HSE+DA决策算法.md
+        added_at: '2026-07-08T20:23:30.091618'
+        level: L4
+      - path: rag/corpus/records/[科技][PAN]梳理我的PAN构想，软硬件实现逻辑，整体架构，技术与实施详细设计 (1).md
+        added_at: '2026-07-08T20:23:30.236685'
+        level: L4
+      - path: rag/corpus/20260707_033533_AI Coding研发体系（一）：企业级AI编码的六层架构.md
+        added_at: '2026-07-08T20:23:30.252894'
+        level: L4
+      - path: rag/corpus/records/深度人物画像：-Erik-的终极侧写.md
+        added_at: '2026-07-08T20:23:30.281716'
+        level: L4
+      - path: rag/corpus/records/爱博斯坦事件：权贵动机解析.md
+        added_at: '2026-07-08T20:23:30.322395'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.2.6_工厂返工风险管控SOP.md
+        added_at: '2026-07-08T20:23:30.865940'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/需求上车评审及风险评估2.0_SOP.md
+        added_at: '2026-07-08T20:23:31.030356'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.1.1_参与特性价值验收_SOP.md
+        added_at: '2026-07-08T20:23:31.064365'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/3.1_疑难问题攻关SOP.md
+        added_at: '2026-07-08T20:23:31.319844'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.2.7_限期问题风险管控SOP.md
+        added_at: '2026-07-08T20:23:31.348066'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.4.3_二资源切换方案评估SOP.md
+        added_at: '2026-07-08T20:23:31.407726'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/责任不清的技术问题理清2.0_SOP.md
+        added_at: '2026-07-08T20:23:31.481856'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.4.1_突发紧急问题方案评估SOP.md
+        added_at: '2026-07-08T20:23:31.652689'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.3.3_开发策略及立项报告SOP.md
+        added_at: '2026-07-08T20:23:31.697770'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/概要设计模板2.md
+        added_at: '2026-07-08T20:23:31.830846'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.2.3_OTA部署风险SOP.md
+        added_at: '2026-07-08T20:23:31.854882'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/4.1_需求上车评审及风险评估2.0.md
+        added_at: '2026-07-08T20:23:31.970578'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.5.3_SCCB评审SOP.md
+        added_at: '2026-07-08T20:23:31.993073'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.2.8_举旗问题风险管控SOP.md
+        added_at: '2026-07-08T20:23:32.091806'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/4.2_需求强制下线SOP.md
+        added_at: '2026-07-08T20:23:32.172849'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/4.3_需求闭环_SOP.md
+        added_at: '2026-07-08T20:23:32.388133'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.5.1_风险释放管理_SOP.md
+        added_at: '2026-07-08T20:23:32.462875'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/2.1.1_重要版本代码审核入库2.0_SOP.md
+        added_at: '2026-07-08T20:23:32.530770'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.1.2_深度参与需求的技术风险评估SOP.md
+        added_at: '2026-07-08T20:23:32.713633'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.5.4_OA释放单签批SOP.md
+        added_at: '2026-07-08T20:23:32.776145'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.2.11_软件相关配置项维护SOP.md
+        added_at: '2026-07-08T20:23:32.829019'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/2.2.3_测试策略制定SOP.md
+        added_at: '2026-07-08T20:23:33.216895'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.3.5_结项复盘SOP.md
+        added_at: '2026-07-08T20:23:33.263138'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/2.2.4_关键版本运作SOP.md
+        added_at: '2026-07-08T20:23:33.298167'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.2.4_签BOM风险SOP.md
+        added_at: '2026-07-08T20:23:33.327118'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/3.2_责任不清的技术问题厘清2.0.md
+        added_at: '2026-07-08T20:23:33.496124'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.4.2_预抄写方案设计SOP.md
+        added_at: '2026-07-08T20:23:33.593915'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/3.工厂适应性问题风险.md
+        added_at: '2026-07-08T20:23:33.679310'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2._必解问题梳理.md
+        added_at: '2026-07-08T20:23:33.855039'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/30、SQA提报问题现场确认.md
+        added_at: '2026-07-08T20:23:33.877239'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/9、测试策略和计划.md
+        added_at: '2026-07-08T20:23:34.028744'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/46、源代码管理.md
+        added_at: '2026-07-08T20:23:34.228175'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/28、新需求导入.md
+        added_at: '2026-07-08T20:23:34.536742'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/03_产品SE应知应会.md
+        added_at: '2026-07-08T20:23:34.776554'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/47、网络升级管理.md
+        added_at: '2026-07-08T20:23:35.070517'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/4.3.2_模块需求方案设计和评审.md
+        added_at: '2026-07-08T20:23:35.230358'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/61、方案合规评审.md
+        added_at: '2026-07-08T20:23:35.396686'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/9.3性能得分数据线上化方案设计.md
+        added_at: '2026-07-08T20:23:35.635705'
+        level: L4
+      - path: rag/corpus/records/[精华]亲密关系-亲密关系中的情绪波动与冲突管理.md
+        added_at: '2026-07-08T20:23:35.831945'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/3.整体技术方案的设计.md
+        added_at: '2026-07-08T20:23:35.959087'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/4.2_SCCB评审.md
+        added_at: '2026-07-08T20:23:35.998451'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/16、工厂适应性需求确认.md
+        added_at: '2026-07-08T20:23:36.194611'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/39、重难点问题攻关解决.md
+        added_at: '2026-07-08T20:23:36.322091'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/52、软件释放及PDM上载.md
+        added_at: '2026-07-08T20:23:36.414705'
+        level: L4
+      - path: rag/corpus/records/欧美富豪行业分布差异分析.md
+        added_at: '2026-07-08T20:23:36.639184'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.需求导入风险.md
+        added_at: '2026-07-08T20:23:36.688931'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/跨软件模块_专业协同（交付件）.md
+        added_at: '2026-07-08T20:23:36.959825'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/50、返工及客户软件管理.md
+        added_at: '2026-07-08T20:23:37.081296'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/33、NPI_BOM确认.md
+        added_at: '2026-07-08T20:23:37.227130'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/7.性能_稳定性风险.md
+        added_at: '2026-07-08T20:23:37.387867'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/32、必解问题梳理.md
+        added_at: '2026-07-08T20:23:37.496917'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/0、软件Leader作战线路图.md
+        added_at: '2026-07-08T20:23:37.653236'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/45、风险释放管理.md
+        added_at: '2026-07-08T20:23:37.697948'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/02_产品SE能力模型.md
+        added_at: '2026-07-08T20:23:37.962750'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.1.3，静态扫描.md
+        added_at: '2026-07-08T20:23:38.159717'
+        level: L4
+      - path: rag/corpus/records/[历史]中国历史民族融合深度分析.md
+        added_at: '2026-07-08T20:23:38.424532'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/3.跨软件模块_专业协同.md
+        added_at: '2026-07-08T20:23:38.486841'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/57、售后问题及时响应.md
+        added_at: '2026-07-08T20:23:38.526074'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/1._风险释放管理.md
+        added_at: '2026-07-08T20:23:38.632640'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.3.2_分支代码合入.md
+        added_at: '2026-07-08T20:23:38.974521'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/09_数据线上化规划方案.md
+        added_at: '2026-07-08T20:23:39.028854'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/5、整机系统集成配置.md
+        added_at: '2026-07-08T20:23:39.149159'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/2.1.2，预编译.md
+        added_at: '2026-07-08T20:23:39.163570'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/59、新PLM系统软件Bom4制作流程.md
+        added_at: '2026-07-08T20:23:39.210425'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/4.2.1_需求上车评审.md
+        added_at: '2026-07-08T20:23:39.271753'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/62、软件leader_代码权限.md
+        added_at: '2026-07-08T20:23:39.637522'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/11、方案设计和评审.md
+        added_at: '2026-07-08T20:23:39.835939'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/6.风险释放管理.md
+        added_at: '2026-07-08T20:23:40.118448'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/软件Leader作战手册.md
+        added_at: '2026-07-08T20:23:40.325460'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/1._技术可行性评估.md
+        added_at: '2026-07-08T20:23:40.650630'
+        level: L4
+      - path: rag/corpus/AI-Agent-架构解读与改进.md
+        added_at: '2026-07-08T20:23:41.419413'
+        level: L4
+      - path: rag/corpus/records/金刚经：来历、内容与境界.md
+        added_at: '2026-07-08T20:23:55.298565'
+        level: L4
+      - path: rag/corpus/records/[兴趣话题]关于“秩序”与“存在”的哲学实验.md
+        added_at: '2026-07-08T20:23:58.217172'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-3.1.2-高筑墙.md
+        added_at: '2026-07-08T20:24:04.362034'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/Google_TV软件认证表SOP.md
+        added_at: '2026-07-08T20:24:16.770576'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.2.5_认证进度风险管控SOP.md
+        added_at: '2026-07-08T20:24:18.286329'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.3.1_FDS确认SOP.md
+        added_at: '2026-07-08T20:24:22.350656'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.3.2_项目计划评审SOP.md
+        added_at: '2026-07-08T20:24:25.495974'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/10.OTA部署风险.md
+        added_at: '2026-07-08T20:24:29.411025'
+        level: L4
+  阅读:
+    书籍:
+      笔记:
+      - path: rag/corpus/records/.history/知识图谱/L2-四-关系与沟通_20260617031345.md
+        added_at: '2026-07-08T20:23:21.912900'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-四-关系与沟通_20260617031323.md
+        added_at: '2026-07-08T20:23:22.161751'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-一-认知体系与思维模型_20260617025930.md
+        added_at: '2026-07-08T20:23:22.292687'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-七-实践与IP_20260617034835.md
+        added_at: '2026-07-08T20:23:22.488313'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-四-关系与沟通_20260613005730.md
+        added_at: '2026-07-08T20:23:22.511286'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-四-关系与沟通_20260617042029.md
+        added_at: '2026-07-08T20:23:22.706835'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-一-认知体系与思维模型_20260613005456.md
+        added_at: '2026-07-08T20:23:22.856503'
+        level: L4
+      - path: rag/corpus/records/.history/知识图谱/L2-七-实践与IP_20260613005810.md
+        added_at: '2026-07-08T20:23:22.883654'
+        level: L4
+      - path: rag/corpus/records/[阅读]《反脆弱》核心概念与章节解析.md
+        added_at: '2026-07-08T20:23:23.238813'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L2-四-关系与沟通.md
+        added_at: '2026-07-08T20:23:26.500149'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L3-补6-一二域剩余.md
+        added_at: '2026-07-08T20:23:27.922118'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.2.5-反脆弱.md
+        added_at: '2026-07-08T20:23:28.059498'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L2-一-认知体系与思维模型.md
+        added_at: '2026-07-08T20:23:29.283436'
+        level: L4
+      - path: rag/corpus/records/知识图谱/L4-1.5.2-认知4阅读.md
+        added_at: '2026-07-08T20:23:29.847623'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.3.3_开发策略及立项报告SOP.md
+        added_at: '2026-07-08T20:23:31.697922'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_145038_02_产品SE作战手册2.0/1.2.11_软件相关配置项维护SOP.md
+        added_at: '2026-07-08T20:23:32.829143'
+        level: L4
+      - path: rag/corpus/confluence_export/260707_144930_产品SE变革/软件Leader作战手册.md
+        added_at: '2026-07-08T20:23:40.433005'
+        level: L4

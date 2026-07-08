@@ -1,0 +1,19 @@
+graph TD
+    FDS["FDS确认（需求基准）"]
+    CFG["软件配置项维护（SID/FCM/PQ/Feature落地）"]
+    PRE["预抄写方案设计（工厂镜像制作与版本管理）"]
+    FAC["工厂适应性风险管控（生产问题识别、评审与闭环）"]
+
+
+    FDS -->|"切换方案落地为SID/FCM/PQ配置变更"| CFG
+    CFG -->|"HID变化影响预抄写PID分组，可能新增配置组"| PRE
+    PRE -->|"新资源方案需DFM测试验证，工厂问题可能追溯至切换方案"| FAC
+
+
+    CFG -.->|"二资源切换以FDS为输入基准，评审结论可能反向更新FDS"| FDS
+
+
+    style FDS fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    style CFG fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    style PRE fill:#e8f5e9,stroke:#1b5e20,stroke-width:2px
+    style FAC fill:#fce4ec,stroke:#880e4f,stroke-width:2px

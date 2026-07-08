@@ -1,0 +1,1153 @@
+[
+  {
+    "region": "CA",
+    "display": "CA/NA/KR/MX",
+    "groups": [
+      {
+        "size": "50-85",
+        "models": [
+          "QM6K",
+          "C6K",
+          "C61K",
+          "C69K",
+          "Q6C",
+          "P8L",
+          "P81L",
+          "P89L",
+          "P8LS",
+          "T8D",
+          "T89D",
+          "T81D",
+          "50C6K",
+          "Q6CK",
+          "A400M",
+          "C6L",
+          "A400U"
+        ],
+        "brand": "TCL",
+        "pid": "151384",
+        "hidSid": "600/79",
+        "emmc": "32G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/JX_C6K_C7K/tcl/DEMO1.mp4",
+        "remark": "海格一维光感"
+      },
+      {
+        "size": "50",
+        "models": [
+          "C7K"
+        ],
+        "brand": "TCL",
+        "pid": "20224",
+        "hidSid": "0/79",
+        "emmc": "32G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/JX_C6K_C7K/tcl/DEMO1.mp4",
+        "remark": "老光感"
+      },
+      {
+        "size": "55-85",
+        "models": [
+          "U85",
+          "R85",
+          "U85A",
+          "R85A",
+          "R86",
+          "U86",
+          "50U95A"
+        ],
+        "brand": "iFFALCON/ROWA / 雷鸟/乐华",
+        "pid": "20224",
+        "hidSid": "0/79",
+        "emmc": "32G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/U85_LD/oem/DEMO1.mp4",
+        "remark": "老光感"
+      },
+      {
+        "size": "98",
+        "models": [
+          "98U85",
+          "98U85A",
+          "98R85A",
+          "98U95A"
+        ],
+        "brand": "iFFALCON/ROWA / 雷鸟/乐华",
+        "pid": "151384",
+        "hidSid": "600/79",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/U85_LD/oem/DEMO1.mp4",
+        "remark": "海格一维光感"
+      },
+      {
+        "size": "55-85",
+        "models": [
+          "U95A"
+        ],
+        "brand": "iFFALCON / 雷鸟",
+        "pid": "151384",
+        "hidSid": "600/79",
+        "emmc": "32G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/U85_LD/oem/DEMO1.mp4",
+        "remark": "海格一维光感"
+      },
+      {
+        "size": "55-85",
+        "models": [
+          "U75",
+          "R75",
+          "U75A",
+          "R75A",
+          "R76",
+          "U76"
+        ],
+        "brand": "iFFALCON/ROWA / 雷鸟/乐华",
+        "pid": "151383",
+        "hidSid": "599/79",
+        "emmc": "32G",
+        "ldm": "NOLD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/U75_NOLD/oem/DEMO1.mp4",
+        "remark": "无光感"
+      },
+      {
+        "size": "55-85",
+        "models": [
+          "QM7K",
+          "C7K",
+          "Q7C",
+          "MQLED80K",
+          "C6K Pro",
+          "C69K Pro"
+        ],
+        "brand": "TCL",
+        "pid": "151384",
+        "hidSid": "600/79",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/JX_C6K_C7K/tcl/DEMO1.mp4",
+        "remark": "海格一维光感"
+      },
+      {
+        "size": "55-98",
+        "models": [
+          "QM8K",
+          "C8K",
+          "C9K"
+        ],
+        "brand": "TCL",
+        "pid": "151382",
+        "hidSid": "598/79",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/JX_C6K_C7K/tcl/DEMO1.mp4",
+        "remark": "海格二维光感"
+      },
+      {
+        "size": "98",
+        "models": [
+          "98P8K",
+          "98P81K",
+          "98P89K",
+          "98T8C",
+          "98Q77K",
+          "98Q7K",
+          "98A400"
+        ],
+        "brand": "TCL",
+        "pid": "151383",
+        "hidSid": "599/79",
+        "emmc": "64G",
+        "ldm": "NOLD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/55_85P8K_T8C_P81K_T89C_Q7K_Q77K/tcl/DEMO1.mp4",
+        "remark": "海格一维光感"
+      },
+      {
+        "size": "55-85",
+        "models": [
+          "P8K",
+          "P81K",
+          "P89K",
+          "T8C",
+          "Q7K",
+          "Q77K",
+          "A400",
+          "Q7L"
+        ],
+        "brand": "TCL",
+        "pid": "151383",
+        "hidSid": "599/79",
+        "emmc": "32G",
+        "ldm": "NOLD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/55_85P8K_T8C_P81K_T89C_Q7K_Q77K/tcl/DEMO1.mp4",
+        "remark": "无光感"
+      },
+      {
+        "size": "98",
+        "models": [
+          "98C6K",
+          "98C61K",
+          "98C69K",
+          "98Q6C",
+          "98C7K",
+          "98Q7C",
+          "98QM6K",
+          "98QM7K",
+          "98P8L",
+          "98P81L",
+          "98P89L",
+          "98P8LS",
+          "98T8D",
+          "98T89D",
+          "98T81D",
+          "98A400M",
+          "98C6L",
+          "98C6K Pro",
+          "98C69K Pro"
+        ],
+        "brand": "TCL",
+        "pid": "151384",
+        "hidSid": "600/79",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/JX_C6K_C7K/tcl/DEMO1.mp4",
+        "remark": "海格一维光感"
+      },
+      {
+        "size": "85-115",
+        "models": [
+          "115C7K",
+          "115Q7C",
+          "115QM7K",
+          "85X11K",
+          "98X11K"
+        ],
+        "brand": "TCL",
+        "pid": "768",
+        "hidSid": "0/3",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/JX_C6K_C7K/tcl/DEMO1.mp4",
+        "remark": "老光感"
+      },
+      {
+        "size": "55-98",
+        "models": [
+          "C7L",
+          "QM7L",
+          "Q7D pro"
+        ],
+        "brand": "TCL",
+        "pid": "151384",
+        "hidSid": "600/79",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/20260129_SQD-MiniLED_TCL_Olympic_LDM/tcl/DEMO1.mp4",
+        "remark": "海格一维光感"
+      },
+      {
+        "size": "55-98",
+        "models": [
+          "Q7D",
+          "C7L-RGB",
+          "RM7L"
+        ],
+        "brand": "TCL",
+        "pid": "151384",
+        "hidSid": "600/79",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/20260129_RGB-MiniLED_TCL_Olympic_LDM/tcl/DEMO1.mp4",
+        "remark": "海格一维光感"
+      },
+      {
+        "size": "55-85",
+        "models": [
+          "A400 Pro"
+        ],
+        "brand": "TCL",
+        "pid": "151384",
+        "hidSid": "600/79",
+        "emmc": "32G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/20260518_A400Pro_SDR_Olympic_Logo/tcl/DEMO1.mp4",
+        "remark": null
+      },
+      {
+        "size": "98",
+        "models": [
+          "98A400 Pro"
+        ],
+        "brand": "TCL",
+        "pid": "151384",
+        "hidSid": "600/79",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/20260518_A400Pro_SDR_Olympic_Logo/tcl/DEMO1.mp4",
+        "remark": null
+      }
+    ]
+  },
+  {
+    "region": "EU",
+    "display": "EU/AP/RU/AU/CO/ME/TW/IN",
+    "groups": [
+      {
+        "size": "50-85",
+        "models": [
+          "C6K",
+          "C61K",
+          "C69K",
+          "Q6C",
+          "P8L",
+          "QLED810L",
+          "P8LS",
+          "A400M",
+          "A400U",
+          "C6L",
+          "50C6K",
+          "P89L",
+          "P81L",
+          "T8D",
+          "T89D",
+          "T81D"
+        ],
+        "brand": "TCL",
+        "pid": "131160",
+        "hidSid": "600/0",
+        "emmc": "32G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/JX_C6K_C7K/tcl/DEMO1.mp4",
+        "remark": "海格一维光感",
+        "RU": {
+          "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/2026010_P8L_A400M_A400U_NO_Olympics_LDM/tcl/DEMO1.mp4"
+        }
+      },
+      {
+        "size": "50",
+        "models": [
+          "C7K"
+        ],
+        "brand": "TCL",
+        "pid": "0",
+        "hidSid": "0/0",
+        "emmc": "32G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/JX_C6K_C7K/tcl/DEMO1.mp4",
+        "remark": "老光感",
+        "RU": {
+          "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/2026010_P8L_A400M_A400U_NO_Olympics_LDM/tcl/DEMO1.mp4"
+        }
+      },
+      {
+        "size": "50-85",
+        "models": [
+          "U85",
+          "R85",
+          "U85A",
+          "R85A",
+          "R86",
+          "U86",
+          "50U95A"
+        ],
+        "brand": "iFFALCON/ROWA",
+        "pid": "0",
+        "hidSid": "0/0",
+        "emmc": "32G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/U85_LD/oem/DEMO1.mp4",
+        "remark": "老光感"
+      },
+      {
+        "size": "98",
+        "models": [
+          "98U85",
+          "98U85A",
+          "98R85A",
+          "98U95A"
+        ],
+        "brand": "iFFALCON/ROWA / 雷鸟/乐华",
+        "pid": "131160",
+        "hidSid": "600/0",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/U85_LD/oem/DEMO1.mp4",
+        "remark": "海格一维光感"
+      },
+      {
+        "size": "55-85",
+        "models": [
+          "U95A"
+        ],
+        "brand": "iFFALCON / 雷鸟",
+        "pid": "131160",
+        "hidSid": "600/0",
+        "emmc": "32G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/U85_LD/oem/DEMO1.mp4",
+        "remark": null
+      },
+      {
+        "size": "55-85",
+        "models": [
+          "U75",
+          "R75",
+          "U75A",
+          "R75A",
+          "R76",
+          "U76"
+        ],
+        "brand": "iFFALCON/ROWA",
+        "pid": "131159",
+        "hidSid": "599/0",
+        "emmc": "32G",
+        "ldm": "NOLD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/U75_NOLD/oem/DEMO1.mp4",
+        "remark": "无光感"
+      },
+      {
+        "size": "50-85",
+        "models": [
+          "C7K",
+          "Q7C",
+          "MQLED80K",
+          "C6K Pro",
+          "C69K Pro",
+          "50C6K Pro",
+          "MQLED75L"
+        ],
+        "brand": "TCL",
+        "pid": "131160",
+        "hidSid": "600/0",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/JX_C6K_C7K/tcl/DEMO1.mp4",
+        "remark": "海格一维光感",
+        "RU": {
+          "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/2026010_P8L_A400M_A400U_NO_Olympics_LDM/tcl/DEMO1.mp4"
+        }
+      },
+      {
+        "size": "98",
+        "models": [
+          "98A400M",
+          "98A400U",
+          "98C6L",
+          "98C6K Pro",
+          "98C69K Pro"
+        ],
+        "brand": "TCL",
+        "pid": "131160",
+        "hidSid": "600/0",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/JX_C6K_C7K/tcl/DEMO1.mp4",
+        "remark": "海格一维光感",
+        "RU": {
+          "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/2026010_P8L_A400M_A400U_NO_Olympics_LDM/tcl/DEMO1.mp4"
+        }
+      },
+      {
+        "size": "55-85",
+        "models": [
+          "C8K",
+          "C9K"
+        ],
+        "brand": "TCL",
+        "pid": "131158",
+        "hidSid": "598/0",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/JX_C6K_C7K/tcl/DEMO1.mp4",
+        "remark": "海格二维光感",
+        "RU": {
+          "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/2026010_P8L_A400M_A400U_NO_Olympics_LDM/tcl/DEMO1.mp4"
+        }
+      },
+      {
+        "size": "85-115",
+        "models": [
+          "85X11K",
+          "98X11K",
+          "115C7K",
+          "115Q7C",
+          "115QM7K"
+        ],
+        "brand": "TCL",
+        "pid": "0",
+        "hidSid": "0/0",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/JX_C6K_C7K/tcl/DEMO1.mp4",
+        "remark": "老光感",
+        "RU": {
+          "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/2026010_P8L_A400M_A400U_NO_Olympics_LDM/tcl/DEMO1.mp4"
+        }
+      },
+      {
+        "size": "55-85",
+        "models": [
+          "P8K",
+          "P81K",
+          "P89K",
+          "T8C",
+          "Q7K",
+          "Q77K",
+          "A400"
+        ],
+        "brand": "TCL",
+        "pid": "79714",
+        "hidSid": "354/55",
+        "emmc": "32G",
+        "ldm": "NOLD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/55_85P8K_T8C_P81K_T89C_Q7K_Q77K/tcl/DEMO1.mp4",
+        "remark": "无光感"
+      },
+      {
+        "size": "98",
+        "models": [
+          "98P8K",
+          "98P81K",
+          "98P89K",
+          "98T8C",
+          "98Q77K",
+          "98Q7K",
+          "98A400"
+        ],
+        "brand": "TCL",
+        "pid": "131159",
+        "hidSid": "599/0",
+        "emmc": "64G",
+        "ldm": "NOLD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/55_85P8K_T8C_P81K_T89C_Q7K_Q77K/tcl/DEMO1.mp4",
+        "remark": "海格一维光感"
+      },
+      {
+        "size": "98",
+        "models": [
+          "98C6K",
+          "98C61K",
+          "98C69K",
+          "98Q6C",
+          "98C7K",
+          "98Q7C",
+          "98P8L",
+          "98P81L",
+          "98P89L",
+          "98P8LS",
+          "98T8D",
+          "98T89D",
+          "98T81D"
+        ],
+        "brand": "TCL",
+        "pid": "131160",
+        "hidSid": "600/0",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/JX_C6K_C7K/tcl/DEMO1.mp4",
+        "remark": "海格一维光感",
+        "RU": {
+          "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/2026010_P8L_A400M_A400U_NO_Olympics_LDM/tcl/DEMO1.mp4"
+        }
+      },
+      {
+        "size": "55-98",
+        "models": [
+          "C7L",
+          "C79L",
+          "Q7D pro",
+          "MQLED80L",
+          "MSQLED80L",
+          "MSQLED85L"
+        ],
+        "brand": "TCL",
+        "pid": "131160",
+        "hidSid": "600/0",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/20260129_SQD-MiniLED_TCL_Olympic_LDM/tcl/DEMO1.mp4",
+        "remark": "海格一维光感",
+        "RU": {
+          "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/20260129_SQD-MiniLED_TCL_NO_Olympic_LDM/tcl/DEMO1.mp4"
+        }
+      },
+      {
+        "size": "55-98",
+        "models": [
+          "Q7D",
+          "C7L-RGB",
+          "RM7L"
+        ],
+        "brand": "TCL",
+        "pid": "131160",
+        "hidSid": "600/0",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/20260129_RGB-MiniLED_TCL_Olympic_LDM/tcl/DEMO1.mp4",
+        "remark": "海格一维光感",
+        "RU": {
+          "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/20260129_RGB-MiniLED_TCL_NO_Olympic_LDM/tcl/DEMO1.mp4"
+        }
+      },
+      {
+        "size": "55-85",
+        "models": [
+          "A400 Pro"
+        ],
+        "brand": "TCL",
+        "pid": "131160",
+        "hidSid": "600/0",
+        "emmc": "32G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/20260518_A400Pro_SDR_Olympic_Logo/tcl/DEMO1.mp4\nftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/20260518_A400Pro_SDR_RU_NO_Olympic_Logo/tcl/DEMO1.mp4",
+        "remark": null
+      },
+      {
+        "size": "98",
+        "models": [
+          "98A400 Pro"
+        ],
+        "brand": "TCL",
+        "pid": "131160",
+        "hidSid": "600/0",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/20260518_A400Pro_SDR_Olympic_Logo/tcl/DEMO1.mp4\nftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/20260518_A400Pro_SDR_RU_NO_Olympic_Logo/tcl/DEMO1.mp4",
+        "remark": null
+      }
+    ]
+  },
+  {
+    "region": "HK",
+    "display": "HK/DTMB",
+    "groups": [
+      {
+        "size": "50-85",
+        "models": [
+          "C6K",
+          "C61K",
+          "C69K",
+          "Q6C",
+          "P8L",
+          "P81L",
+          "P89L",
+          "P8LS",
+          "T8D",
+          "T89D",
+          "T81D",
+          "A400M",
+          "C6L",
+          "A400U"
+        ],
+        "brand": "TCL",
+        "pid": "153688",
+        "hidSid": "600/88",
+        "emmc": "32G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/JX_C6K_C7K/tcl/DEMO1.mp4",
+        "remark": "海格一维光感"
+      },
+      {
+        "size": "50",
+        "models": [
+          "C7K"
+        ],
+        "brand": "TCL",
+        "pid": "22528",
+        "hidSid": "0/88",
+        "emmc": "32G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/JX_C6K_C7K/tcl/DEMO1.mp4",
+        "remark": "老光感"
+      },
+      {
+        "size": "50-85",
+        "models": [
+          "A400 Pro"
+        ],
+        "brand": "TCL",
+        "pid": "153688",
+        "hidSid": "600/88",
+        "emmc": "32G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/20260518_A400Pro_SDR_Olympic_Logo/tcl/DEMO1.mp4",
+        "remark": null
+      },
+      {
+        "size": "98",
+        "models": [
+          "98A400 Pro"
+        ],
+        "brand": "TCL",
+        "pid": "153688",
+        "hidSid": "600/88",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/20260518_A400Pro_SDR_Olympic_Logo/tcl/DEMO1.mp4",
+        "remark": null
+      },
+      {
+        "size": "55-85",
+        "models": [
+          "U85",
+          "R85",
+          "U85A",
+          "R85A",
+          "R86",
+          "U86",
+          "50U95A"
+        ],
+        "brand": "iFFALCON/ROWA / 雷鸟/乐华",
+        "pid": "22528",
+        "hidSid": "0/88",
+        "emmc": "32G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/U85_LD/oem/DEMO1.mp4",
+        "remark": "老光感"
+      },
+      {
+        "size": "98",
+        "models": [
+          "98U85",
+          "98U85A",
+          "98R85A"
+        ],
+        "brand": "iFFALCON/ROWA / 雷鸟/乐华",
+        "pid": "153688",
+        "hidSid": "600/88",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/U85_LD/oem/DEMO1.mp4",
+        "remark": "海格一维光感"
+      },
+      {
+        "size": "55-85",
+        "models": [
+          "U75",
+          "R75",
+          "U75A",
+          "R75A",
+          "R76",
+          "U76"
+        ],
+        "brand": "iFFALCON/ROWA / 雷鸟/乐华",
+        "pid": "153687",
+        "hidSid": "599/88",
+        "emmc": "32G",
+        "ldm": "NOLD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/U75_NOLD/oem/DEMO1.mp4",
+        "remark": "无光感"
+      },
+      {
+        "size": "98",
+        "models": [
+          "98C6K",
+          "98C61K",
+          "98C69K",
+          "98Q6C",
+          "98C7K",
+          "98Q7C",
+          "98P8L",
+          "98P81L",
+          "98P89L",
+          "98P8LS",
+          "98T8D",
+          "98T89D",
+          "98T81D",
+          "98A400M",
+          "98C6L",
+          "98C6K Pro",
+          "98C69K Pro"
+        ],
+        "brand": "TCL",
+        "pid": "153688",
+        "hidSid": "600/88",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/JX_C6K_C7K/tcl/DEMO1.mp4",
+        "remark": "海格一维光感"
+      },
+      {
+        "size": "55-85",
+        "models": [
+          "P8K",
+          "P81K",
+          "P89K",
+          "T8C",
+          "Q7K",
+          "Q77K",
+          "A400"
+        ],
+        "brand": "TCL",
+        "pid": "153687",
+        "hidSid": "599/88",
+        "emmc": "32G",
+        "ldm": "NOLD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/55_85P8K_T8C_P81K_T89C_Q7K_Q77K/tcl/DEMO1.mp4",
+        "remark": "无光感"
+      },
+      {
+        "size": "98",
+        "models": [
+          "98P8K",
+          "98P81K",
+          "98P89K",
+          "98T8C",
+          "98Q77K",
+          "98Q7K",
+          "98A400"
+        ],
+        "brand": "TCL",
+        "pid": "153687",
+        "hidSid": "599/88",
+        "emmc": "64G",
+        "ldm": "NOLD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/55_85P8K_T8C_P81K_T89C_Q7K_Q77K/tcl/DEMO1.mp4",
+        "remark": "海格一维光感"
+      },
+      {
+        "size": "55-85",
+        "models": [
+          "C7K",
+          "Q7C",
+          "MQLED80K",
+          "C6K Pro",
+          "C69K Pro"
+        ],
+        "brand": "TCL",
+        "pid": "153688",
+        "hidSid": "600/88",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/JX_C6K_C7K/tcl/DEMO1.mp4",
+        "remark": "海格一维光感"
+      },
+      {
+        "size": "55-85",
+        "models": [
+          "C8K",
+          "C9K"
+        ],
+        "brand": "TCL",
+        "pid": "153686",
+        "hidSid": "598/88",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/JX_C6K_C7K/tcl/DEMO1.mp4",
+        "remark": "海格二维光感"
+      },
+      {
+        "size": "85-115",
+        "models": [
+          "85X11K",
+          "98X11K",
+          "115C7K"
+        ],
+        "brand": "TCL",
+        "pid": "22528",
+        "hidSid": "0/88",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/JX_C6K_C7K/tcl/DEMO1.mp4",
+        "remark": "老光感"
+      },
+      {
+        "size": "55-85",
+        "models": [
+          "C7L",
+          "Q7D pro"
+        ],
+        "brand": "TCL",
+        "pid": "153688",
+        "hidSid": "600/88",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/20260129_SQD-MiniLED_TCL_Olympic_LDM/tcl/DEMO1.mp4",
+        "remark": "海格一维光感"
+      },
+      {
+        "size": "55-85",
+        "models": [
+          "Q7D",
+          "C7L-RGB",
+          "RM7L"
+        ],
+        "brand": "TCL",
+        "pid": "153688",
+        "hidSid": "600/88",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/20260129_RGB-MiniLED_TCL_Olympic_LDM/tcl/DEMO1.mp4",
+        "remark": "海格一维光感"
+      }
+    ]
+  },
+  {
+    "region": "LA",
+    "display": "LA/BR/AR/PH",
+    "groups": [
+      {
+        "size": "50-85",
+        "models": [
+          "C6K",
+          "C61K",
+          "C69K",
+          "Q6C",
+          "P8L",
+          "P81L",
+          "P89L",
+          "P8LS",
+          "T8D",
+          "T89D",
+          "T81D",
+          "50C6K",
+          "A400M",
+          "C6L",
+          "A400U"
+        ],
+        "brand": "TCL",
+        "pid": "154456",
+        "hidSid": "600/91",
+        "emmc": "32G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/JX_C6K_C7K/tcl/DEMO1.mp4",
+        "remark": "海格一维光感"
+      },
+      {
+        "size": "50",
+        "models": [
+          "50C7K"
+        ],
+        "brand": "TCL",
+        "pid": "23296",
+        "hidSid": "0/91",
+        "emmc": "32G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/JX_C6K_C7K/tcl/DEMO1.mp4",
+        "remark": "老光感"
+      },
+      {
+        "size": "55-85",
+        "models": [
+          "U85",
+          "R85",
+          "U85A",
+          "R85A",
+          "R86",
+          "U86",
+          "50U95A"
+        ],
+        "brand": "iFFALCON/ROWA / 雷鸟/乐华",
+        "pid": "23296",
+        "hidSid": "0/91",
+        "emmc": "32G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/U85_LD/oem/DEMO1.mp4",
+        "remark": "老光感"
+      },
+      {
+        "size": "98",
+        "models": [
+          "98U85",
+          "98U85A",
+          "98R85A"
+        ],
+        "brand": "iFFALCON/ROWA / 雷鸟/乐华",
+        "pid": "154456",
+        "hidSid": "600/91",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/U85_LD/oem/DEMO1.mp4",
+        "remark": "海格一维光感"
+      },
+      {
+        "size": "55-85",
+        "models": [
+          "U75",
+          "R75",
+          "U75A",
+          "R75A",
+          "R76",
+          "U76"
+        ],
+        "brand": "iFFALCON/ROWA / 雷鸟/乐华",
+        "pid": "154455",
+        "hidSid": "599/91",
+        "emmc": "32G",
+        "ldm": "NOLD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/U75_NOLD/oem/DEMO1.mp4",
+        "remark": "无光感"
+      },
+      {
+        "size": "98",
+        "models": [
+          "98C6K",
+          "98C61K",
+          "98C69K",
+          "98Q6C",
+          "98C7K",
+          "98Q7C",
+          "98P8L",
+          "98P81L",
+          "98P89L",
+          "98P8LS",
+          "98T8D",
+          "98T89D",
+          "98T81D",
+          "98A400M",
+          "98C6L",
+          "98C6K Pro",
+          "98C69K Pro"
+        ],
+        "brand": "TCL",
+        "pid": "154456",
+        "hidSid": "600/91",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/JX_C6K_C7K/tcl/DEMO1.mp4",
+        "remark": "海格一维光感"
+      },
+      {
+        "size": "55-85",
+        "models": [
+          "P8K",
+          "P81K",
+          "P89K",
+          "T8C",
+          "Q7K",
+          "Q77K",
+          "A400"
+        ],
+        "brand": "TCL",
+        "pid": "154455",
+        "hidSid": "599/91",
+        "emmc": "32G",
+        "ldm": "NOLD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/55_85P8K_T8C_P81K_T89C_Q7K_Q77K/tcl/DEMO1.mp4",
+        "remark": "无光感"
+      },
+      {
+        "size": "98",
+        "models": [
+          "98P8K",
+          "98P81K",
+          "98P89K",
+          "98T8C",
+          "98Q77K",
+          "98Q7K",
+          "98A400"
+        ],
+        "brand": "TCL",
+        "pid": "154455",
+        "hidSid": "599/91",
+        "emmc": "64G",
+        "ldm": "NOLD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/55_85P8K_T8C_P81K_T89C_Q7K_Q77K/tcl/DEMO1.mp4",
+        "remark": "海格一维光感"
+      },
+      {
+        "size": "55-85",
+        "models": [
+          "C7K",
+          "Q7C",
+          "MQLED80K",
+          "C6K Pro",
+          "C69K Pro"
+        ],
+        "brand": "TCL",
+        "pid": "154456",
+        "hidSid": "600/91",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/JX_C6K_C7K/tcl/DEMO1.mp4",
+        "remark": "海格一维光感"
+      },
+      {
+        "size": "55-98",
+        "models": [
+          "C8K",
+          "C9K"
+        ],
+        "brand": "TCL",
+        "pid": "154454",
+        "hidSid": "598/91",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/JX_C6K_C7K/tcl/DEMO1.mp4",
+        "remark": "海格二维光感"
+      },
+      {
+        "size": "85-115",
+        "models": [
+          "85X11K",
+          "98X11K",
+          "115C7K",
+          "115Q7C"
+        ],
+        "brand": "TCL",
+        "pid": "23296",
+        "hidSid": "0/91",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/JX_C6K_C7K/tcl/DEMO1.mp4",
+        "remark": "老光感"
+      },
+      {
+        "size": "55-98",
+        "models": [
+          "C7L",
+          "Q7D pro"
+        ],
+        "brand": "TCL",
+        "pid": "154456",
+        "hidSid": "600/91",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/20260129_SQD-MiniLED_TCL_Olympic_LDM/tcl/DEMO1.mp4",
+        "remark": "海格一维光感"
+      },
+      {
+        "size": "55-98",
+        "models": [
+          "Q7D",
+          "C7L-RGB",
+          "RM7L"
+        ],
+        "brand": "TCL",
+        "pid": "154456",
+        "hidSid": "600/91",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/20260129_RGB-MiniLED_TCL_Olympic_LDM/tcl/DEMO1.mp4",
+        "remark": "海格一维光感"
+      },
+      {
+        "size": "55-85",
+        "models": [
+          "A400 Pro"
+        ],
+        "brand": "TCL",
+        "pid": "154456",
+        "hidSid": "600/91",
+        "emmc": "32G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/20260518_A400Pro_SDR_Olympic_Logo/tcl/DEMO1.mp4",
+        "remark": null
+      },
+      {
+        "size": "98",
+        "models": [
+          "98A400 Pro"
+        ],
+        "brand": "TCL",
+        "pid": "154456",
+        "hidSid": "600/91",
+        "emmc": "64G",
+        "ldm": "LD",
+        "videoFtp": "ftp://ftp1.sw.tclking.com/Software_release/Debugging_TS_SW/MTK/MTK/MT9618/FactorySoftware/Res/res/20260518_A400Pro_SDR_Olympic_Logo/tcl/DEMO1.mp4",
+        "remark": null
+      }
+    ]
+  }
+]

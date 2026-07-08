@@ -1,0 +1,42 @@
+flowchart TD
+    START["收到提测清单<br/>（PID列表 + 版本号）"]
+
+    subgraph P1["1. 创建Jira子任务"]
+        direction LR
+        P1A["查询父版本集成任务"] --> P1B["创建预抄写集成测试子任务<br/>（问题类型ID=14305）"] --> P1C["填写配置字段"]
+    end
+
+    subgraph P1F["填写字段（填写时同步核对，不再单独审核）"]
+        direction LR
+        P1F1["版本号/发布路径"] --> P1F2["emmc/机型/尺寸/区域/品牌"] --> P1F3["建议测试量产PID"] --> P1F4["特别注意事项<br/>（国家+机型+PID对照表）"] --> P1F5["预抄写pid + 内置视频路径<br/>（RU=NO_Olympic）"]
+    end
+
+    subgraph P3["2. 触发编译"]
+        P3A["点击编译 → 流水线自动执行<br/>（buildEmmc.sh）"]
+    end
+
+    subgraph P5["3. 编译产物"]
+        direction LR
+        P5A["eMMC镜像压缩包<br/>mt9653_GL_U_YCX_PID*.tar.gz"] --> P5B["bootloader<br/>rom_emmc_boot.bin"] --> P5C["USB升级脚本<br/>usb_upgrade_emmc.txt"] --> P5D["校验文件<br/>MD5.txt"]
+    end
+
+    subgraph P6["4. 验证"]
+        direction LR
+        P6A["PID写入校验<br/>（CIE）"] --> P6B["频点库完整性<br/>（CIE）"] --> P6C["内置视频播放<br/>（工厂/SQA）"] --> P6D["开机速度<br/>（SQA）"] --> P6E["搜台测试<br/>（工厂）"] --> P6F["画质参数<br/>（SQA）"]
+    end
+
+    P6_DECISION{"验证通过？"}
+
+    subgraph P7["5. 工厂抄写"]
+        direction LR
+        P7A["USB升级烧录<br/>mmc erase → fatload → mmc write → reset"] --> P7B["工厂生产测试"]
+    end
+
+    START --> P1
+    P1 --> P1F
+    P1F --> P3
+    P3 --> P5
+    P5 --> P6
+    P6 --> P6_DECISION
+    P6_DECISION -->|否| P3
+    P6_DECISION -->|是| P7

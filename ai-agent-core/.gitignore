@@ -1,0 +1,26 @@
+# Env
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data
+*.db
+*.db-journal
+memories/long_term.db
+memories/short_term.json
+rag/fts_index.db
+rag/hybrid_vector.db
+config/index.yaml.bak.*
+config/index.yaml.tmp
+
+# IDE
+.vscode/
+.idea/

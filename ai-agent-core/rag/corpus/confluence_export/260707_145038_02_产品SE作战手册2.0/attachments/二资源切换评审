@@ -1,0 +1,22 @@
+graph TD
+    A["切换方案评审结论（产品配置差异表）"]
+    B["变更提出（产品SE / 开发代表）"]
+    C["影响评估（BA + 开发代表 + 产品SE）"]
+    D["变更确认（PDT / 音画 / 开发代表 / BA签字）"]
+    E["FDS文档更新（版本升级 + 归档）"]
+    F["同步更新软件配置 / 测试用例"]
+
+
+    A --> B
+    B --> C
+    C -->|"评估对Function List / Feature Description / 测试用例的影响"| D
+    D --> E
+    E --> F
+
+
+    style A fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    style B fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    style C fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    style D fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    style E fill:#e8f5e9,stroke:#1b5e20,stroke-width:2px
+    style F fill:#e8f5e9,stroke:#1b5e20,stroke-width:2px

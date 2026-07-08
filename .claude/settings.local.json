@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "defaultMode": "bypassPermissions",
+    "allow": [
+      "Bash(:)",
+      "Bash(pip install *)",
+      "Bash(python3 -c \"import setuptools; print\\(setuptools.__version__\\); print\\(setuptools.__file__\\)\")",
+      "Bash(/home/zhanjiang.dai/.local/bin/pip install *)",
+      "Bash(mkdir -p config)",
+      "Bash(touch config/__init__.py)",
+      "Bash(python3 -m pytest tests/test_phase7_offline_classifier.py)",
+      "Bash(python3 -m pytest tests/test_graph_index.py::test_concurrent_writes_do_not_lose_entries tests/test_graph_index.py::test_concurrent_upserts_and_deletes_do_not_deadlock)",
+      "Bash(python3 -m pytest tests/test_graph_index.py::test_concurrent_writes_do_not_lose_entries -v)",
+      "Bash(python3 -m pytest tests/test_graph_index.py::test_concurrent_writes_do_not_lose_entries --count=10)",
+      "Bash(python3 -m pytest tests/test_graph_index.py::test_concurrent_writes_do_not_lose_entries)",
+      "Bash(python3 -m pytest tests/test_phase4_graph_edges.py tests/test_knowledge_server.py -v)",
+      "Bash(python3 -m pytest tests/test_graph_index.py::test_concurrent_writes_do_not_lose_entries tests/test_phase5_review.py -q)",
+      "Bash(python3 -m agent \"chunks rag/corpus/_test_reflect.md\")",
+      "Bash(sqlite3 rag/graph_index.db \"SELECT source_path, target_path, rel_type FROM knowledge_edges WHERE source_path LIKE '%_test_codeblock%';\")",
+      "Bash(python3 -m agent \"chunks rag/corpus/_test_codeblock.md\")"
+    ],
+    "additionalDirectories": [
+      "/home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core"
+    ]
+  }
+}

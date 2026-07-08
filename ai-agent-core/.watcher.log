@@ -1,0 +1,39 @@
+2026-07-08 20:13:56,563 [INFO] watching /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus (recursive=True, debounce=500ms, pid=35966)
+2026-07-08 20:22:41,057 [INFO] stop signal received
+2026-07-08 20:22:41,058 [INFO] shutdown complete
+2026-07-08 20:26:40,219 [INFO] watching /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus (recursive=True, debounce=500ms, pid=40409)
+2026-07-08 20:39:45,262 [INFO] stop signal received
+2026-07-08 20:39:45,264 [INFO] shutdown complete
+2026-07-08 20:40:46,017 [INFO] watching /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus (recursive=True, debounce=500ms, pid=3937)
+2026-07-08 20:42:19,538 [INFO] stop signal received
+2026-07-08 20:42:19,547 [INFO] shutdown complete
+2026-07-08 20:42:36,754 [INFO] watching /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus (recursive=True, debounce=500ms, pid=4477)
+2026-07-08 20:42:38,759 [INFO] stop signal received
+2026-07-08 20:42:38,762 [INFO] shutdown complete
+2026-07-08 20:43:17,059 [INFO] watching /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus (recursive=True, debounce=500ms, pid=4705)
+2026-07-08 20:43:18,051 [INFO] stop signal received
+2026-07-08 20:43:18,054 [INFO] shutdown complete
+2026-07-08 20:43:29,744 [INFO] watching /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus (recursive=True, debounce=500ms, pid=4776)
+2026-07-08 20:43:33,372 [INFO] stop signal received
+2026-07-08 20:43:33,375 [INFO] shutdown complete
+2026-07-08 20:44:05,218 [INFO] watching /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus (recursive=True, debounce=500ms, pid=4961)
+2026-07-08 20:44:08,888 [INFO] stop signal received
+2026-07-08 20:44:08,895 [INFO] shutdown complete
+2026-07-08 20:44:17,390 [INFO] watching /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus (recursive=True, debounce=500ms, pid=5039)
+2026-07-08 20:44:57,947 [INFO] stop signal received
+2026-07-08 20:44:57,954 [INFO] shutdown complete
+2026-07-08 20:44:58,837 [INFO] watching /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus (recursive=True, debounce=500ms, pid=5293)
+2026-07-08 20:45:06,156 [INFO] stop signal received
+2026-07-08 20:45:06,159 [INFO] shutdown complete
+2026-07-08 20:45:10,207 [INFO] watching /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus (recursive=True, debounce=500ms, pid=5405)
+2026-07-09 01:42:30,818 [INFO] stop signal received
+2026-07-09 01:42:30,823 [INFO] shutdown complete
+2026-07-09 01:42:31,707 [INFO] watching /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus (recursive=True, debounce=500ms, pid=2295)
+2026-07-09 02:48:51,076 [INFO] processing /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md
+2026-07-09 02:48:51,180 [INFO] OK /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md → 未分类/Misc/General (chars=169, graph_added=True)
+2026-07-09 03:30:44,221 [INFO] processing /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md
+2026-07-09 03:30:44,281 [INFO] OK /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md → 未分类/Misc/General (chars=169, graph_added=False)
+2026-07-09 03:47:15,755 [INFO] processing /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md
+2026-07-09 03:47:15,806 [INFO] OK /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md → 未分类/Misc/General (chars=169, graph_added=False)
+2026-07-09 04:25:17,058 [INFO] processing /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md
+2026-07-09 04:25:17,099 [INFO] OK /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md → 未分类/Misc/General (chars=169, graph_added=False)

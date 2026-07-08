@@ -1,0 +1,52 @@
+# Intent -> tool mapping. Intents are regex patterns matched against
+# the normalized user query (lowercased, whitespace-collapsed).
+entries:
+  - intent: "^(calc|compute|what is).*\\d"
+    tool_type: "skill"
+    tool_name: "math_logic"
+    fallback: "llm"
+
+  - intent: "^stats.*"
+    tool_type: "skill"
+    tool_name: "math_logic"
+    fallback: "llm"
+
+  - intent: "^(context|brief|resume|status|whoami).*"
+    tool_type: "skill"
+    tool_name: "context"
+    fallback: null
+
+  - intent: "^(read|load|show|clean|sanitize).*file"
+    tool_type: "skill"
+    tool_name: "file_ops"
+    fallback: "llm"
+
+  - intent: "^(clean|sanitize).*"
+    tool_type: "skill"
+    tool_name: "file_ops"
+    fallback: null
+
+  - intent: "^(ls|dir|glob|file.search|find.files|find files|find file).*"
+    tool_type: "mcp"
+    tool_name: "file_search"
+    fallback: "llm"
+
+  - intent: "^(hybrid|rag|deep.search|semantic).*"
+    tool_type: "mcp"
+    tool_name: "hybrid_knowledge"
+    fallback: "llm"
+
+  - intent: "^(lookup|search|find|filter|list|tags).*"
+    tool_type: "mcp"
+    tool_name: "knowledge"
+    fallback: "llm"
+
+  - intent: "^(fetch|抓取|下载|crawl).*http"
+    tool_type: "skill"
+    tool_name: "fetch_web"
+    fallback: "llm"
+
+  - intent: ".*"
+    tool_type: "llm"
+    tool_name: "claude"
+    fallback: null
