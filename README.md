@@ -1,1 +1,1 @@
-# personal_ai
+# personal knowledge management
