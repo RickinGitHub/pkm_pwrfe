@@ -1,6 +1,6 @@
-# Quickstart
+# 快速上手
 
-## Step 0 — 环境准备
+## 第 0 步 — 环境准备
 
 ```bash
 cd ai-agent-core
@@ -13,7 +13,7 @@ cp .env.example .env
 # 编辑 .env，填入 ANTHROPIC_API_KEY=sk-ant-xxxxx
 ```
 
-## Step 1 — 验证安装
+## 第 1 步 — 验证安装
 
 ```bash
 # 算术验证（确定性 skill，零 token）
@@ -27,7 +27,7 @@ python3 -m agent "tree skills -L 1"
 python3 -m pytest -q
 ```
 
-## Step 2 — 启动 Watcher（自动入库后台进程）
+## 第 2 步 — 启动 Watcher（自动入库后台进程）
 
 ```bash
 # 后台启动，监控 rag/corpus/ 目录
@@ -39,7 +39,7 @@ python3 background_worker.py status
 
 > Watcher 监听文件创建/修改/删除事件，自动执行：清洗 → 打标签 → 注入 frontmatter → FTS5 索引 → graph_index → wikilink 边 → L5 chunks。
 
-## Step 3 — 抓取网页入库
+## 第 3 步 — 抓取网页入库
 
 ```bash
 # 抓取网页 → 自动写入 rag/corpus/ → watcher 自动索引
@@ -55,7 +55,7 @@ python3 -m scripts.web_scraper "https://mp.weixin.qq.com/s/xxx" --save-img --sav
 python3 -m agent "fetch https://example.com/article"
 ```
 
-## Step 4 — 知识库检索
+## 第 4 步 — 知识库检索
 
 ```bash
 # FTS5 全文搜索（优先 FTS5 → 子串兜底 → BM25）
@@ -79,7 +79,7 @@ python3 -m agent "chunks rag/corpus/foo.md"
 python3 -m agent "chunks_by_cat 科技 AI 模型"
 ```
 
-## Step 5 — 文件操作
+## 第 5 步 — 文件操作
 
 ```bash
 # 目录树
@@ -95,14 +95,14 @@ python3 -m agent "grep -rn \"import\" tests/"
 python3 -m agent "find_grep skills --name *.py --pattern TODO -r -n"
 ```
 
-## Step 6 — 上下文恢复（新窗口第一步）
+## 第 6 步 — 上下文恢复（新窗口第一步）
 
 ```bash
 # 零 token 恢复项目快照 + 最近对话
 python3 -m agent "context"
 ```
 
-## Step 7 — 认知审计（需 API key）
+## 第 7 步 — 认知审计（需 API key）
 
 ```bash
 # 按分类批量打包文档 → LLM 审计（24h 缓存）
@@ -115,14 +115,14 @@ python3 -m agent "review 科技 AI 模型 --dry-run"
 python3 -m agent "review 历史 中国 朝代 --query 聚焦治理模式"
 ```
 
-## Step 8 — 实践复盘
+## 第 8 步 — 实践复盘
 
 ```bash
 # 向笔记追加实践复盘段（24h 去重）
 python3 -m agent "reflect rag/corpus/foo.md --insight 这个模式与汉代监察制度同构"
 ```
 
-## Step 9 — ReAct 多步推理（需 API key）
+## 第 9 步 — ReAct 多步推理（需 API key）
 
 ```bash
 # LLM 自主驱动多步任务
@@ -132,7 +132,7 @@ python3 -m agent "react 先算 10/2，再 find *.md 文件"
 python3 -m agent "react 分析知识库 --allowed-tools skill_math_logic mcp_knowledge --max-steps 3"
 ```
 
-## Step 10 — 启动 HTTP API
+## 第 10 步 — 启动 HTTP API
 
 ```bash
 # 后台启动
@@ -151,7 +151,7 @@ curl -s -X POST http://127.0.0.1:8000/query \
 python3 server.py stop
 ```
 
-## Step 11 — 编程式嵌入
+## 第 11 步 — 编程式嵌入
 
 ```python
 from harness.factory import build_agent
@@ -165,7 +165,7 @@ out = agent.handle("lookup python")
 out = agent.handle("fetch https://example.com")
 ```
 
-## Step 12 — 批量回灌存量文件（可选）
+## 第 12 步 — 批量回灌存量文件（可选）
 
 ```bash
 # watcher 只处理事件，不扫描启动前已有文件
@@ -174,14 +174,14 @@ find rag/corpus -name '*.md' -type f -print0 | \
     xargs -0 -I{} -P4 python3 -m scripts.pipeline_worker --path "{}"
 ```
 
-## Step 13 — 构建 BM25 相似度图（可选）
+## 第 13 步 — 构建 BM25 相似度图（可选）
 
 ```bash
 # 为每篇文档计算 top-5 最相似文档，写入 knowledge_edges
 python3 -m agent "build similarity edges"
 ```
 
-## Step 14 — Review Cron 守护进程（可选）
+## 第 14 步 — Review Cron 守护进程（可选）
 
 ```bash
 # 后台启动，每 24h 自动审计每个 L1 分类
@@ -194,7 +194,7 @@ python3 review_cron.py status
 ls reviews/
 ```
 
-## Step 15 — 停止所有后台进程
+## 第 15 步 — 停止所有后台进程
 
 ```bash
 python3 background_worker.py stop    # 停 watcher
@@ -220,4 +220,4 @@ python3 -m agent "fetch https://example.com/article"
 python3 -m agent "lookup article"
 ```
 
-所有命令返回统一信封 `{"ok": bool, "result": Any, "error": str|null}`，不会抛异常。无 `ANTHROPIC_API_KEY` 时确定性 skill 正常工作，仅 LLM 兜底/Review/React 返回明确错误。
+所有命令返回统一信封 `{"ok": bool, "result": Any, "error": str|null}`，不会抛异常。未配置 `ANTHROPIC_API_KEY` 时确定性 skill 正常工作，仅 LLM 兜底 / Review / React 返回明确错误。

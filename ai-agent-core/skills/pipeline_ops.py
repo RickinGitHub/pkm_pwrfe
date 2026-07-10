@@ -192,7 +192,11 @@ class PipelineOps:
             return self._find_grep(args)
         if op == "build_similarity_edges":
             return self._build_similarity_edges(args)
-        return err(f"unknown op: {op!r} (supported: 'find_grep', 'build_similarity_edges')")
+        if op == "ingest":
+            return self._ingest(args)
+        if op == "unindex":
+            return self._unindex(args)
+        return err(f"unknown op: {op!r} (supported: 'find_grep', 'build_similarity_edges', 'ingest', 'unindex')")
 
     def _find_grep(self, args: dict) -> dict:
         pipeline_path = args.get("path")
@@ -279,7 +283,7 @@ class PipelineOps:
         if not isinstance(corpus_dir, str) or not corpus_dir.strip():
             return err("missing or empty 'corpus_dir' (must be explicitly provided)")
         if not isinstance(graph_db, str) or not graph_db.strip():
-            return err("missing or empty 'graph_db' (must be explicitly provided)")
+            graph_db = "rag/graph_index.db"
 
         top_k = args.get("top_k", 5)
         if not isinstance(top_k, int) or top_k <= 0:
@@ -303,6 +307,75 @@ class PipelineOps:
             return err(f"build_similarity_edges failed: {e}")
 
         return ok(stats)
+
+    # ------------------------------------------------------------------
+    #  ingest (manual pipeline trigger)
+    # ------------------------------------------------------------------
+    def _ingest(self, args: dict) -> dict:
+        """Manually trigger pipeline_worker.process_file on .md file(s).
+
+        Accepts a single .md file or a directory (processes all .md files recursively).
+        Useful when the watcher is not running, or to re-index specific files.
+        """
+        from scripts.pipeline_worker import process_file
+        from pathlib import Path
+
+        path = args.get("path")
+        if not isinstance(path, str) or not path.strip():
+            return err("ingest requires a 'path', e.g. 'ingest rag/corpus/foo.md'")
+        p = Path(path)
+        if not p.exists():
+            return err(f"file not found: {path}")
+
+        # Single file
+        if p.is_file():
+            if p.suffix != ".md":
+                return err(f"not a markdown file: {path}")
+            try:
+                return process_file(p)
+            except Exception as e:
+                return err(f"ingest failed: {type(e).__name__}: {e}")
+
+        # Directory: process all .md files recursively
+        md_files = sorted(p.rglob("*.md"))
+        if not md_files:
+            return err(f"no .md files found under: {path}")
+
+        results = []
+        ok_count = 0
+        for md in md_files:
+            try:
+                r = process_file(md)
+                if r.get("ok"):
+                    ok_count += 1
+                results.append({"file": str(md), "ok": r.get("ok", False),
+                                "error": r.get("error")})
+            except Exception as e:
+                results.append({"file": str(md), "ok": False,
+                                "error": f"{type(e).__name__}: {e}"})
+
+        return ok({"total": len(md_files), "ok": ok_count,
+                   "failed": len(md_files) - ok_count, "details": results})
+
+    # ------------------------------------------------------------------
+    #  unindex (delete file from all indexes)
+    # ------------------------------------------------------------------
+    def _unindex(self, args: dict) -> dict:
+        """Remove a file's entries from FTS5, graph_index, and chunks.
+
+        Wraps pipeline_worker.delete_file_indexes.
+        """
+        from scripts.pipeline_worker import delete_file_indexes
+        from pathlib import Path
+
+        path = args.get("path")
+        if not isinstance(path, str) or not path.strip():
+            return err("unindex requires a 'path', e.g. 'unindex rag/corpus/foo.md'")
+        p = Path(path)
+        try:
+            return delete_file_indexes(p)
+        except Exception as e:
+            return err(f"unindex failed: {type(e).__name__}: {e}")
 
 
 def _copy_param(src: dict, src_key: str, dst: dict, dst_key: str) -> None:

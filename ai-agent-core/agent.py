@@ -123,8 +123,12 @@ class AgentCore:
         return self._mcp.call(name, {"op": "lookup", "query": actual_query})
 
     def _call_knowledge(self, query: str) -> dict:
-        """Route knowledge queries: filter, list, tags, chunks, or lookup (CN/EN)."""
+        """Route knowledge queries: reload, filter, list, tags, chunks, or lookup (CN/EN)."""
         low = query.strip().lower()
+
+        # "reload" → op=reload (re-scan corpus, rebuild all indexes)
+        if low in ("reload", "reload index", "reload corpus", "rebuild index"):
+            return self._mcp.call("knowledge", {"op": "reload"})
 
         # "chunks <path>" → op=chunks (Phase 7)
         if low.startswith("chunks ") or low == "chunks":
@@ -229,13 +233,19 @@ class AgentCore:
                 op = "clean" if prefix in ("clean", "sanitize") else "read"
                 return {"op": op, "path": rest} if rest else {"op": op}
         if low.startswith(("fetch", "crawl")):
-            rest = text.split(maxsplit=1)
-            url = rest[1].strip() if len(rest) == 2 else ""
-            return {"op": "fetch", "url": url} if url else {"op": "fetch"}
+            return self._parse_fetch_args(text)
         if low.startswith("reflect"):
             return {"op": "reflect", "raw_query": text}
         if low.startswith("find_grep "):
             return self._parse_pipeline_args(text)
+        if low.startswith(("build ", "rebuild ", "update ")):
+            return self._parse_build_similarity_args(text)
+        if low.startswith(("ingest ", "pipeline ", "reindex ")):
+            path = text.split(maxsplit=1)[1].strip() if len(text.split(maxsplit=1)) == 2 else ""
+            return {"op": "ingest", "path": path} if path else {"op": "ingest"}
+        if low.startswith(("unindex ", "delete index ", "delete_index ", "remove index ", "remove_index ")):
+            path = text.split(maxsplit=1)[1].strip() if len(text.split(maxsplit=1)) == 2 else ""
+            return {"op": "unindex", "path": path} if path else {"op": "unindex"}
         if low.startswith("find "):
             return self._parse_find_args(text)
         if low.startswith("grep "):
@@ -503,7 +513,66 @@ class AgentCore:
         args["path"] = path or "."
         return args
 
+    @staticmethod
+    def _parse_build_similarity_args(text: str) -> dict:
+        """`build similarity edges [--corpus <dir>] [--graph-db <path>] [--top-k N] [--min-score F] [--clear]`"""
+        parts = text.split()
+        args: dict = {"op": "build_similarity_edges"}
+        i = 1
+        while i < len(parts):
+            tok = parts[i]
+            if tok == "--corpus" and i + 1 < len(parts):
+                args["corpus_dir"] = parts[i + 1]; i += 2
+            elif tok == "--graph-db" and i + 1 < len(parts):
+                args["graph_db"] = parts[i + 1]; i += 2
+            elif tok == "--top-k" and i + 1 < len(parts):
+                args["top_k"] = int(parts[i + 1]); i += 2
+            elif tok == "--min-score" and i + 1 < len(parts):
+                args["min_score"] = float(parts[i + 1]); i += 2
+            elif tok == "--clear":
+                args["clear"] = True; i += 1
+            else:
+                i += 1
+        return args
+
+    @staticmethod
+    def _parse_fetch_args(text: str) -> dict:
+        """`fetch <url> [--format md|json|html] [--save-img] [--save-attachments] [--links-only] [--timeout N] [--sync]`"""
+        parts = text.split()
+        args: dict = {"op": "fetch"}
+        url = None
+        i = 1
+        while i < len(parts):
+            tok = parts[i]
+            if tok == "--format" and i + 1 < len(parts):
+                args["format"] = parts[i + 1]; i += 2
+            elif tok == "--save-img":
+                args["save_img"] = True; i += 1
+            elif tok == "--save-attachments":
+                args["save_attachments"] = True; i += 1
+            elif tok == "--links-only":
+                args["links_only"] = True; i += 1
+            elif tok == "--timeout" and i + 1 < len(parts):
+                args["timeout"] = int(parts[i + 1]); i += 2
+            elif tok == "--sync":
+                args["sync"] = True; i += 1
+            elif tok == "--force":
+                args["force"] = True; i += 1
+            elif not tok.startswith("-") and url is None:
+                url = tok; i += 1
+            else:
+                i += 1
+        if url:
+            args["url"] = url
+        return args
+
     def _call_llm(self, query: str, rules) -> dict:
+        provider = os.environ.get("LLM_PROVIDER", "anthropic").strip().lower()
+        if provider == "openai":
+            return self._call_llm_openai(query, rules)
+        return self._call_llm_anthropic(query, rules)
+
+    def _call_llm_anthropic(self, query: str, rules) -> dict:
         try:
             import anthropic
         except ImportError as e:
@@ -521,13 +590,42 @@ class AgentCore:
                 messages=messages,
             )
             text = "".join(block.text for block in resp.content if hasattr(block, "text"))
-            try:
-                parsed = json.loads(text)
-                return {"ok": True, "result": parsed, "error": None}
-            except json.JSONDecodeError:
-                return {"ok": True, "result": text, "error": None}
+            return self._parse_llm_response(text)
         except Exception as e:
             return {"ok": False, "result": None, "error": f"{type(e).__name__}: {e}"}
+
+    def _call_llm_openai(self, query: str, rules) -> dict:
+        """Call an OpenAI-compatible API (DeepSeek, OpenAI, etc.)."""
+        try:
+            from openai import OpenAI
+        except ImportError as e:
+            return {"ok": False, "result": None, "error": f"openai sdk missing: {e}"}
+        api_key = os.environ.get("OPENAI_API_KEY")
+        if not api_key:
+            return {"ok": False, "result": None, "error": "OPENAI_API_KEY not set"}
+        base_url = os.environ.get("OPENAI_BASE_URL", "https://api.deepseek.com").rstrip("/") + "/v1"
+        model = os.environ.get("OPENAI_MODEL", "deepseek-chat")
+        client = OpenAI(api_key=api_key, base_url=base_url)
+        try:
+            messages = self._build_llm_messages(query, rules)
+            resp = client.chat.completions.create(
+                model=model,
+                max_tokens=rules.max_output_tokens,
+                messages=messages,
+            )
+            text = resp.choices[0].message.content or ""
+            return self._parse_llm_response(text)
+        except Exception as e:
+            return {"ok": False, "result": None, "error": f"{type(e).__name__}: {e}"}
+
+    @staticmethod
+    def _parse_llm_response(text: str) -> dict:
+        """Try to parse LLM response as JSON; fall back to raw text."""
+        try:
+            parsed = json.loads(text)
+            return {"ok": True, "result": parsed, "error": None}
+        except json.JSONDecodeError:
+            return {"ok": True, "result": text, "error": None}
 
     def _build_llm_messages(self, query: str, rules) -> list[dict]:
         """Compose multi-turn messages from short-term history + current query.

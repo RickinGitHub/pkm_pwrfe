@@ -40,40 +40,169 @@ agent.py: AgentCore.handle(query)
 
 ## 文件树
 
-由 `python3 ai-agent-core/skills/tree_ops.py -L 2 .` 自动生成（在 `pkg/` 根目录执行）：
+由 `python skills/tree_ops.py -L 3 E:\workspace\pkm_pwrfe` 自动生成：
 
 ```text
-pkg
+pkm_pwrfe
 ├── ai-agent-core/
-│   ├── __pycache__/ ...
-│   ├── ai_agent_core.egg-info/ ...
-│   ├── config/ ...
-│   ├── harness/ ...              # 含 factory.py + daemon.py
-│   ├── mcp/ ...
-│   ├── memories/ ...
-│   ├── rag/ ...
-│   ├── scripts/ ...
-│   ├── skills/ ...               # 含 react.py
-│   ├── tests/ ...
+│   ├── __pycache__/
+│   │   ├── agent.cpython-311.pyc
+│   │   ├── background_worker.cpython-311.pyc
+│   │   ├── review_cron.cpython-311.pyc
+│   │   └── server.cpython-311.pyc
+│   ├── ai_agent_core.egg-info/
+│   │   ├── dependency_links.txt
+│   │   ├── PKG-INFO
+│   │   ├── requires.txt
+│   │   ├── SOURCES.txt
+│   │   └── top_level.txt
+│   ├── config/
+│   │   ├── __pycache__/ ...
+│   │   ├── __init__.py
+│   │   ├── index.yaml
+│   │   ├── loader.py
+│   │   ├── models.py
+│   │   ├── routing.yaml
+│   │   ├── rules.yaml
+│   │   └── tag_rules.yaml
+│   ├── harness/
+│   │   ├── __pycache__/ ...
+│   │   ├── bot/ ...
+│   │   ├── __init__.py
+│   │   ├── cache_guard.py
+│   │   ├── daemon.py
+│   │   ├── evaluator.py
+│   │   └── factory.py
+│   ├── mcp/
+│   │   ├── __pycache__/ ...
+│   │   ├── servers/ ...
+│   │   ├── __init__.py
+│   │   └── mcp_client.py
+│   ├── memories/
+│   │   ├── __pycache__/ ...
+│   │   ├── __init__.py
+│   │   ├── __init__.pyc
+│   │   ├── cache.db
+│   │   ├── long_term.db
+│   │   ├── long_term.py
+│   │   ├── short_term.json
+│   │   ├── short_term.py
+│   │   ├── url_map.db
+│   │   └── url_registry.py
+│   ├── rag/
+│   │   ├── __pycache__/ ...
+│   │   ├── corpus/ ...
+│   │   ├── vector_db/ ...
+│   │   ├── __init__.py
+│   │   ├── chunker.py
+│   │   ├── corpus_loader.py
+│   │   ├── embedder.py
+│   │   ├── fts_index.db
+│   │   ├── fts_index.py
+│   │   ├── graph_index.db
+│   │   ├── graph_index.py
+│   │   ├── hybrid_vector.db
+│   │   ├── metadata.py
+│   │   ├── retriever.py
+│   │   └── tokenizer.py
+│   ├── scripts/
+│   │   ├── __pycache__/ ...
+│   │   ├── bot_workers/ ...
+│   │   ├── maintenance/ ...
+│   │   ├── pipeline/ ...
+│   │   ├── similarity/ ...
+│   │   ├── web/ ...
+│   │   ├── __init__.py
+│   │   ├── build_similarity_edges.py
+│   │   ├── offline_classifier.py
+│   │   ├── pipeline_worker.py
+│   │   └── web_scraper.py
+│   ├── skills/
+│   │   ├── __pycache__/ ...
+│   │   ├── __init__.py
+│   │   ├── __init__.pyc
+│   │   ├── base.py
+│   │   ├── context.py
+│   │   ├── fetch_web_to_md.py
+│   │   ├── file_ops.py
+│   │   ├── find_ops.py
+│   │   ├── grep_ops.py
+│   │   ├── math_logic.py
+│   │   ├── pipeline_ops.py
+│   │   ├── react.py
+│   │   ├── reflect.py
+│   │   ├── review.py
+│   │   └── tree_ops.py
+│   ├── tests/
+│   │   ├── __pycache__/ ...
+│   │   ├── __init__.py
+│   │   ├── test_agent.py
+│   │   ├── test_cache_guard.py
+│   │   ├── test_chat_cache.py
+│   │   ├── test_config.py
+│   │   ├── test_e2e.py
+│   │   ├── test_evaluator.py
+│   │   ├── test_factory.py
+│   │   ├── test_fetch_web_to_md.py
+│   │   ├── test_file_ops.py
+│   │   ├── test_graph_index.py
+│   │   ├── test_knowledge_server.py
+│   │   ├── test_long_term.py
+│   │   ├── test_math_logic.py
+│   │   ├── test_mcp_client.py
+│   │   ├── test_message_types.py
+│   │   ├── test_p0_multiturn.py
+│   │   ├── test_p0_url_dedup.py
+│   │   ├── test_p1_pipeline_similarity_op.py
+│   │   ├── test_p1_similarity_edges.py
+│   │   ├── test_phase4_graph_edges.py
+│   │   ├── test_phase5_review.py
+│   │   ├── test_phase6_reflect.py
+│   │   ├── test_phase7_chunks.py
+│   │   ├── test_phase7_offline_classifier.py
+│   │   ├── test_pipeline_classify.py
+│   │   ├── test_pipeline_clean.py
+│   │   ├── test_pipeline_fts5.py
+│   │   ├── test_pipeline_index_yaml.py
+│   │   ├── test_pipeline_worker_e2e.py
+│   │   ├── test_react_skill.py
+│   │   ├── test_retriever.py
+│   │   ├── test_review_cron.py
+│   │   ├── test_server.py
+│   │   ├── test_session_manager.py
+│   │   ├── test_short_term.py
+│   │   ├── test_token_redactor.py
+│   │   ├── test_tree_ops.py
+│   │   ├── test_url_guard.py
+│   │   └── test_vector_store.py
 │   ├── agent.py
 │   ├── background_worker.py
-│   ├── server.py                 # Phase 2 — HTTP API (FastAPI + uvicorn)
-│   ├── review_cron.py            # Phase 4 — Review 守护进程
 │   ├── pyproject.toml
-│   └── README.md
+│   ├── README.md
+│   ├── review_cron.py
+│   ├── server.py
+│   ├── x.db
+│   ├── x.db-shm
+│   └── x.db-wal
 ├── docs/
-│   ├── superpowers/ ...
+│   ├── superpowers/
+│   │   └── plans/ ...
+│   ├── cli-reference.md
 │   ├── operations.md
+│   ├── project-assessment.md
+│   ├── quickstart.md
 │   ├── structure.md
+│   ├── telegram_bot_design.md
+│   ├── telegram_bot_implementation_plan.md
 │   └── watcher_pipeline.md
 └── rag/
     ├── fts_index.db
     └── graph_index.db
 
-3 directories, 11 files
+32 directories, 122 files
 ```
 
-> 注：`...` 表示该目录因深度限制（`-L 2`）被截断，可去掉 `-L` 参数或加大深度查看完整内容。下文「主要文件说明」给出 `ai-agent-core/` 内各文件的逐项注解。
+> 注：`...` 表示该目录因深度限制（`-L 3`）被截断，可去掉 `-L` 参数或加大深度查看完整内容。下文「主要文件说明」给出 `ai-agent-core/` 内各文件的逐项注解。
 
 ---
 
@@ -121,6 +250,12 @@ pkg
 - **`evaluator.py`** — 输出校验器。检查信封 keys `{ok, result, error}` 齐全；`ok=False` 的失败信封直接透传；JSON 模式接受 dict/list/scalar/可解析 JSON 字符串
 - **`factory.py`** — **Phase 1** — `build_agent() -> AgentCore` 工厂。把原本内联在 `agent.py:main()` 的 wiring（构造 + 所有 skill/MCP 注册 + `bootstrap_memory()`）抽到独立函数，路径全部从 env 读，默认值与原 `main()` 一致。`server.py` / `review_cron.py` 复用此工厂避免重复 wiring。`main()` 缩到 ~6 行：`build_agent()` → `handle(query)` → `print(json.dumps(...))`
 - **`daemon.py`** — **Phase 2** — 守护进程共享工具。从 `background_worker.py` 抽取 PID/信号/pgrep 孤儿清理逻辑，函数签名带 `script_name` + `pid_file_env` 参数，供 `background_worker.py` / `server.py` / `review_cron.py` 三处复用。包含 `write_pid` / `read_pid` / `is_running` / `stop_process` / `start_daemon` / `status_daemon` / `subcommand` 等工具函数
+- **`bot/`** — **Telegram Bot Phase 1** — 主进程基础设施层（5 个模块）：
+  - **`message_types.py`** (M3) — `MsgType` 枚举（COMMAND/TEXT/URL/CALLBACK/FILE）+ `ProcessCategory` 枚举（INSTANT/LONG/INTERACTIVE）+ `IncomingMessage` dataclass（`__post_init__` 推导 category，属性 `is_command` / `is_long_running` / `is_interactive` / `query_for_agent`）+ `classify_message(update) -> IncomingMessage | None`。`_LONG_COMMANDS` / `_INTERACTIVE_COMMANDS` frozenset 常量驱动分流
+  - **`chat_cache.py`** (M7) — `ChatCache`：per-chat 对话缓存（内存 hot + JSONL 文件 cold）。`append()` 写 `memories/telegram_sessions/<chat_id>/chat.jsonl` + 更新内存 deque；`get_context(limit)` 优先内存、miss 时 `_read_tail` 用 `deque(maxlen=limit)` 从文件尾读；`clear()` 写 `role=system` 分隔符行（可审计，不删文件、不截断历史）。per-chat `threading.Lock` + 全局 guard lock 保护锁字典创建
+  - **`session_manager.py`** (M6) — `SessionState` dataclass（`pending_action` / `pending_data` / `created_at` / `updated_at` / `message_count` + `is_idle` / `set_pending` / `clear_pending` / `touch` / `to_dict` / `from_dict`）+ `SessionManager`（`get_or_create` / `get` / `save` / `clear` + TTL evict）。原子写 `.tmp + replace`，`from_dict` 忽略未知字段（前向兼容），TTL 淘汰时保留 dirty 状态先落盘
+  - **`token_redactor.py`** (M8) — `TokenRedactor(logging.Filter)`：全局日志过滤器，把完整 bot token 替换为 `token[:8] + "..."` hint。`install(token)` 辅助函数挂载到 root logger
+  - **`url_guard.py`** (M8) — SSRF + 授权 + 路径安全。`is_safe_url(url)` 解析 hostname 全部 A/AAAA 记录，任一落在 `_BLOCKED_NETS`（10/8、127/8、169.254/16、172.16/12、192.168/16、::1、fc00::/7、fe80::/10 等）则拒绝，防御 DNS rebinding；`is_authorized(user_id, raw=None)` default-deny 白名单（空值拒绝所有人，`*` 显式放行）；`safe_corpus_path(raw, corpus_root)` `resolve() + relative_to() + is_symlink()` 三重校验；`sanitize_filename(original)` 用 `Path(name).name` 剥除路径前缀
 
 ### `rag/` — 知识检索
 
@@ -179,7 +314,7 @@ pkg
 ### 顶层文件
 
 - **`pyproject.toml`** — Python 3.11+，依赖 pydantic v2 / pyyaml / numpy / rank-bm25 / sqlite-vec / mcp / anthropic / python-dotenv / fastapi / uvicorn。dev 依赖 pytest + pytest-cov + pytest-asyncio + httpx。pytest 配置 `asyncio_mode = "auto"`
-- **`.env.example`** — 环境变量模板：`ANTHROPIC_API_KEY`、`ANTHROPIC_MODEL`、`EMBEDDING_MODEL`、`CORPUS_CHUNK_*`、`PIPELINE_CHUNK_*`、`OLLAMA_*`、`REFLECT_DEDUP_WINDOW_HOURS`、`REVIEW_CACHE_DB`、`SERVER_*`、`REVIEW_CRON_*`、`REVIEWS_DIR`、各模块路径
+- **`.env.example`** — 环境变量模板：`ANTHROPIC_API_KEY`、`ANTHROPIC_MODEL`、`EMBEDDING_MODEL`、`CORPUS_CHUNK_*`、`PIPELINE_CHUNK_*`、`OLLAMA_*`、`REFLECT_DEDUP_WINDOW_HOURS`、`REVIEW_CACHE_DB`、`SERVER_*`、`REVIEW_CRON_*`、`REVIEWS_DIR`、`TELEGRAM_*`（10 个：token / 白名单 / 下载目录 / 文件大小上限 / 允许扩展名 / worker 并发与超时 / sessions 目录 / 轮询超时 / 队列上限）、各模块路径
 - **`.gitignore`** — 忽略 `.env`、`*.db`、`__pycache__/`、`.venv/`、`.pytest_cache/`、`memories/short_term.json`、`memories/long_term.db`、`memories/review_cache.db`、`memories/server.pid`、`memories/review_cron.pid`、`reviews/*.md`
 - **`README.md`** — 安装与使用说明
 - **`background_worker.py`** — 后台 watcher 守护进程（文件变更 → FTS5 + graph_index 重跑）。PID/信号/pgrep 模式抽到 `harness/daemon.py`，本文件复用共享工具
@@ -360,6 +495,16 @@ Query 归一化：`re.sub(r"\s+", " ", query.strip().lower())`。`"  Calc  2+2  
 | `REVIEW_CRON_PID_FILE` | `memories/review_cron.pid` | Phase 4 — review_cron.py PID 文件 |
 | `REVIEW_CRON_LOG_FILE` | `memories/review_cron.log` | Phase 4 — review_cron.py 运行日志 |
 | `REVIEWS_DIR` | `reviews` | Phase 4 — Review 报告输出目录 |
+| `TELEGRAM_BOT_TOKEN` | — | **Telegram Bot** — BotFather 颁发的 token。启动 bot 必填 |
+| `TELEGRAM_ALLOWED_USER_IDS` | — | **Telegram Bot** — 授权用户 ID 逗号分隔。空 = default-deny（拒绝所有人），`*` = 显式公开 |
+| `TELEGRAM_DOWNLOAD_DIR` | `rag/corpus` | **Telegram Bot** — 文件上传落盘根目录（`safe_corpus_path` 的 corpus_root） |
+| `TELEGRAM_MAX_FILE_SIZE_MB` | `20` | **Telegram Bot** — 单文件大小上限（MB） |
+| `TELEGRAM_ALLOWED_FILE_EXTS` | `md,txt,pdf,html,json,yaml,yml,py,ts,js` | **Telegram Bot** — 允许的扩展名逗号分隔（小写、无点）。空 = 全允许 |
+| `TELEGRAM_FILE_WORKER_MAX_CONCURRENCY` | `2` | **Telegram Bot** — FILE/URL/LONG 子进程 worker 最大并发 |
+| `TELEGRAM_WORKER_TIMEOUT_SECONDS` | `120` | **Telegram Bot** — 子进程 worker 超时（秒，超时杀进程） |
+| `TELEGRAM_SESSIONS_DIR` | `memories/telegram_sessions` | **Telegram Bot** — per-chat 状态与历史根目录（`<chat_id>/chat.jsonl` + `session.json`） |
+| `TELEGRAM_POLL_TIMEOUT_SECONDS` | `30` | **Telegram Bot** — `getUpdates` long-polling 超时（秒） |
+| `TELEGRAM_QUEUE_MAXSIZE` | `100` | **Telegram Bot** — `asyncio.Queue` 上限（worker 饱和时反向施压） |
 
 ---
 

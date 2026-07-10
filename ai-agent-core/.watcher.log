@@ -37,3 +37,25 @@
 2026-07-09 03:47:15,806 [INFO] OK /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md → 未分类/Misc/General (chars=169, graph_added=False)
 2026-07-09 04:25:17,058 [INFO] processing /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md
 2026-07-09 04:25:17,099 [INFO] OK /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md → 未分类/Misc/General (chars=169, graph_added=False)
+2026-07-09 19:21:35,241 [INFO] processing /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md
+2026-07-09 19:21:35,281 [INFO] OK /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md → 未分类/Misc/General (chars=169, graph_added=False)
+2026-07-09 19:27:32,516 [INFO] processing /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md
+2026-07-09 19:27:32,569 [INFO] OK /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md → 未分类/Misc/General (chars=169, graph_added=False)
+2026-07-09 19:39:28,048 [INFO] processing /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md
+2026-07-09 19:39:28,085 [INFO] OK /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md → 未分类/Misc/General (chars=169, graph_added=False)
+2026-07-09 19:41:54,989 [INFO] processing /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md
+2026-07-09 19:41:55,028 [INFO] OK /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md → 未分类/Misc/General (chars=169, graph_added=False)
+2026-07-09 19:42:12,279 [INFO] processing /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md
+2026-07-09 19:42:12,324 [INFO] OK /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md → 未分类/Misc/General (chars=169, graph_added=False)
+2026-07-09 19:44:24,825 [INFO] processing /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md
+2026-07-09 19:44:24,869 [INFO] OK /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md → 未分类/Misc/General (chars=169, graph_added=False)
+2026-07-09 21:25:30,303 [INFO] processing /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md
+2026-07-09 21:25:30,358 [INFO] OK /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md → 未分类/Misc/General (chars=169, graph_added=False)
+2026-07-09 21:31:59,950 [INFO] processing /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md
+2026-07-09 21:32:00,001 [INFO] OK /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md → 未分类/Misc/General (chars=169, graph_added=False)
+2026-07-09 21:32:09,238 [INFO] processing /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md
+2026-07-09 21:32:09,283 [INFO] OK /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md → 未分类/Misc/General (chars=169, graph_added=False)
+2026-07-09 21:39:04,307 [INFO] processing /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md
+2026-07-09 21:39:04,349 [INFO] OK /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md → 未分类/Misc/General (chars=169, graph_added=False)
+2026-07-09 21:41:37,999 [INFO] processing /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md
+2026-07-09 21:41:38,042 [INFO] OK /home/zhanjiang.dai/samba/smartide/default/2108/workspace/pkg/ai-agent-core/rag/corpus/Test Article.md → 未分类/Misc/General (chars=169, graph_added=False)

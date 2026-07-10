@@ -2,7 +2,7 @@
 
 > 所有可用的确定性命令与 LLM 兜底路径。适用于开发者与 LLM agent 读取后直接操作。
 
-## Quick Start
+## 快速开始
 
 ```bash
 cd ai-agent-core
@@ -1303,11 +1303,52 @@ ls reviews/
 
 ```bash
 cd ai-agent-core
-python3 -m pytest -q               # 应通过 357 个测试
+python3 -m pytest -q               # 应通过 427 个测试（含 Telegram Bot Phase 1 的 70 个新增）
 python3 -m agent "calc 12 * 12"    # 应返回 {"ok": true, "result": 144, ...}
 python3 -m agent "tree skills -L 1" # 验证 find/grep/tree skill
 python3 server.py run --port 8000  # 另起 shell：curl -s localhost:8000/health
 ```
+
+---
+
+## Telegram Bot（开发中 — Phase 1 基础设施已交付）
+
+> ⚠️ **当前状态**：Phase 1 完成（5 个 `harness/bot/` 模块 + 70 个新测试，427 全绿）。主程序 `telegram_bot.py`（M1+M2+M4）与文件入库（M10）将在 Phase 2-4 交付。本节列出已落地的环境变量，启动命令将在 Phase 3 完成后补充。
+
+### 已交付模块（Phase 1）
+
+| 模块 | 路径 | 职责 |
+|------|------|------|
+| M3 消息分类 | `harness/bot/message_types.py` | `MsgType` / `ProcessCategory` 枚举 + `IncomingMessage` dataclass + `classify_message(update)` |
+| M7 会话缓存 | `harness/bot/chat_cache.py` | `ChatCache` — 内存 hot + JSONL cold（`<chat_id>/chat.jsonl`），per-chat `threading.Lock` |
+| M6 会话状态 | `harness/bot/session_manager.py` | `SessionState` + `SessionManager` — pending_action 多轮交互状态机，原子写 `.tmp + replace` |
+| M8 Token 脱敏 | `harness/bot/token_redactor.py` | `TokenRedactor(logging.Filter)` — 全局日志过滤器，把完整 token 替换为 `token[:8] + "..."` hint |
+| M8 SSRF/授权/路径 | `harness/bot/url_guard.py` | `is_safe_url`（DNS rebinding 防御）/ `is_authorized`（default-deny 白名单）/ `safe_corpus_path`（三重校验）/ `sanitize_filename` |
+
+### 环境变量（10 个，已在 `.env.example` 中）
+
+| 变量 | 默认值 | 说明 |
+|------|--------|------|
+| `TELEGRAM_BOT_TOKEN` | — | BotFather 颁发的 token，启动必填 |
+| `TELEGRAM_ALLOWED_USER_IDS` | — | 授权用户 ID 逗号分隔；空 = default-deny，`*` = 显式公开 |
+| `TELEGRAM_DOWNLOAD_DIR` | `rag/corpus` | 文件上传落盘根目录 |
+| `TELEGRAM_MAX_FILE_SIZE_MB` | `20` | 单文件大小上限 |
+| `TELEGRAM_ALLOWED_FILE_EXTS` | `md,txt,pdf,html,json,yaml,yml,py,ts,js` | 允许的扩展名；空 = 全允许 |
+| `TELEGRAM_FILE_WORKER_MAX_CONCURRENCY` | `2` | FILE/URL/LONG worker 最大并发 |
+| `TELEGRAM_WORKER_TIMEOUT_SECONDS` | `120` | worker 超时（秒） |
+| `TELEGRAM_SESSIONS_DIR` | `memories/telegram_sessions` | per-chat 状态与历史根目录 |
+| `TELEGRAM_POLL_TIMEOUT_SECONDS` | `30` | `getUpdates` long-polling 超时 |
+| `TELEGRAM_QUEUE_MAXSIZE` | `100` | `asyncio.Queue` 上限 |
+
+### 路由计划（Phase 3 起）
+
+Bot 主程序将按命令前缀分流到 `INSTANT` / `LONG` / `INTERACTIVE` 三类执行路径：
+
+- **INSTANT**（秒级返回）：`calc` / `stats` / `context` / `find` / `grep` / `tree` 等既有 skill
+- **LONG**（>5s，后台 worker）：`fetch url` / 文件上传入库 / `review` / `react` 等耗时命令
+- **INTERACTIVE**（多轮）：`clean file` 等需要用户确认的命令，通过 `SessionState.pending_action` 维持状态
+
+详见 `docs/telegram_bot_design.md` 与 `docs/telegram_bot_implementation_plan.md`。
 
 ---
 

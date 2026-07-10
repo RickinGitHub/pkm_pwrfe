@@ -1304,6 +1304,16 @@ class FetchWebToMd:
 
             self._record_url(url, filepath, result.get("title", ""))
 
+            # --sync: auto-ingest into knowledge pipeline
+            sync_result = None
+            if args.get("sync") and fmt in ("md", "markdown"):
+                try:
+                    from scripts.pipeline_worker import process_file
+                    from pathlib import Path
+                    sync_result = process_file(Path(filepath))
+                except Exception as e:
+                    sync_result = {"ok": False, "error": f"sync failed: {type(e).__name__}: {e}"}
+
             return {
                 "ok": True,
                 "result": {
@@ -1318,6 +1328,7 @@ class FetchWebToMd:
                     "attachments_downloaded": sum(1 for r in (attachments_local or []) if r.get("status") == "ok"),
                     "format": fmt,
                     "source_type": result.get("_source_type", ""),
+                    "sync": sync_result,
                 },
                 "error": None,
             }

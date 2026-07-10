@@ -23,6 +23,7 @@ def build_agent() -> AgentCore:
     from skills.tree_ops import TreeOps
     from skills.pipeline_ops import PipelineOps
     from skills.react import ReactSkill
+    from skills.chat import ChatSkill
     from mcp.servers.knowledge_server import KnowledgeServer
     from mcp.servers.hybrid_knowledge_server import HybridKnowledgeServer
     from mcp.servers.file_search_server import FileSearchServer
@@ -62,6 +63,7 @@ def build_agent() -> AgentCore:
     agent.register_skill("tree_ops", TreeOps())
     agent.register_skill("pipeline_ops", PipelineOps())
     agent.register_skill("react", ReactSkill(agent=agent))
+    agent.register_skill("chat", ChatSkill(agent=agent))
 
     agent.register_mcp(
         "knowledge",

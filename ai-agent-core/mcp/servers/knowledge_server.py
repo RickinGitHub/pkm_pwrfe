@@ -97,6 +97,8 @@ class KnowledgeServer:
             return self._do_chunks_by_path(args)
         if op == "chunks_by_cat":
             return self._do_chunks_by_category(args)
+        if op == "reload":
+            return self._do_reload(args)
         return {"ok": False, "result": None, "error": f"unknown op: {op}"}
 
     # ---- ops ----
@@ -192,6 +194,18 @@ class KnowledgeServer:
             "result": {
                 "count": len(self._meta.all_tags),
                 "tags": self._meta.all_tags,
+            },
+            "error": None,
+        }
+
+    def _do_reload(self, args: dict) -> dict:
+        """Re-scan corpus and rebuild all indexes (BM25 + metadata)."""
+        count = self.reload()
+        return {
+            "ok": True,
+            "result": {
+                "docs_reloaded": count,
+                "message": "corpus reloaded, BM25 + metadata indexes rebuilt",
             },
             "error": None,
         }
